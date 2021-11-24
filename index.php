@@ -10,6 +10,9 @@
     <?php include 'include/header.php'; ?>
     </header>
     <main>
+        <section class="banner">
+
+        </section>
 
     </main>
     <footer>
