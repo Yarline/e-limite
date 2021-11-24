@@ -14,10 +14,11 @@
     <main>
         <section class="banner">
             <video class="bannerVideo" autoplay loop>
+            <source src=public/video/prod.webm type=video/webm>
                 <source src=public/video/prod.mp4 type=video/mp4>
             </video>
             <div class="banner-content">
-                <h1>Il suffit de se lancer</h1>
+            <h1 id="typing" class="typing"></h1>
                 <p>Si tu es en train de lire ceci, c’est que tu as sûrement envie de lancer ton projet entrepreneurial mais que tu n’oses pas. Tu ne te sens peut-être pas légitime ou tu n’as pas assez confiance en toi ?</p>
                 <div class="btn-group">
                     <a href="#" class="btn empty-btn">J'ai peur</a>
