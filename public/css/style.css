@@ -436,4 +436,49 @@ div.right_side img {
 }
 .slider h2{
     margin-bottom: 50px;
+
+/* ETAPE POUR CREER SON ENTREPRISE */
+
+.etape-entreprise {
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+}
+
+.etape-entreprise img,
+.etape-entreprise div {
+    width: 50%;
+}
+
+.etape-entreprise img {
+    max-width: 554px;
+}
+
+.etape-entreprise div {
+    text-align: right;
+    max-width: 475px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 50px 0px 25px;
+}
+
+.etape-entreprise div h2 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.etape-entreprise-bloc p {
+    margin-bottom: 55px;
+}
+
+.etape-entreprise-bloc a {
+    color: white;
+    background: var(--purple);
+    border-radius: 7px;
+    padding: 7px 40px;
 }
