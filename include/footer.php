@@ -13,11 +13,23 @@ Alors, abonne-toi !</p>
             </div>
         </form>
         <div class="footer-jaune-resaux">
-            
+            <div class="container">
+                <span class="iconify" data-icon="akar-icons:facebook-fill"></span>
+                <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
+            </div>
+            <p>Rejoins-nous sur nos réseaux !</p>
         </div>
     </div>
     <div class="footer-bleu">
-
+        <div class="container">
+            <a href="#">Mentions légales</a>
+            <p> | </p>
+            <a href="#">Kit presse</a>
+            <p> | </p>
+            <a href="#">Politique de confidentialité</a>
+        </div>
+        <p>E-limite © 2021</p>
     </div>
 
 </div>
