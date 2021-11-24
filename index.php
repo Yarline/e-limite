@@ -1,6 +1,7 @@
 <html lang="fr">
 <head>
     <title>Accueil</title>
+    
 </head>
 <body>
     <h1>
