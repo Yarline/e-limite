@@ -1,17 +1,25 @@
-        :root {
+/*--- Paramètre générale de style ---*/
+/*--- ------------------------- ---*/
+
+    /* couleur */
+        :root{
            --purple: #5C7AEA;
            --white: #fff;
+           --yellow: #FFC357;
        }
-
+    /* font-family */
+    /* font-style */
        h1{
         font-size:4rem;
-    }
-       
+        }
        h2 {
            font-weight: bold;
        }
-       /*     Bannière     */
-       
+       *{
+           font-size: 16px;
+       }
+
+        /***Bannière***/
        .banner {
            width: 100%;
            height: 100vh;
@@ -26,6 +34,85 @@
            height: 100vh;
            width: 100%;
        }
+       .banner:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: black;
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+    }
+    
+    .banner-content {
+        transform: translate(-50%, -50%);
+        text-align: center;
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+    }
+    
+    .banner-content h1,
+    .banner-content p {
+        color: white;
+        margin-bottom: 40px;
+    }
+    .banner-content p {
+        line-height: 30px;
+    }
+    
+    .btn-group {
+        margin-bottom: 50px;
+    }
+    
+    .btn {
+        width: 80px;
+        padding: 10px 30px;
+        border-radius: 7px;
+        margin: 20px;
+    }
+    
+    .filled-btn {
+        background-color: #5C7AEA;
+        color: white;
+    }
+    
+    .empty-btn {
+        border: solid 1px #FFC357;
+        color: #FFC357;
+    }
+    .typing {
+     position: relative;
+     line-height: 50px;
+     display: inline-block;
+     color: #FFF;
+     min-width: 1px;
+     min-height: 24px;
+   }
+   .typing:after {
+     content: "";
+     position: absolute;
+     top: 5%;
+     right: -2px;
+     width: 1px;
+     height: 90%;
+     border-right: 2px solid #FFF;
+     animation: blink .5s infinite ease;
+   }
+   @keyframes blink{
+        50% {
+        border-color: transparent
+        }
+   }
+
+    @keyframes typing {
+        from {
+        width: 0
+        }
+    }
+
        /**NOS CONSEILS POUR TE LANCER**/
        
        .advices {
@@ -85,75 +172,4 @@
            text-decoration: none;
        }
        
-       .banner:before {
-           content: "";
-           width: 100%;
-           height: 100%;
-           position: absolute;
-           background-color: black;
-           opacity: 0.5;
-           top: 0;
-           left: 0;
-       }
        
-       .banner-content {
-           transform: translate(-50%, -50%);
-           text-align: center;
-           position: absolute;
-           z-index: 2;
-           top: 50%;
-           left: 50%;
-       }
-       
-       .banner-content h1,
-       .banner-content p {
-           color: white;
-           margin-bottom: 40px;
-       }
-       
-       .btn-group {
-           margin-bottom: 50px;
-       }
-       
-       .btn {
-           width: 80px;
-           padding: 10px 30px;
-           border-radius: 7px;
-           margin: 20px;
-       }
-       
-       .filled-btn {
-           background-color: #5C7AEA;
-           color: white;
-       }
-       
-       .empty-btn {
-           border: solid 1px #FFC357;
-           color: #FFC357;
-       }
-       .typing {
-        position: relative;
-        line-height: 24px;
-        display: inline-block;
-        color: #FFF;
-        min-width: 1px;
-        min-height: 24px;
-      }
-      .typing:after {
-        content: "";
-        position: absolute;
-        top: 5%;
-        right: -2px;
-        width: 1px;
-        height: 90%;
-        border-right: 2px solid #FFF;
-        animation: blink .5s infinite ease;
-      }
-      @keyframes blink{
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1%;
-        }
-      }
