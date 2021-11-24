@@ -5,6 +5,10 @@ width: 100%;
 height: 100vh;
 }
 .bannerVideo{
+    top: 0;
+    right: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100vh;
     width: 100%;
-    height: 100%;
 }
