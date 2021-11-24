@@ -75,7 +75,7 @@ body {
 
 .footer-jaune {
     height: 650px;
-    background: #FFC357;
+    background-color: var(--yellow);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -150,8 +150,11 @@ body {
     width: 180px;
     display: flex;
     justify-content: space-between;
-    font-size: 25px;
     margin-bottom: 20px;
+}
+
+.footer-jaune-resaux .container svg {
+    font-size: 25px;
 }
 
 .footer-bleu {
