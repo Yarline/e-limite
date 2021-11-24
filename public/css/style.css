@@ -1,14 +1,137 @@
 /*     Bannière     */
 
-.banner{
-width: 100%;
-height: 100vh;
+.banner {
+    width: 100%;
+    height: 100vh;
 }
-.bannerVideo{
+
+.bannerVideo {
     top: 0;
     right: 0;
     left: 0;
     object-fit: cover;
     height: 100vh;
     width: 100%;
+}
+
+
+/* FOOTER */
+
+.footer-jaune {
+    height: 650px;
+    background: #FFC357;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-jaune-titre {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+.footer-jaune-soustitre {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.footer-form {
+    width: 440px;
+}
+
+.footer-form div {
+    width: 440px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 125px;
+}
+
+#footer-newsletter {
+    width: 300px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #999898;
+    padding-left: 16px;
+    border-radius: 7px 0px 0px 7px;
+}
+
+#footer-submit {
+    width: 140px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #5C7AEA;
+    border-radius: 0px 7px 7px 0px;
+}
+
+#footer-newsletter,
+#footer-submit {
+    border-width: 0;
+    height: 50px;
+}
+
+.footer-jaune-resaux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-jaune-resaux p {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.footer-jaune-resaux .container {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.footer-bleu {
+    background: #5C7AEA;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-bleu p {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-bleu .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.footer-bleu .container p {
+    margin: 0 7px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.footer-bleu .container a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.footer-bleu p {
+    font-size: 12px;
+    line-height: 18px;
 }
