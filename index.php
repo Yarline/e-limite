@@ -2,6 +2,7 @@
 
 <head>
     <?php include 'include/head.php'; ?>
+    <link rel="stylesheet" href="public/css/style.css">
     <title>Accueil</title>
     
 </head>
@@ -15,6 +16,9 @@
             <video class="bannerVideo">
                 <source src=public/video/prod.mp4 type=video/mp4>
             </video>
+            <div class="banner-content">
+                
+            </div>
         </section>
 
     </main>
