@@ -13,7 +13,7 @@
     </header>
     <main>
         <section class="banner">
-            <video class="bannerVideo">
+            <video class="bannerVideo" autoplay>
                 <source src=public/video/prod.mp4 type=video/mp4>
             </video>
             <div class="banner-content">
