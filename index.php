@@ -1,11 +1,20 @@
 <html lang="fr">
+
 <head>
+<?php include 'include/head.php'; ?>
     <title>Accueil</title>
     
 </head>
 <body>
-    <h1>
-        test
-    </h1>
+    <header>
+    <?php include 'include/header.php'; ?>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+    <?php include 'include/footer.php'; ?>
+    </footer>
 </body>
+
 </html>
