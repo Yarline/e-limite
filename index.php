@@ -4,7 +4,7 @@
     <?php include 'include/head.php'; ?>
     <link rel="stylesheet" href="public/css/style.css">
     <title>Accueil</title>
-    
+
 </head>
 
 <body>
@@ -13,11 +13,21 @@
     </header>
     <main>
         <section class="banner">
-            <video class="bannerVideo" autoplay>
+            <video class="bannerVideo" autoplay loop>
                 <source src=public/video/prod.mp4 type=video/mp4>
             </video>
             <div class="banner-content">
-                
+                <h1>Il suffit de se lancer</h1>
+                <p>Si tu es en train de lire ceci, c’est que tu as sûrement envie de lancer ton projet entrepreneurial mais que tu n’oses pas. Tu ne te sens peut-être pas légitime ou tu n’as pas assez confiance en toi ?</p>
+                <div class="btn-group">
+                    <a href="#" class="btn empty-btn">J'ai peur</a>
+                    <a href="#"  class="btn filled-btn">Je me lance</a>
+                </div>
+                <div class="social">
+                    <span class="iconify" data-icon="akar-icons:instagram-fill" style="color: #ffc357; font-size: 30px; margin: 5px;"></span>
+                    <span class="iconify" data-icon="bi:linkedin" style="color: #ffc357; font-size: 30px; margin: 5px;"></span>
+                    <span class="iconify" data-icon="akar-icons:twitter-fill" style="color: #ffc357; font-size: 30px; margin: 5px;"></span>
+                </div>
             </div>
         </section>
 
