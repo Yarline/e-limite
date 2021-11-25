@@ -2,6 +2,7 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+<script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"classic",Message:"Ce site utilise des cookies pour personnaliser et améliorer votre confort de navigation. ",ButtonText:"Tout accepter",LinkText:"En savoir plus",})</script>
 <script src="public/js/script.js"></script>
 <div>
     <div class="footer-jaune">
@@ -12,14 +13,14 @@
         <form class="footer-form">
             <div>
                 <input id="footer-newsletter" type="text" name="text" placeholder="reussite@gmail.com">
-                <input id="footer-submit" type="submit" value="Je m’incris">
+                <input id="footer-submit" type="submit" value="Je m’inscris">
             </div>
         </form>
         <div class="footer-jaune-resaux">
             <div class="container">
-                <span class="iconify" data-icon="akar-icons:facebook-fill"></span>
-                <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
-                <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
+                <a href="https://www.linkedin.com/in/t-as-tout-pour-toi-365878226/" target="_blank"><span class="iconify" data-icon="akar-icons:linkedin-fill"></span></a>
+                <a href="https://www.instagram.com/tastoutpourtoi/" target="_blank"><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a>
+                <a href="https://twitter.com/Tastoutpourtoi1/" target="_blank"><span class="iconify" data-icon="akar-icons:twitter-fill"></span></a>
             </div>
             <p>Rejoins-nous sur nos réseaux !</p>
         </div>
