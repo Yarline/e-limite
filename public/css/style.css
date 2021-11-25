@@ -407,6 +407,7 @@ section.entrepreneur_month div p {
 
 .three {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
