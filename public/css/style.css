@@ -452,6 +452,7 @@ div.right_side img {
 
 .slider{
     padding: 20px 100px;
+    height: fit-content;
 }
 
 .slider h2{
@@ -498,4 +499,14 @@ div.right_side img {
     position: absolute;
     right:-20px;
     top: 50%;
+}
+
+.reasonWhy h2,.reasonWhy p{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.reasonWhy video{
+    margin-bottom: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }

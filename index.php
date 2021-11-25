@@ -69,7 +69,7 @@
                 <img src="public/img/undraw_meditation.svg">
             </div>
         </section>
-        
+
         <section class="etape-entreprise">
             <img src="public/img/etape_picto.png" alt="">
             <div class="etape-entreprise-bloc">
@@ -136,6 +136,15 @@
                     <p class="nom">Michaël Girard</p>
                     <small class="entreprise">KOSELYA</small>
                 </div>
+            </div>
+        </section>
+        <section class="reasonWhy">
+            <h2>Pourquoi se lancer ?</h2>
+            <p>Tu es encore là ? Tu hésites encore ? Lance toi !</p>
+            <video width="450" autoplay loop muted>
+                <source src=public/video/prod.webm type=video/webm>
+                <source src=public/video/prod.mp4 type=video/mp4>
+            </video>
 
         </section>
 
