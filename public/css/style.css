@@ -16,8 +16,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins/Poppins-Bold.woff2') format('woff2'),
-        url('../font/Poppins/Poppins-Bold.woff') format('woff');
+    src: url('../font/Poppins/Poppins-Bold.woff2') format('woff2'), url('../font/Poppins/Poppins-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -25,8 +24,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins/Poppins-Medium.woff2') format('woff2'),
-        url('../font/Poppins/Poppins-Medium.woff') format('woff');
+    src: url('../font/Poppins/Poppins-Medium.woff2') format('woff2'), url('../font/Poppins/Poppins-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -34,8 +32,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins/Poppins-Regular.woff2') format('woff2'),
-        url('../font/Poppins/Poppins-Regular.woff') format('woff');
+    src: url('../font/Poppins/Poppins-Regular.woff2') format('woff2'), url('../font/Poppins/Poppins-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -43,12 +40,12 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../font/Poppins/Poppins-Thin.woff2') format('woff2'),
-        url('../font/Poppins/Poppins-Thin.woff') format('woff');
+    src: url('../font/Poppins/Poppins-Thin.woff2') format('woff2'), url('../font/Poppins/Poppins-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
+
 
 /* font-style */
 
@@ -70,7 +67,7 @@ p {
     line-height: 1.8;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
 }
@@ -78,7 +75,7 @@ p {
 
 /***Bannière***/
 
-.banner {
+.header-banner {
     width: 100%;
     height: calc(100vh - 124px);
     position: relative;
@@ -138,6 +135,7 @@ section.entrepreneur_month figure {
     margin-right: 100px;
     object-fit: cover;
 }
+
 section.entrepreneur_month figure img {
     height: 100%;
     width: 100%;
@@ -165,7 +163,7 @@ section.entrepreneur_month div p {
 
 /*     Bannière     */
 
-.banner {
+.header-banner {
     width: 100%;
     height: 100vh;
     position: relative;
@@ -305,7 +303,7 @@ section.entrepreneur_month div p {
     line-height: 18px;
 }
 
-.banner:before {
+.header-banner:before {
     content: "";
     width: 100%;
     height: 100%;
@@ -600,7 +598,7 @@ div.right_side img {
     top: 50%;
 }
 
-.reasonWhy{
+.reasonWhy {
     margin-bottom: 70px;
 }
 
@@ -615,53 +613,62 @@ div.right_side img {
     margin-left: 50%;
     transform: translateX(-50%);
 }
-.contactSection{
+
+.contactSection {
     padding: 50px 200px;
     justify-content: space-around;
 }
-.mentoring{
+
+.mentoring {
     width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-form.contact{
-width: 45%;
-box-shadow: 3px 3px lightgrey, -3px 0 .4em lightgrey;
-padding: 30px;
-border-radius: 20px;
+form.contact {
+    width: 45%;
+    box-shadow: 3px 3px lightgrey, -3px 0 .4em lightgrey;
+    padding: 30px;
+    border-radius: 20px;
 }
 
-form.contact h2{
+form.contact h2 {
     margin-bottom: 40px;
     text-align: center;
 }
 
-form.contact > div{
+form.contact>div {
     margin-bottom: 20px;
 }
-.form-items-group{
+
+.form-items-group {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.mid-form-items-size{
-    width: 48%;
 
+.mid-form-items-size {
+    width: 48%;
 }
-input,textarea, select{
+
+input,
+textarea,
+select {
     background-color: #F1F4F8;
     border: none;
 }
-input, select{
+
+input,
+select {
     height: 30px;
 }
-form.contact label{
-    margin-bottom: 7px;
-    }
 
-.btn-form{
+form.contact label {
+    margin-bottom: 7px;
+}
+
+.btn-form {
     margin-left: 50%;
     transform: translateX(-50%);
 }

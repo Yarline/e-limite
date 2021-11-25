@@ -14,7 +14,7 @@
         <?php include 'include/header.php'; ?>
     </header>
     <main>
-        <section class="banner">
+        <section class="header-banner">
             <video class="bannerVideo" autoplay loop muted>
                 <source src=public/video/prod.webm type=video/webm>
                 <source src=public/video/prod.mp4 type=video/mp4>
