@@ -89,7 +89,9 @@ p {
     height: 100vh;
     width: 100%;
 }
-
+.social span{
+    cursor: pointer;
+}
 
 /*HEADER*/
 
@@ -639,6 +641,8 @@ form.contact {
     box-shadow: 3px 3px lightgrey, -3px 0 .4em lightgrey;
     padding: 30px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 form.contact h2 {
@@ -676,11 +680,10 @@ form.contact label:not(.box label) {
     margin-bottom: 7px;
 }
 
-.btn-form {
-    margin-left: 50%;
-    transform: translateX(-50%);
+.btn-form{
+    max-width: 300px;
+    margin: auto;
 }
-
 .box div{
     display: flex;
     flex-direction: row-reverse;

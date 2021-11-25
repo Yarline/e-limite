@@ -14,7 +14,7 @@
         <?php include 'include/header.php'; ?>
     </header>
     <main>
-        <section class="header-banner">
+    <section class="header-banner">
             <video class="bannerVideo" autoplay loop muted>
                 <source src=public/video/prod.webm type=video/webm>
                 <source src=public/video/prod.mp4 type=video/mp4>
@@ -33,7 +33,6 @@
                 </div>
             </div>
         </section>
-
         <section class="advices">
             <h2>Nos conseils pour te lancer</h2>
             <p class="paragraph">Tu l’ignores peut-être mais tu es dans la meilleure période de ta vie pour entreprendre ! Il te suffit de beaucoup de passion, d’un peu d’organisation, d’une dose de discipline et d’une pincée de motivation avant de devenir ton propre patron ! </p>
