@@ -163,48 +163,48 @@
                 <h2>Trouves ton <br>mentor.</h2>
                 <p>Tu seras mis en relation avec entrepreneur qui te guidera vers la voie du succès. Saisis ta chance ! Toi aussi tu auras ta success story !</p>
             </div>
-            <form action="" class="contact">
+            <form action="post" class="contact">
                 <h2>La parole est à toi !</h2>
                 <div class="flex">
                     <div class="form-items-group mid-form-items-size">
                         <label for="">Nom</label>
-                        <input type="text" placeholder=" Nom">
+                        <input type="text" name="lastname" placeholder=" Nom">
                     </div>
                     <div class="form-items-group mid-form-items-size">
                         <label for="">Prénom</label>
-                        <input type="text" placeholder=" Prénom">
+                        <input type="text" name="firstname" placeholder=" Prénom">
                     </div>
                 </div>
                 <div class="form-items-group">
                     <label for="">Adresse mail</label>
-                    <input type="text" placeholder=" exemple@exemple.fr">
+                    <input type="text" name="email" placeholder=" exemple@exemple.fr">
                 </div>
                 <div>
                     <p>Qu’est-ce qui t’empêche de te lancer ?</p>
                     <div class="flex box">
                         <div>
                             <label for="">Financement</label>
-                            <input type="checkbox">
+                            <input type="checkbox" name="problem">
                         </div>
                         <div>
                             <label for="">Manque de confiance</label>
-                            <input type="checkbox">
+                            <input type="checkbox" name="problem">
                         </div>
                     </div>
                     <div class="flex box">
                         <div>
                             <label for="">Les démarches</label>
-                            <input type="checkbox">
+                            <input type="checkbox" name="problem">
                         </div>
                         <div>
                             <label for="">Autres</label>
-                            <input type="checkbox">
+                            <input type="checkbox" name="problem">
                         </div>
                     </div>
                 </div>
                 <div class="form-items-group">
                     <label for="">Statut</label>
-                    <select name="" id="">
+                    <select name="status" id="">
                         <option value="">Etudiant</option>
                         <option value="">Employé</option>
                         <option value="">En reconversion</option>
@@ -213,10 +213,24 @@
                 </div>
                 <div class="form-items-group">
                     <label for="">Mon projet</label>
-                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                    <textarea name="project" id="" cols="30" rows="5"></textarea>
                 </div>
                 <button type="submit" class="btn filled-btn btn-form">Je trouve mon mentor</button>
             </form>
+            <?php
+                if (isset($_POST['project'])) {
+                    $position_arobase = strpos($_POST['email'], '@');
+                    if ($position_arobase === false)
+                        echo '<p>Votre email doit comporter un arobase.</p>';
+                    else {
+                        $retour = mail('agence.elimite@gmail.com', 'Envoi depuis la page Contact', $_POST['project'], 'From: ' . $_POST['email'], $_POST['firstname'], $_POST['lastname'], $_POST['status'], $_POST['problem']);
+                        if($retour)
+                            echo '<p>Votre message a été envoyé.</p>';
+                        else
+                            echo '<p>Erreur.</p>';
+                    }
+                }
+            ?>
         </section>
 
 
