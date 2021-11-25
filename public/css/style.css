@@ -135,6 +135,7 @@ section.entrepreneur_month figure {
     width: 547px;
     margin-right: 100px;
     object-fit: cover;
+    box-shadow: 5px 5px 7px slateblue;
 }
 
 section.entrepreneur_month figure img {
@@ -625,6 +626,12 @@ div.right_side img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.mentoring h2{
+    line-height: 50px;
+}
+.mentoring p{
+    color:var(--blackgrey);
 }
 
 form.contact {
