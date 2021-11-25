@@ -177,7 +177,7 @@
                 </div>
                 <div class="form-items-group">
                     <label for="">Adresse mail</label>
-                    <input type="text" name="email" placeholder=" exemple@exemple.fr">
+                    <input type="email" name="email" placeholder=" exemple@exemple.fr">
                 </div>
                 <div>
                     <p>Qu’est-ce qui t’empêche de te lancer ?</p>
