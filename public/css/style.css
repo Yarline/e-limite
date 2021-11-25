@@ -155,7 +155,7 @@ section.entrepreneur_month div h2 {
 }
 
 section.entrepreneur_month div p {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 30px;
 }
 
@@ -628,11 +628,13 @@ div.right_side img {
     flex-direction: column;
     justify-content: center;
 }
-.mentoring h2{
+
+.mentoring h2 {
     line-height: 50px;
 }
-.mentoring p{
-    color:var(--blackgrey);
+
+.mentoring p {
+    color: var(--blackgrey);
 }
 
 form.contact {
@@ -680,9 +682,10 @@ form.contact label:not(.box label) {
 .btn-form {
     margin-left: 50%;
     transform: translateX(-50%);
+    outline: auto;
 }
 
-.box div{
+.box div {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
