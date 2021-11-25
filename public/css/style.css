@@ -55,6 +55,57 @@ p {
     width: 100%;
 }
 
+/*HEADER*/
+
+header{
+    width: 100%;
+    height: 124px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav a{
+    font-size: 20px;
+    margin: 0 30px 0 30px;
+}
+header nav a.header-button{
+    height: 46px;
+    width: 226px;
+    padding: 15px 80px 15px 80px;
+    border-radius: 9px;
+}
+
+/*FIN HEADER*/
+
+/*ENTREPRENEUR DU MOIS*/
+
+section.entrepreneur_month{
+    height: 720px;
+    width: 100%;
+    background-color: #5C7AEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.entrepreneur_month img{
+    height: 331px;
+    width: 547px;
+    margin-right: 100px;
+}
+section.entrepreneur_month div{
+    width: 436px;
+    color: #FFFFFF;
+}
+section.entrepreneur_month div h2{
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+section.entrepreneur_month div p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*FIN ENTREPRENEUR DU MOIS*/
 
 /*     Bannière     */
 
@@ -472,6 +523,7 @@ div.right_side img {
 
 .slider {
     padding: 20px 100px;
+    height: fit-content;
 }
 
 .slider h2 {
@@ -527,4 +579,14 @@ div.right_side img {
     position: absolute;
     right: -20px;
     top: 50%;
+}
+
+.reasonWhy h2,.reasonWhy p{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.reasonWhy video{
+    margin-bottom: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
