@@ -1,9 +1,6 @@
 /*--- Paramètre générale de style ---*/
 
 
-/*--- ------------------------- ---*/
-
-
 /* couleur */
 
  :root {
@@ -71,6 +68,11 @@ h2 {
 p {
     font-size: 16px;
     line-height: 1.8;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -338,7 +340,6 @@ section.entrepreneur_month div p {
 }
 
 .btn {
-    width: 80px;
     padding: 10px 30px;
     border-radius: 7px;
     margin: 20px;
@@ -599,6 +600,10 @@ div.right_side img {
     top: 50%;
 }
 
+.reasonWhy{
+    margin-bottom: 70px;
+}
+
 .reasonWhy h2,
 .reasonWhy p {
     margin-bottom: 50px;
@@ -607,6 +612,56 @@ div.right_side img {
 
 .reasonWhy video {
     margin-bottom: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.contactSection{
+    padding: 50px 200px;
+    justify-content: space-around;
+}
+.mentoring{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form.contact{
+width: 45%;
+box-shadow: 3px 3px lightgrey, -3px 0 .4em lightgrey;
+padding: 30px;
+border-radius: 20px;
+}
+
+form.contact h2{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+form.contact > div{
+    margin-bottom: 20px;
+}
+.form-items-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mid-form-items-size{
+    width: 48%;
+
+}
+input,textarea, select{
+    background-color: #F1F4F8;
+    border: none;
+}
+input, select{
+    height: 30px;
+}
+form.contact label{
+    margin-bottom: 7px;
+    }
+
+.btn-form{
     margin-left: 50%;
     transform: translateX(-50%);
 }

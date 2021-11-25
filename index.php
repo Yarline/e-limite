@@ -157,7 +157,67 @@
                 <source src=public/video/prod.webm type=video/webm>
                 <source src=public/video/prod.mp4 type=video/mp4>
             </video>
+        </section>
 
+        <section class="flex contactSection">
+            <div class="mentoring">
+                <h2>Trouves ton <span>mentor.</span></h2>
+                <p>Tu seras mis en relation avec entrepreneur qui te guidera vers la voie du succès. Saisis ta chance ! Toi aussi tu auras ta success story !</p>
+            </div>
+            <form action="" class="contact">
+                <h2>La parole est à toi !</h2>
+                <div class="flex">
+                    <div class="form-items-group mid-form-items-size">
+                        <label for="">Nom</label>
+                        <input type="text" placeholder=" Nom">
+                    </div>
+                    <div class="form-items-group mid-form-items-size">
+                        <label for="">Prénom</label>
+                        <input type="text" placeholder=" Prénom">
+                    </div>
+                </div>
+                <div class="form-items-group">
+                    <label for="">Adresse mail</label>
+                    <input type="text" placeholder=" exemple@exemple.fr">
+                </div>
+                <div>
+                    <p>Qu’est-ce qui t’empêche de te lancer ?</p>
+                    <div class="flex">
+                        <div>
+                            <label for="">Financement</label>
+                            <input type="checkbox">
+                        </div>
+                        <div>
+                            <label for="">Manque de confiance</label>
+                            <input type="checkbox">
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div>
+                            <label for="">Les démarches</label>
+                            <input type="checkbox">
+                        </div>
+                        <div>
+                            <label for="">Autres</label>
+                            <input type="checkbox">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-items-group">
+                    <label for="">Statut</label>
+                    <select name="" id="">
+                        <option value="">Etudiant</option>
+                        <option value="">Employé</option>
+                        <option value="">En reconversion</option>
+                        <option value="">Sans emploi</option>
+                    </select>
+                </div>
+                <div class="form-items-group">
+                    <label for="">Mon projet</label>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn filled-btn btn-form">Je trouve mon mentor</button>
+            </form>
         </section>
 
 
