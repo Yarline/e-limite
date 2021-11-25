@@ -161,7 +161,7 @@
 
         <section class="flex contactSection">
             <div class="mentoring">
-                <h2>Trouves ton <span>mentor.</span></h2>
+                <h2>Trouves ton <br>mentor.</h2>
                 <p>Tu seras mis en relation avec entrepreneur qui te guidera vers la voie du succès. Saisis ta chance ! Toi aussi tu auras ta success story !</p>
             </div>
             <form action="" class="contact">
@@ -182,7 +182,7 @@
                 </div>
                 <div>
                     <p>Qu’est-ce qui t’empêche de te lancer ?</p>
-                    <div class="flex">
+                    <div class="flex box">
                         <div>
                             <label for="">Financement</label>
                             <input type="checkbox">
@@ -192,7 +192,7 @@
                             <input type="checkbox">
                         </div>
                     </div>
-                    <div class="flex">
+                    <div class="flex box">
                         <div>
                             <label for="">Les démarches</label>
                             <input type="checkbox">

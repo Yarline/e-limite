@@ -664,11 +664,19 @@ select {
     height: 30px;
 }
 
-form.contact label {
+form.contact label:not(.box label) {
     margin-bottom: 7px;
 }
 
 .btn-form {
     margin-left: 50%;
     transform: translateX(-50%);
+}
+
+.box div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
 }
