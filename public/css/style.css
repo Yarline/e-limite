@@ -90,6 +90,10 @@ p {
     width: 100%;
 }
 
+.social span {
+    cursor: pointer;
+}
+
 
 /*HEADER*/
 
@@ -513,7 +517,7 @@ div.right_side img {
 
 .etape-entreprise div {
     text-align: right;
-    max-width: 475px;
+    max-width: 482px;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
@@ -642,6 +646,8 @@ form.contact {
     box-shadow: 3px 3px lightgrey, -3px 0 .4em lightgrey;
     padding: 30px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 form.contact h2 {
