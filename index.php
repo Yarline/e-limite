@@ -10,6 +10,7 @@
 
 <body>
     <header>
+        <h1>Logo</h1>
         <?php include 'include/header.php'; ?>
     </header>
     <main>
@@ -146,6 +147,13 @@
                 <source src=public/video/prod.mp4 type=video/mp4>
             </video>
 
+        </section>
+        <section class="entrepreneur_month">
+            <img src="public/img/justine.jpg" alt="">
+            <div>
+                <h2>L'entrepreneur du mois</h2>
+                <p>Justine Hutteau, fondatrice de Respire, a créé sa marque en 2018 après avoir su qu’ elle était atteinte d’une tumeur. L’idée de créer sa marque lui est venue, en voulant se procurer un déodorant sain adapté à sa maladie et à ses besoins. Concept ingénieux, n’est-ce pas ?</p>
+            </div>
         </section>
 
     </main>
