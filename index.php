@@ -40,19 +40,21 @@
 
             <div class="three">
                 <div class="time">
-                    <span class="iconify" data-icon="ic:baseline-favorite-border" style="color: #5c7aea; font-size: 55px;"></span>
+                    <span class="iconify" data-icon="ic:round-hourglass-bottom" style="color: #5c7aea; font-size: 55px;"></span>
                     <p class="little_title">Optimise ton temps</p>
                     <p>On sait très bien que tu passes beaucoup trop de temps sur Tiktok... Utilise le autrement !</p>
                 </div>
 
                 <div class="inform">
-                    <span class="iconify" data-icon="ic:round-hourglass-bottom" style="color: #5c7aea; font-size: 55px;"></span>
+
+                    <span class="iconify" data-icon="ic:baseline-connected-tv" style="color: #5c7aea; font-size: 55px;"></span>
                     <p class="little_title">Renseignes toi !</p>
                     <p>Il y a beaucoup d’avantages à ta disposition, nous sommes là pour t’aider à les trouver !</p>
                 </div>
 
                 <div class="trust">
-                    <span class="iconify" data-icon="ic:baseline-connected-tv" style="color: #5c7aea; font-size: 55px;"></span>
+                    <span class="iconify" data-icon="ic:baseline-favorite-border" style="color: #5c7aea; font-size: 55px;"></span>
+
                     <p class="little_title">Aie confiance en toi !</p>
                     <p>Malgré certaines contraintes et quelques freins, tu as tout pour te lancer !</p>
                 </div>
@@ -139,6 +141,15 @@
                 </div>
             </div>
         </section>
+        <section class="entrepreneur_month">
+            <figure>
+                <img src="public/img/justine.jpg" alt="photo Justine Hutteau">
+            </figure>
+            <div>
+                <h2>L'entrepreneur du mois</h2>
+                <p>Justine Hutteau, fondatrice de Respire, a créé sa marque en 2018 après avoir su qu’ elle était atteinte d’une tumeur. L’idée de créer sa marque lui est venue, en voulant se procurer un déodorant sain adapté à sa maladie et à ses besoins. Concept ingénieux, n’est-ce pas ?</p>
+            </div>
+        </section>
         <section class="reasonWhy">
             <h2>Pourquoi se lancer ?</h2>
             <p>Tu es encore là ? Tu hésites encore ? Lance toi !</p>
@@ -148,13 +159,7 @@
             </video>
 
         </section>
-        <section class="entrepreneur_month">
-            <img src="public/img/justine.jpg" alt="">
-            <div>
-                <h2>L'entrepreneur du mois</h2>
-                <p>Justine Hutteau, fondatrice de Respire, a créé sa marque en 2018 après avoir su qu’ elle était atteinte d’une tumeur. L’idée de créer sa marque lui est venue, en voulant se procurer un déodorant sain adapté à sa maladie et à ses besoins. Concept ingénieux, n’est-ce pas ?</p>
-            </div>
-        </section>
+
 
     </main>
     <footer>
