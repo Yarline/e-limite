@@ -39,19 +39,21 @@
 
             <div class="three">
                 <div class="time">
-                    <span class="iconify" data-icon="ic:baseline-favorite-border" style="color: #5c7aea; font-size: 55px;"></span>
+                <span class="iconify" data-icon="ic:round-hourglass-bottom" style="color: #5c7aea; font-size: 55px;"></span>
                     <p class="little_title">Optimise ton temps</p>
                     <p>On sait très bien que tu passes beaucoup trop de temps sur Tiktok... Utilise le autrement !</p>
                 </div>
 
                 <div class="inform">
-                    <span class="iconify" data-icon="ic:round-hourglass-bottom" style="color: #5c7aea; font-size: 55px;"></span>
+                   
+                <span class="iconify" data-icon="ic:baseline-connected-tv" style="color: #5c7aea; font-size: 55px;"></span>
                     <p class="little_title">Renseignes toi !</p>
                     <p>Il y a beaucoup d’avantages à ta disposition, nous sommes là pour t’aider à les trouver !</p>
                 </div>
 
                 <div class="trust">
-                    <span class="iconify" data-icon="ic:baseline-connected-tv" style="color: #5c7aea; font-size: 55px;"></span>
+                <span class="iconify" data-icon="ic:baseline-favorite-border" style="color: #5c7aea; font-size: 55px;"></span>
+                    
                     <p class="little_title">Aie confiance en toi !</p>
                     <p>Malgré certaines contraintes et quelques freins, tu as tout pour te lancer !</p>
                 </div>
