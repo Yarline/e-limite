@@ -42,30 +42,30 @@
                 <div class="time">
                     <span class="iconify" data-icon="ic:round-hourglass-bottom" style="color: #5c7aea; font-size: 55px;"></span>
                     <p class="little_title">Optimise ton temps</p>
-                    <p>On sait très bien que tu passes beaucoup trop de temps sur Tiktok... Utilise le autrement !</p>
+                    <p class="little_title-text">On sait très bien que tu passes beaucoup trop de temps sur Tiktok... Utilise le autrement !</p>
                 </div>
 
                 <div class="inform">
 
                     <span class="iconify" data-icon="ic:baseline-connected-tv" style="color: #5c7aea; font-size: 55px;"></span>
                     <p class="little_title">Renseignes toi !</p>
-                    <p>Il y a beaucoup d’avantages à ta disposition, nous sommes là pour t’aider à les trouver !</p>
+                    <p class="little_title-text">Il y a beaucoup d’avantages à ta disposition, nous sommes là pour t’aider à les trouver !</p>
                 </div>
 
                 <div class="trust">
                     <span class="iconify" data-icon="ic:baseline-favorite-border" style="color: #5c7aea; font-size: 55px;"></span>
 
                     <p class="little_title">Aie confiance en toi !</p>
-                    <p>Malgré certaines contraintes et quelques freins, tu as tout pour te lancer !</p>
+                    <p class="little_title-text">Malgré certaines contraintes et quelques freins, tu as tout pour te lancer !</p>
                 </div>
             </div>
         </section>
 
         <section class="part_two">
             <div class="left_side">
-                <h2>Les clés de la confiance en soi</h2>
+                <h2>Les clés de la<br>confiance en soi</h2>
                 <p>Tout est dans la tête, une simple idée peut devenir une idée de génie. Alors qu’est-ce que tu attends ?</p>
-                <a class="btn_articles" href="">Découvrir l'article</a>
+                <a class="btn filled-btn" href="">Découvrir l'article</a>
             </div>
 
             <div class="right_side">
