@@ -12,14 +12,14 @@
         <form class="footer-form">
             <div>
                 <input id="footer-newsletter" type="text" name="text" placeholder="reussite@gmail.com">
-                <input id="footer-submit" type="submit" value="Je m’incris">
+                <input id="footer-submit" type="submit" value="Je m’inscris">
             </div>
         </form>
         <div class="footer-jaune-resaux">
             <div class="container">
-                <span class="iconify" data-icon="akar-icons:facebook-fill"></span>
-                <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
-                <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
+                <a href="https://www.linkedin.com/in/t-as-tout-pour-toi-365878226/" target="_blank"><span class="iconify" data-icon="akar-icons:linkedin-fill"></span></a>
+                <a href="https://www.instagram.com/tastoutpourtoi/" target="_blank"><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a>
+                <a href="https://twitter.com/Tastoutpourtoi1/" target="_blank"><span class="iconify" data-icon="akar-icons:twitter-fill"></span></a>
             </div>
             <p>Rejoins-nous sur nos réseaux !</p>
         </div>
