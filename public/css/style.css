@@ -11,6 +11,7 @@
     --white: #fff;
     --yellow: #FFC357;
     --blackgrey: #999898;
+    --black: #000;
 }
 
 
@@ -97,6 +98,7 @@ section.entrepreneur_month img {
     height: 331px;
     width: 547px;
     margin-right: 100px;
+    object-fit: cover;
 }
 
 section.entrepreneur_month div {
@@ -265,7 +267,7 @@ section.entrepreneur_month div p {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: black;
+    background-color: var(--black);
     opacity: 0.5;
     top: 0;
     left: 0;
@@ -351,9 +353,15 @@ section.entrepreneur_month div p {
     margin-bottom: 100px;
     text-align: center;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.advices h2 {
+    line-height: 60px;
+    margin-bottom: 40px;
+    font-size: 40px;
 }
 
 .three {
@@ -361,13 +369,33 @@ section.entrepreneur_month div p {
     justify-content: center;
 }
 
+.three div {
+    width: 331px;
+}
+
 .paragraph {
     margin-bottom: 30px;
+    max-width: 1050px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #999898;
 }
 
 .little_title {
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: var(--black);
+}
+
+.little_title-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #999898;
 }
 
 .trust,
@@ -376,38 +404,47 @@ section.entrepreneur_month div p {
     margin: 0 15px;
 }
 
+.three div svg {
+    margin-bottom: 30px;
+}
+
 
 /***LES CLÉS DE LA CONFIANCE EN SOI***/
 
 .part_two {
+    justify-content: center;
     display: flex;
     align-items: center;
-    margin: 100px 0;
+    margin: 200px 0;
 }
 
 div.left_side {
     margin-right: 20px;
+    max-width: 475px;
+}
+
+.right_side {
+    max-width: 524px;
 }
 
 div.left_side h2 {
-    line-height: 1.5;
+    line-height: 60px;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.left_side .btn {
+    margin: 0;
 }
 
 div.left_side p {
     line-height: 1.5;
+    margin-bottom: 50px;
 }
 
 div.right_side img {
     width: 100%;
     margin-left: 20px;
-}
-
-.btn_articles {
-    width: 200px;
-    background-color: var(--purple);
-    padding: 10px 20px;
-    color: var(--white);
-    text-decoration: none;
 }
 
 
