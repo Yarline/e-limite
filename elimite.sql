@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 26, 2021 at 03:43 PM
+-- Generation Time: Nov 26, 2021 at 04:02 PM
 -- Server version: 5.7.24
 -- PHP Version: 7.4.1
 
@@ -31,9 +31,15 @@ SET time_zone = "+00:00";
 CREATE TABLE `post` (
   `id` int(11) NOT NULL,
   `file` varchar(50) NOT NULL,
-  `title` varchar(100) NOT NULL,
   `body` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `post`
+--
+
+INSERT INTO `post` (`id`, `file`, `body`) VALUES
+(2, 'pic-1637942197.jpg', 'test');
 
 -- --------------------------------------------------------
 
@@ -105,7 +111,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `post`
 --
 ALTER TABLE `post`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `testimony`
