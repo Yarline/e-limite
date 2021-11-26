@@ -33,6 +33,7 @@
                 </div>
             </div>
         </section>
+        <div id="avdices-ancre"></div>
         <section class="advices">
             <h2>Nos conseils pour te lancer</h2>
             <p class="paragraph">Tu l’ignores peut-être mais tu es dans la meilleure période de ta vie pour entreprendre ! Il te suffit de beaucoup de passion, d’un peu d’organisation, d’une dose de discipline et d’une pincée de motivation avant de devenir ton propre patron ! </p>
@@ -81,7 +82,7 @@
             </div>
         </section>
 
-        <section class="slider">
+        <section id="sucessStory-ancre" class="slider">
             <h2>Ils se sont lancés</h2>
             <div class="autoplay">
                 <div class="testimonyCard">
@@ -140,7 +141,7 @@
                 </div>
             </div>
         </section>
-        <section class="entrepreneur_month">
+        <section id="actus-ancre" class="entrepreneur_month">
             <figure>
                 <img src="public/img/justine.jpg" alt="photo Justine Hutteau">
             </figure>
