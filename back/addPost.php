@@ -33,6 +33,9 @@ if (!isset($_SESSION['user'])) {
 					<textarea type="text" name="body" placeholder="Votre contenu" required></textarea>
 				</p>
 				<p>
+					<a href="core/delet.php">Supprimer</a>
+				</p>
+				<p>
 					<button type="submit">Valider</button>
 				</p>
 			</form>
