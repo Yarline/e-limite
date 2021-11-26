@@ -17,7 +17,7 @@
 		
 	}else{
 		
-		$search = $db->prepare('SELECT * FROM users WHERE username = :u AND password = :p');
+		$search = $db->prepare('SELECT * FROM user WHERE username = :u AND password = :p');
 		$search->execute([
 			':u' => $_POST['name'],
 			':p' => crypt_password($_POST['password'])
@@ -35,7 +35,7 @@
 			$_SESSION['user']['id'] = $data['id'];
 
 			flash_in('success', 'Bon retour');
-			header('Location: ../concours.php?success');
+			header('Location: ../../index.php?success');
 			exit();
 		}
 	}

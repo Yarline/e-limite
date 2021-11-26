@@ -4,7 +4,7 @@ session_start();
 
 define("SQL_HOST","localhost");
 define("SQL_USER","root");
-define("SQL_PASS","");
+define("SQL_PASS","root");
 define("SQL_DBNAME","elimite");
 
 try{
@@ -26,5 +26,5 @@ function flash_out(){
 }
 
 function crypt_password($begin){
-	return password_hash($begin, PASSWORD_DEFAULT);
+	return hash('sha512','%dfkj53_45H43?'.hash('sha512', $begin));
 }
