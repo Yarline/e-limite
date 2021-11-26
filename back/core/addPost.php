@@ -16,7 +16,7 @@ if(empty($_POST['title'])){
 	exit();
 }
 if(empty($_POST['body'])){	
-	flash_in('error', 'La date ne peut pas être vide.');
+	flash_in('error', 'Le contenu ne peut pas être vide.');
 	header('Location: ../addPost.php');
 	exit();
 }
