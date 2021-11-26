@@ -218,20 +218,6 @@
                 </div>
                 <button type="submit" class="btn filled-btn btn-form">Je trouve mon mentor</button>
             </form>
-            <?php
-                if (isset($_POST['project'])) {
-                    $position_arobase = strpos($_POST['email'], '@');
-                    if ($position_arobase === false)
-                        echo '<p>Votre email doit comporter un arobase.</p>';
-                    else {
-                        $retour = mail('agence.elimite@gmail.com', 'Envoi depuis la page Contact', $_POST['project'], 'From: ' . $_POST['email'], $_POST['firstname'], $_POST['lastname'], $_POST['status'], $_POST['problem']);
-                        if($retour)
-                            echo '<p>Votre message a été envoyé.</p>';
-                        else
-                            echo '<p>Erreur.</p>';
-                    }
-                }
-            ?>
         </section>
 
 
