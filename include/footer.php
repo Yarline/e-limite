@@ -8,7 +8,7 @@
 <script src="public/js/script.js"></script>
 <div>
     <div class="footer-jaune">
-        <p class="footer-jaune-titre">T’as tout pour toi !</p>
+        <h2 class="footer-jaune-titre">T’as tout pour toi !</h2>
         <p class="footer-jaune-soustitre">Un jour on parlera peut-être de toi dans cette newsletter, il ne faudrait pas manquer ça !
             <br>Alors, abonne-toi !</p>
 

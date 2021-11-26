@@ -55,7 +55,8 @@ h1 {
 
 h2 {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 40px;
+    line-height: 60px;
 }
 
 * {
@@ -63,8 +64,8 @@ h2 {
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .flex {
@@ -136,7 +137,7 @@ section.entrepreneur_month {
 
 section.entrepreneur_month figure {
     height: 331px;
-    width: 547px;
+    max-width: 547px;
     margin-right: 100px;
     object-fit: cover;
     box-shadow: 5px 5px 7px slateblue;
@@ -154,13 +155,7 @@ section.entrepreneur_month div {
 }
 
 section.entrepreneur_month div h2 {
-    font-size: 40px;
     margin-bottom: 35px;
-}
-
-section.entrepreneur_month div p {
-    font-size: 17px;
-    line-height: 30px;
 }
 
 
@@ -206,13 +201,11 @@ section.entrepreneur_month div p {
 
 .footer-jaune-soustitre {
     font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
     margin-bottom: 35px;
 }
 
 .footer-form {
-    width: 440px;
+    max-width: 440px;
 }
 
 .footer-form div {
@@ -294,7 +287,6 @@ section.entrepreneur_month div p {
 .footer-bleu .container p {
     margin: 0 7px;
     color: #ffffff;
-    font-size: 12px;
 }
 
 .footer-bleu .container a {
@@ -327,16 +319,14 @@ section.entrepreneur_month div p {
     z-index: 2;
     top: 50%;
     left: 50%;
+    width: 90%;
+    max-width: 1050px;
 }
 
 .banner-content h1,
 .banner-content p {
     color: white;
     margin-bottom: 40px;
-}
-
-.banner-content p {
-    line-height: 30px;
 }
 
 .btn-group {
@@ -361,7 +351,7 @@ section.entrepreneur_month div p {
 
 .typing {
     position: relative;
-    line-height: 50px;
+    line-height: 60px;
     display: inline-block;
     color: #FFF;
     min-width: 1px;
@@ -405,9 +395,7 @@ section.entrepreneur_month div p {
 }
 
 .advices h2 {
-    line-height: 60px;
     margin-bottom: 40px;
-    font-size: 40px;
 }
 
 .three {
@@ -423,8 +411,6 @@ section.entrepreneur_month div p {
 .paragraph {
     margin-bottom: 30px;
     max-width: 1050px;
-    font-size: 17px;
-    line-height: 30px;
     text-align: center;
     color: #999898;
 }
@@ -439,8 +425,6 @@ section.entrepreneur_month div p {
 
 .little_title-text {
     font-weight: 400;
-    font-size: 17px;
-    line-height: 30px;
     text-align: center;
     color: #999898;
 }
@@ -475,8 +459,6 @@ div.left_side {
 }
 
 div.left_side h2 {
-    line-height: 60px;
-    font-size: 40px;
     margin-bottom: 35px;
 }
 
@@ -525,8 +507,6 @@ div.right_side img {
 }
 
 .etape-entreprise div h2 {
-    font-size: 40px;
-    line-height: 60px;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -697,4 +677,153 @@ form.contact label:not(.box label) {
     align-items: center;
     width: 50%;
     justify-content: flex-end;
+}
+
+section.entrepreneur_month.mobile {
+    display: none;
+}
+
+h2.mobile {
+    display: none;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+    section.advices {
+        padding: 0 50px;
+    }
+    .time,
+    .inform,
+    .trust {
+        margin-top: 50px;
+    }
+    section.part_two {
+        flex-direction: column-reverse;
+        margin: 100px 0;
+        padding: 0 50px;
+    }
+    .right_side {
+        margin-bottom: 50px;
+    }
+    section.etape-entreprise {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .etape-entreprise img,
+    .etape-entreprise div {
+        width: 90%;
+    }
+    section.etape-entreprise img {
+        margin-bottom: 65px;
+    }
+    .etape-entreprise div h2 {
+        margin-bottom: 30px;
+    }
+    .etape-entreprise-bloc p {
+        margin-bottom: 25px;
+    }
+    .testimonyCard {
+        width: 25%;
+        margin: 0px 40px;
+        text-align: center;
+        padding: 20px;
+    }
+    .slider {
+        padding: 0px 50px;
+    }
+    section.entrepreneur_month {
+        flex-direction: column;
+    }
+    .reasonWhy video {
+        margin-bottom: 0px;
+        margin-left: 0%;
+        transform: translateX(0%);
+    }
+    section.entrepreneur_month.mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    section.entrepreneur_month.desktop {
+        display: none;
+    }
+    section.entrepreneur_month.mobile figure {
+        margin-right: 0;
+        box-shadow: 0px 0px 0px;
+        padding: 0px 50px;
+        overflow: hidden;
+    }
+    section.entrepreneur_month.mobile div {
+        margin-top: 40px;
+        padding: 0px 50px;
+    }
+    section.entrepreneur_month.mobile {
+        height: unset;
+        padding-bottom: 50px;
+    }
+    section.entrepreneur_month.mobile {
+        height: unset;
+        padding: 0px 50px;
+        padding-bottom: 50px;
+        width: unset;
+    }
+    .reasonWhy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactSection {
+        padding: 0px 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    form.contact {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .mentoring {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .reasonWhy h2 {
+        order: 1;
+    }
+    .reasonWhy p {
+        order: 3;
+        margin-top: 30px;
+    }
+    .reasonWhy video {
+        order: 2;
+    }
+    h2.desktop {
+        display: none;
+    }
+    h2.mobile {
+        display: block;
+    }
+    .flex.box {
+        display: block;
+    }
+    button.btn.filled-btn.btn-form {
+        margin: 0;
+        margin-left: 0;
+        transform: translateX(0);
+    }
+    .footer-jaune {
+        padding: 0 50px;
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 22.5px;
+    }
 }
