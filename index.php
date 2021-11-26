@@ -1,4 +1,13 @@
-<html lang="fr">
+<?php 
+
+include('config/settings.php');
+
+$post = $db->prepare('SELECT * FROM post');
+$post->execute();
+
+$tPost = $post->fetchAll(PDO::FETCH_ASSOC);
+
+?><html lang="fr">
 
 <head>
     <?php include 'include/head.php'; ?>
@@ -142,12 +151,13 @@
             </div>
         </section>
         <section id="actus-ancre" class="entrepreneur_month desktop">
+            <?php foreach ($tPost as $value) { ?>
             <figure>
-                <img src="public/img/justine.jpg" alt="photo Justine Hutteau">
+                <img src="back/data/<?= $value['file']?>" alt="photo Justine Hutteau">
             </figure>
             <div>
                 <h2>L'entrepreneur du mois</h2>
-                <p>Justine Hutteau, fondatrice de Respire, a créé sa marque en 2018 après avoir su qu’ elle était atteinte d’une tumeur. L’idée de créer sa marque lui est venue, en voulant se procurer un déodorant sain adapté à sa maladie et à ses besoins. Concept ingénieux, n’est-ce pas ?</p>
+                <p><?= $value['body'] ?></p>
             </div>
         </section>
 
@@ -156,11 +166,12 @@
                 <h2>L'entrepreneur du mois</h2>
             </div>
             <figure>
-                <img src="public/img/justine.jpg" alt="photo Justine Hutteau">
+                <img src="back/data/<?= $value['file']?>" alt="photo Justine Hutteau">
             </figure>
             <div>
-                <p>Justine Hutteau, fondatrice de Respire, a créé sa marque en 2018 après avoir su qu’ elle était atteinte d’une tumeur. L’idée de créer sa marque lui est venue, en voulant se procurer un déodorant sain adapté à sa maladie et à ses besoins. Concept ingénieux, n’est-ce pas ?</p>
+                <p><?= $value['body'] ?></p>
             </div>
+            <?php } ?>
         </section>
 
         <section class="reasonWhy">

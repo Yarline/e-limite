@@ -27,9 +27,6 @@ if (!isset($_SESSION['user'])) {
                     <div id="display-image"></div>
                 </p>
 				<p>
-					<input type="text" name="title" placeholder="Le titre du post" required>
-				</p>
-				<p>
 					<textarea type="text" name="body" placeholder="Votre contenu" required></textarea>
 				</p>
 				<p>
