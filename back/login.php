@@ -5,9 +5,14 @@ include('../config/settings.php');
 ?><!DOCTYPE html>
 <html>
 	<head>
+<<<<<<< HEAD
 		<link rel="stylesheet" href="../public/css/reset.css">
 		<link rel="stylesheet" href="../public/css/style.css">
 		<?php include('../include/head.php'); ?>
+=======
+		<?php include('../include/head.php'); ?>
+		<link rel="stylesheet" href="">
+>>>>>>> bd7d607928aa8cb22605660fd0f8c5fc87711101
 		<title>Se connecter</title>
 	</head>
 	<body>
