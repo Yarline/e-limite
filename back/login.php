@@ -5,7 +5,7 @@ include('../config/settings.php');
 ?><!DOCTYPE html>
 <html>
 	<head>
-		<?php include('../includes/head.php'); ?>
+		<?php include('../include/head.php'); ?>
 		<link rel="stylesheet" href="">
 		<title>Se connecter</title>
 	</head>
