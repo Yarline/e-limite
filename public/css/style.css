@@ -687,45 +687,7 @@ h2.mobile {
     display: none;
 }
 
-#login-form {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.login-form {
-    width: 100%;
-}
-
-.login-form input {
-    width: 300px;
-    height: 66px;
-    border: 2px solid #3975CF;
-    box-sizing: border-box;
-    border-radius: 10px;
-    background: white;
-    padding: 0 15px;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-}
-
-.input-submit button {
-    background: #3975CF;
-    border-radius: 9px;
-    border: none;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 12px 70px;
-}
-
-#login-form p.input {
-    margin-bottom: 30px;
-}
 
 
 /* RESPONSIVE */
@@ -865,11 +827,5 @@ h2.mobile {
     p {
         font-size: 15px;
         line-height: 22.5px;
-    }
-    #login-form {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 }

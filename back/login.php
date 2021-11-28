@@ -2,22 +2,27 @@
 
 include('../config/settings.php');
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="../public/css/reset.css">
-		<link rel="stylesheet" href="../public/css/style.css">
-		<?php include('../include/head.php'); ?>
-		<title>Se connecter</title>
-	</head>
-	<body>
-		<main>
-			<section>
-				<img src="" alt="">
-			</section>
+
+<head>
+	<link rel="stylesheet" href="../public/css/reset.css">
+	<link rel="stylesheet" href="../public/css/style.css">
+	<link rel="stylesheet" href="css/login.css">
+	<?php include('../include/head.php'); ?>
+	<title>Se connecter</title>
+</head>
+
+<body>
+	<main>
+		<div class="login-form-container">
+			<figure class="login_logo">
+				<img src="../public/img/logo.png" alt="logo">
+			</figure>
 			<div class="login-form">
 				<form id="login-form" method="POST" action="core/login.php">
-				<h2>Connexion</h2>
+					<h2>Connexion</h2>
 					<p class="input">
 						<input type="text" name="name" placeholder="Identifiant" id="pseudo" required>
 					</p>
@@ -29,7 +34,12 @@ include('../config/settings.php');
 					</p>
 				</form>
 			</div>
+			<figure class="login_img">
+				<img src="../public/img/justine.jpg" alt="">
+			</figure>
+		</div>
+<p class="copyright">E-limite © 2021</p>
+	</main>
+</body>
 
-		</main>
-	</body>
 </html>
