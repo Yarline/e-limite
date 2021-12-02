@@ -12,7 +12,6 @@ $tPost = $post->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <?php include 'include/head.php'; ?>
     <link rel="stylesheet" href="public/css/style.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <title>Accueil</title>
 
 </head>
