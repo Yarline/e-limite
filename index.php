@@ -103,7 +103,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <?php foreach ($tTestimony as $value2) { ?>
                 <div class="testimonyCard">
                     <figure>
-                        <img src="back/data/<?= $value2['file']?>" alt="photo temoignage de l'autre">
+                        <img src="back/data/<?= $value2['file'] ?>" alt="photo temoignage de l'autre">
                     </figure>
                     <blockquote>
                         <?= $value2['body']?>
