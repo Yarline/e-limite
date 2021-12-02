@@ -1,2 +1,2 @@
-ErrorDocument 404 /e-limite/errorDocumentCustom/404.php
-ErrorDocument 403 /e-limite/errorDocumentCustom/403.php
+ErrorDocument 404 /errorDocumentCustom/404.php
+ErrorDocument 403 /errorDocumentCustom/403.php
