@@ -3,7 +3,18 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
 
-<script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette2",Mode:"banner bottom",Theme:"block",Message:"Ce site utilise des cookies pour personnaliser et améliorer votre confort de navigation. ",ButtonText:"Tout accepter",LinkText:"En savoir plus",Time:"1",})</script>
+<script>
+window.axeptioSettings = {
+  clientId: "61a883d53ce7ad35c37e37f5",
+  cookiesVersion: "t'as tout pour toi-base",
+};
+ 
+(function(d, s) {
+  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+  e.async = true; e.src = "//static.axept.io/sdk.js";
+  t.parentNode.insertBefore(e, t);
+})(document, "script");
+</script>
 
 <script src="public/js/script.js"></script>
 <div>
