@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 26, 2021 at 02:37 PM
+-- Generation Time: Nov 26, 2021 at 04:02 PM
 -- Server version: 5.7.24
 -- PHP Version: 7.4.1
 
@@ -21,6 +21,46 @@ SET time_zone = "+00:00";
 --
 -- Database: `elimite`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `post`
+--
+
+CREATE TABLE `post` (
+  `id` int(11) NOT NULL,
+  `file` varchar(50) NOT NULL,
+  `body` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `post`
+--
+
+INSERT INTO `post` (`id`, `file`, `body`) VALUES
+(2, 'pic-1637942197.jpg', 'test');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `testimony`
+--
+
+CREATE TABLE `testimony` (
+  `id` int(11) NOT NULL,
+  `file` varchar(50) NOT NULL,
+  `body` varchar(500) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `entreprise` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `testimony`
+--
+
+INSERT INTO `testimony` (`id`, `file`, `body`, `name`, `entreprise`) VALUES
+(2, 'pic-1637941328.jpg', 'justine pu des fesses', 'Alexis', 'mon sex');
 
 -- --------------------------------------------------------
 
@@ -46,6 +86,18 @@ INSERT INTO `user` (`id`, `username`, `password`) VALUES
 --
 
 --
+-- Indexes for table `post`
+--
+ALTER TABLE `post`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `testimony`
+--
+ALTER TABLE `testimony`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
@@ -54,6 +106,18 @@ ALTER TABLE `user`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `post`
+--
+ALTER TABLE `post`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `testimony`
+--
+ALTER TABLE `testimony`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `user`

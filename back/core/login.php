@@ -35,7 +35,7 @@
 			$_SESSION['user']['id'] = $data['id'];
 
 			flash_in('success', 'Bon retour');
-			header('Location: ../../index.php?success');
+			header('Location: addPost.php?success');
 			exit();
 		}
 	}

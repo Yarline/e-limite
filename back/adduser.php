@@ -11,12 +11,12 @@ include('../config/settings.php');
 ?><!DOCTYPE html>
 <html>
 <head>
-	<?php include('../includes/head.php'); ?>
+	<?php include('../include/head.php'); ?>
 
 	<title>Créer un compte</title>
 </head>
 <body>
-	<?php include('../includes/header.php'); ?>
+	<?php include('../include/header.php'); ?>
 
 	<form method="POST" action="core/adduser.php">
 		<h1>Créer un compte</h1>
