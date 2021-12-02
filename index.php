@@ -7,6 +7,11 @@ $post->execute();
 
 $tPost = $post->fetchAll(PDO::FETCH_ASSOC);
 
+$testimony = $db->prepare('SELECT * FROM testimony');
+$testimony->execute();
+
+$tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
+
 ?><html lang="fr">
 
 <head>
@@ -96,60 +101,18 @@ $tPost = $post->fetchAll(PDO::FETCH_ASSOC);
         <section id="sucessStory-ancre" class="slider">
             <h2>Ils se sont lancés</h2>
             <div class="autoplay">
+                <?php foreach ($tTestimony as $value2) { ?>
                 <div class="testimonyCard">
                     <figure>
-                        <img src="public/img/lautre.png" alt="photo temoignage de l'autre">
+                        <img src="back/data/<?= $value2['file']?>" alt="photo temoignage de l'autre">
                     </figure>
                     <blockquote>
-                        “S’il n’y a pas de problème, il n’y a pas de solution et donc pas d’opportunité pour une entreprise d’exister. ”
+                        <?= $value2['body']?>
                     </blockquote>
-                    <p class="nom">Vinod Khosla</p>
-                    <small class="entreprise">Sun Microsystemss</small>
+                    <p class="nom"><?= $value2['name']?></p>
+                    <small class="entreprise"><?= $value2['entreprise']?></small>
                 </div>
-
-                <div class="testimonyCard">
-                    <figure>
-                        <img src="public/img/rim.png" alt="photo temoignage de rim">
-                    </figure>
-                    <blockquote>
-                        “Aujourd’hui, je n’ai plus honte de dire que j’avais peur. Que dis-je ? Que j’étais TÉ-TA-NI-SÉE d’entreprendre.“
-                    </blockquote>
-                    <p class="nom">Rim Lariani</p>
-                    <small class="entreprise">Pix & Connect</small>
-                </div>
-
-                <div class="testimonyCard">
-                    <figure>
-                        <img src="public/img/helene.png" alt="photo temoignage d'helene'">
-                    </figure>
-                    <blockquote>
-                        “Il y a longtemps que j'ai compris que la peur, au fond, est ma meilleure alliée.“
-                    </blockquote>
-                    <p class="nom">Danièle Henkel</p>
-                    <small class="entreprise">Henkel Média</small>
-                </div>
-
-                <div class="testimonyCard">
-                    <figure>
-                        <img src="public/img/mamie.png" alt="photo temoignage de mamie">
-                    </figure>
-                    <blockquote>
-                        “C’est un sport collectif et, pour moi, construire une entreprise c’est vraiment une aventure collective avec un objectif commun.”
-                    </blockquote>
-                    <p class="nom">Hélène Boulet-Supau</p>
-                    <small class="entreprise">Sarenza</small>
-                </div>
-
-                <div class="testimonyCard">
-                    <figure>
-                        <img src="public/img/mickeale.png" alt="photo temoignage de mickeale">
-                    </figure>
-                    <blockquote>
-                        “Le futur appartient à ceux qui croient à la beauté de leurs rêves : alors vivez-les !“
-                    </blockquote>
-                    <p class="nom">Michaël Girard</p>
-                    <small class="entreprise">KOSELYA</small>
-                </div>
+                <?php } ?>
             </div>
         </section>
         <section id="actus-ancre" class="entrepreneur_month desktop">
