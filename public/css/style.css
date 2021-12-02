@@ -119,6 +119,14 @@ header nav a.header-button {
     font-size: 17px;
 }
 
+#burger {
+    display: none;
+}
+
+#burger a {
+    width: 30px;
+}
+
 
 /*FIN HEADER*/
 
@@ -688,8 +696,6 @@ h2.mobile {
 }
 
 
-
-
 /* RESPONSIVE */
 
 @media (max-width: 600px) {
@@ -827,5 +833,20 @@ h2.mobile {
     p {
         font-size: 15px;
         line-height: 22.5px;
+    }
+    #burger {
+        display: block;
+    }
+    .link {
+        display: none;
+    }
+}
+
+@media (max-width: 929px) {
+    #burger {
+        display: block;
+    }
+    .link {
+        display: none;
     }
 }
