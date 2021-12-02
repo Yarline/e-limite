@@ -1,5 +1,5 @@
 window.onload = function() {
-    var typeString = ['Il suffit de se lancer !', 'T\'as tout pour toi'];
+    var typeString = ['Il suffit de te lancer !', 'T\'as tout pour toi'];
     var i = 0;
     var count = 0
     var selectedText = '';
