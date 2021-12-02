@@ -2,10 +2,10 @@
 
 session_start();
 
-define("SQL_HOST","localhost");
-define("SQL_USER","root");
-define("SQL_PASS","root");
-define("SQL_DBNAME","elimite");
+define("SQL_HOST","prfirswelimite.mysql.db");
+define("SQL_USER","prfirswelimite");
+define("SQL_PASS","Elimite69");
+define("SQL_DBNAME","prfirswelimite");
 
 try{
     $db = new PDO("mysql:dbname=".SQL_DBNAME.";charset=utf8;host=".SQL_HOST, SQL_USER,SQL_PASS);
