@@ -6,6 +6,19 @@ if (!isset($_SESSION['user'])) {
     flash_in('error', 'Tu n\'as pas le droit d\'ête là');
     header('location:' . URL . '../../public/index.php');
     exit();
+} else {
+    $read = $db->prepare('SELECT * FROM post');
+    $read->execute([]);
+    $modif = $read->fetch();
+    $delet = $modif['file'];
+    if(!empty($delet)){
+        unlink('../data/'.$delet);
+    }
+
+    $del = $db->prepare('DELETE FROM post LIMIT 1');
+    $del->execute([
+        ':id' => $_GET['id']    
+    ]);
 }
 
 $_POST = array_map('trim', $_POST);
@@ -36,7 +49,7 @@ if($error){
     $newName = 'pic-'.time().'.'.$extFile;
     move_uploaded_file($_FILES['fichier']['tmp_name'],'../data/'.$newName);
 
-    $add = $db->prepare('INSERT INTO post (file, body) VALUES (:file, :title, :body)');
+    $add = $db->prepare('INSERT INTO post (file, body) VALUES (:file, :body)');
     $add->execute([
         ':file' => $newName,
         ':body' => $_POST['body']
