@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include('config/settings.php');
 
@@ -19,11 +19,13 @@ $tPost = $post->fetchAll(PDO::FETCH_ASSOC);
 
 <body>
     <header>
-        <h1>Logo</h1>
+        <figure class="nav_logo">
+            <img src="public/img/logo.png" alt="logo">
+        </figure>
         <?php include 'include/header.php'; ?>
     </header>
     <main>
-    <section class="header-banner">
+        <section class="header-banner">
             <video class="bannerVideo" autoplay loop muted>
                 <source src=public/video/prod.webm type=video/webm>
                 <source src=public/video/prod.mp4 type=video/mp4>
@@ -152,13 +154,13 @@ $tPost = $post->fetchAll(PDO::FETCH_ASSOC);
         </section>
         <section id="actus-ancre" class="entrepreneur_month desktop">
             <?php foreach ($tPost as $value) { ?>
-            <figure>
-                <img src="back/data/<?= $value['file']?>" alt="photo Justine Hutteau">
-            </figure>
-            <div>
-                <h2>L'entrepreneur du mois</h2>
-                <p><?= $value['body'] ?></p>
-            </div>
+                <figure>
+                    <img src="back/data/<?= $value['file'] ?>" alt="photo Justine Hutteau">
+                </figure>
+                <div>
+                    <h2>L'entrepreneur du mois</h2>
+                    <p><?= $value['body'] ?></p>
+                </div>
         </section>
 
         <section class="entrepreneur_month mobile">
@@ -166,12 +168,12 @@ $tPost = $post->fetchAll(PDO::FETCH_ASSOC);
                 <h2>L'entrepreneur du mois</h2>
             </div>
             <figure>
-                <img src="back/data/<?= $value['file']?>" alt="photo Justine Hutteau">
+                <img src="back/data/<?= $value['file'] ?>" alt="photo Justine Hutteau">
             </figure>
             <div>
                 <p><?= $value['body'] ?></p>
             </div>
-            <?php } ?>
+        <?php } ?>
         </section>
 
         <section class="reasonWhy">
