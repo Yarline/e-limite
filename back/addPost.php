@@ -8,7 +8,10 @@ if (!isset($_SESSION['user'])) {
     exit();
 }
 
-?><!DOCTYPE html>
+?>
+<script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+
+<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" href="../public/css/reset.css">
@@ -24,9 +27,11 @@ if (!isset($_SESSION['user'])) {
 				<h1>Nouveau post</h1>
 				<form method="POST" action="core/addPost.php" enctype="multipart/form-data">
 					<p class="addFile">
-						<label for="more">Image</label>
-						<input type="file" name="fichier" id="more" onchange="getImage(this.value);" required>
-						<div id="display-image"></div>
+						<label for="more">Ajout de l'mage
+							<span class="iconify" data-icon="bx:bx-image-add"></span>
+							<div id="display-image"></div>
+						</label>
+						<input type="file" name="fichier" id="more" onchange="getImage(this.value);" required>			
 					</p>
 					<p class="addContent">
 						<label>Contenu</label>
@@ -39,16 +44,16 @@ if (!isset($_SESSION['user'])) {
 			</section>
 		</div>
 	</main>
-	<script
-        src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-        crossorigin="anonymous">
-    </script>
-    <script type="text/javascript">
-        function getImage(imageName){
-            var newimg=imageName.replace(/^.*\\/,"");
-            $('#display-image').html(newimg);
-        }
-    </script>
+<script
+	src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	crossorigin="anonymous">
+</script>
+<script type="text/javascript">
+	function getImage(imageName){
+		var newimg=imageName.replace(/^.*\\/,"");
+		$('#display-image').html(newimg);
+	}
+</script>
 </body>
 </html>

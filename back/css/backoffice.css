@@ -153,8 +153,20 @@ body {
 p.addFile {
     display: flex;
     flex-direction: column;
+}
+
+.addFile label {
     display: flex;
     flex-direction: column;
+}
+
+.addContent {
+    margin-top: 15px;
+}
+
+.addFile label svg {
+    font-size: 40px;
+    margin-top: 15px;
 }
 
 .addContent textarea {
@@ -180,6 +192,14 @@ p.addFile {
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;
+}
+
+.input-name {
+    margin-top: 15px;
+}
+
+input#more {
+    display: none;
 }
 
 figure.nav_logo img {
