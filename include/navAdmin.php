@@ -1,6 +1,7 @@
 <aside class="new-posts">
     <figure class="nav_logo">
-        <img src="../public/img/logo.png" alt="logo">
+        <a href="/"><img src="../public/img/logo.png" alt="logo"></a>
+        
     </figure>
         <div class="new-posts-group">
             <div class="new-posts-group-links">
