@@ -167,6 +167,7 @@ p.addFile {
 .addFile label svg {
     font-size: 40px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .addContent textarea {
