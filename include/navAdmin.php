@@ -4,7 +4,7 @@
     </figure>
         <div class="new-posts-group">
             <div class="new-posts-group-links">
-                <a href="../back/addTestimony.php">
+                <a href="../back/testimony.php">
                     <img src="../public/img/plus.svg" alt="">Témoignages
                 </a>
             </div>
