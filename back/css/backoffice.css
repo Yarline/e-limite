@@ -163,6 +163,25 @@ p.addFile {
     resize: none;
 }
 
+.button-bo {
+    display: flex;
+    justify-content: right;
+}
+
+.btn-bo {
+    background: #3975CF;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 220px;
+    height: 40px;
+    color: white;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+}
+
 figure.nav_logo img {
     margin-top: 20px;
 }

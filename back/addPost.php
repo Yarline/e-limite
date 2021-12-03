@@ -32,8 +32,8 @@ if (!isset($_SESSION['user'])) {
 						<label>Contenu</label>
 						<textarea type="text" name="body" placeholder="Votre contenu" required></textarea>
 					</p>
-					<p>
-						<button type="submit">Valider</button>
+					<p class="button-bo">
+						<button class="btn-bo" type="submit">Valider</button>
 					</p>
 				</form>
 			</section>
