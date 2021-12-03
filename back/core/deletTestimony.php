@@ -8,7 +8,7 @@ if (!isset($_SESSION['user'])) {
     exit();
 }else{
 
-    $read = $db->prepare('SELECT * FROM post WHERE id = :id');
+    $read = $db->prepare('SELECT * FROM testimony WHERE id = :id');
     $read->execute([
         ':id' => $_GET['id']    
     ]);
@@ -18,10 +18,12 @@ if (!isset($_SESSION['user'])) {
         unlink('../data/'.$delet);
     }
 
-    $del = $db->prepare('DELETE FROM post WHERE id = :id LIMIT 1');
+    $del = $db->prepare('DELETE FROM testimony WHERE id = :id LIMIT 1');
+
     $del->execute([
         ':id' => $_GET['id']    
     ]);
-    header('Location: ../addPost.php?success');
+
+    header('Location: ../testimony.php?success');
     exit();
 }
