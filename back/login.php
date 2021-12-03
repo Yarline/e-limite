@@ -9,7 +9,7 @@ include('../config/settings.php');
 <head>
 	<link rel="stylesheet" href="../public/css/reset.css">
 	<link rel="stylesheet" href="../public/css/style.css">
-	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/backoffice.css">
 	<?php include('../include/head.php'); ?>
 	<title>Se connecter</title>
 </head>

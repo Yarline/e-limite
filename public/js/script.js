@@ -4,6 +4,7 @@ window.onload = function() {
     var count = 0
     var selectedText = '';
     var text = '';
+    var textTimeOut;
     (function type() {
         if (count == typeString.length) {
             count = 0;
@@ -14,8 +15,11 @@ window.onload = function() {
         if (text.length === selectedText.length) {
             count++;
             i = 0;
+            textTimeOut = setTimeout(type, 1000);
+        } else {
+            textTimeOut = setTimeout(type, 50);
         }
-        setTimeout(type, 300);
+
     }());
 
     function sleep(milliseconds) {
@@ -26,5 +30,4 @@ window.onload = function() {
             }
         }
     }
-
 }

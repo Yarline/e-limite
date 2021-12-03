@@ -4,7 +4,7 @@ include('../../config/settings.php');
 
 if (!isset($_SESSION['user'])) {
     flash_in('error', 'Tu n\'as pas le droit d\'ête là');
-    header('location:' . URL . '../../public/index.php');
+    header('location: /');
     exit();
 }
 
@@ -53,6 +53,6 @@ if($error){
         ':name' => $_POST['name'],
         ':entreprise' => $_POST['entreprise']
     ]);
-    header('Location: ../addTestimony.php?success');
+    header('Location: ../testimony.php?success');
     exit();
 }
