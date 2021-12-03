@@ -53,6 +53,6 @@ if($error){
         ':name' => $_POST['name'],
         ':entreprise' => $_POST['entreprise']
     ]);
-    header('Location: ../addTestimony.php?success');
+    header('Location: ../testimony.php?success');
     exit();
 }

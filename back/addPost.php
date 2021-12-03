@@ -25,7 +25,7 @@ if (!isset($_SESSION['user'])) {
 				<form method="POST" action="core/addPost.php" enctype="multipart/form-data">
 					<p class="addFile">
 						<label for="more">Image</label>
-						<input type="file" name="fichier" id="more" required>
+						<input type="file" name="fichier" id="more" onchange="getImage(this.value);" required>
 						<div id="display-image"></div>
 					</p>
 					<p class="addContent">
@@ -39,5 +39,16 @@ if (!isset($_SESSION['user'])) {
 			</section>
 		</div>
 	</main>
+	<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript">
+        function getImage(imageName){
+            var newimg=imageName.replace(/^.*\\/,"");
+            $('#display-image').html(newimg);
+        }
+    </script>
 </body>
 </html>
