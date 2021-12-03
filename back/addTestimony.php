@@ -4,7 +4,7 @@ include('../config/settings.php');
 
 if (!isset($_SESSION['user'])) {
     flash_in('error', 'Tu n\'as pas le droit d\'ête là');
-    header('location:' . URL . '../index.php');
+    header('location: /');
     exit();
 }
 
