@@ -746,6 +746,9 @@ h2.mobile {
     .slider {
         padding: 0px 50px;
     }
+    .autoplay{
+        display: flex;
+    }
     section.entrepreneur_month {
         flex-direction: column;
     }
