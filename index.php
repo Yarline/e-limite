@@ -29,7 +29,6 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
         <?php include 'include/header.php'; ?>
     </header>
     <main>
-        <h1>test</h1>
         <section class="header-banner">
             <video class="bannerVideo" autoplay loop muted>
                 <source src=public/video/prod.webm type=video/webm>
