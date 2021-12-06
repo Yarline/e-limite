@@ -244,8 +244,8 @@ section.entrepreneur_month div h2 {
 .footer-form div {
     width: 440px;
     display: flex;
-    justify-content: center;
-    margin-bottom: 125px;
+    /* justify-content: center; */
+    margin-bottom: 30px;
 }
 
 #footer-newsletter {
