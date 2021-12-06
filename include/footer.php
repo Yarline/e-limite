@@ -51,8 +51,8 @@
                     </div>
                     <!-- <div id="mce-responses" class="clear foot"> -->
                 </div>
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
+                <div class="response" id="mce-error-response" style="display:none; margin-top:-20px;"></div>
+                <div class="response" id="mce-success-response" style="display:none; margin-top:-20px;"></div>
             </form>
         </div>
         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
