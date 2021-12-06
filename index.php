@@ -23,9 +23,6 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
 
 <body>
     <header>
-        <figure class="nav_logo">
-            <img src="public/img/logo.png" alt="logo">
-        </figure>
         <?php include 'include/header.php'; ?>
     </header>
     <main>
