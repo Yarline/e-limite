@@ -140,11 +140,17 @@ header nav a.header-button {
 section.entrepreneur_month {
     height: 720px;
     width: 100%;
-    background-color: #5C7AEA;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section.entrepreneur_month > div{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    width: 100%;
 }
 
 section.entrepreneur_month figure {
@@ -163,7 +169,6 @@ section.entrepreneur_month figure img {
 
 section.entrepreneur_month div {
     width: 436px;
-    color: #FFFFFF;
 }
 
 section.entrepreneur_month div h2 {
@@ -462,12 +467,12 @@ section.entrepreneur_month div h2 {
 }
 
 div.left_side {
-    margin-right: 20px;
     max-width: 475px;
 }
 
 .right_side {
     max-width: 524px;
+    margin-right: 69px;
 }
 
 div.left_side h2 {

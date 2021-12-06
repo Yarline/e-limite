@@ -2,8 +2,8 @@
 -- version 4.9.5
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: Nov 26, 2021 at 04:02 PM
+-- Host: localhost:3307
+-- Generation Time: Dec 06, 2021 at 09:13 AM
 -- Server version: 5.7.24
 -- PHP Version: 7.4.1
 
@@ -31,15 +31,16 @@ SET time_zone = "+00:00";
 CREATE TABLE `post` (
   `id` int(11) NOT NULL,
   `file` varchar(50) NOT NULL,
-  `body` varchar(500) NOT NULL
+  `body` varchar(500) NOT NULL,
+  `name` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `post`
 --
 
-INSERT INTO `post` (`id`, `file`, `body`) VALUES
-(2, 'pic-1637942197.jpg', 'test');
+INSERT INTO `post` (`id`, `file`, `body`, `name`) VALUES
+(3, 'pic-1638781852.jpg', 'test 2', 'Quentin');
 
 -- --------------------------------------------------------
 
@@ -111,7 +112,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `post`
 --
 ALTER TABLE `post`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `testimony`

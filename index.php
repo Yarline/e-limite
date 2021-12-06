@@ -36,22 +36,16 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
             </video>
             <div class="banner-content">
                 <h1 id="typing" class="typing"></h1>
-                <p>Si tu es en train de lire ceci, c’est que tu as sûrement envie de lancer ton projet entrepreneurial mais que tu n’oses pas. Tu ne te sens peut-être pas légitime ou tu n’as pas assez confiance en toi ?</p>
+                <p>Si tu es en train de lire ceci, c’est que tu as envie de lancer ton projet entrepreneurial mais que tu n’oses pas. Tu doutes de toi ? Tu n’oses pas de te lancer ? </p>
                 <div class="btn-group">
-                    <a href="#" class="btn empty-btn">J'ai peur</a>
                     <a href="#" class="btn filled-btn">Je me lance</a>
-                </div>
-                <div class="social">
-                    <span class="iconify" data-icon="akar-icons:instagram-fill" style="color: #ffc357; font-size: 30px; margin: 5px;"></span>
-                    <span class="iconify" data-icon="bi:linkedin" style="color: #ffc357; font-size: 30px; margin: 5px;"></span>
-                    <span class="iconify" data-icon="akar-icons:twitter-fill" style="color: #ffc357; font-size: 30px; margin: 5px;"></span>
                 </div>
             </div>
         </section>
         <div id="avdices-ancre"></div>
         <section class="advices">
-            <h2>Nos conseils pour te lancer</h2>
-            <p class="paragraph">Tu l’ignores peut-être mais tu es dans la meilleure période de ta vie pour entreprendre ! Il te suffit de beaucoup de passion, d’un peu d’organisation, d’une dose de discipline et d’une pincée de motivation avant de devenir ton propre patron ! </p>
+            <h2>T’es jeune et tu veux te lancer ?</h2>
+            <p class="paragraph">Tu l’ignores peut-être mais tu es dans la meilleure période de ta vie pour entreprendre ! Il te suffit de beaucoup de passion, d’un peu d’organisation, d’une dose de discipline et d’une pincée de motivation avant de devenir ton propre patron !</p>
 
             <div class="three">
                 <div class="time">
@@ -77,25 +71,54 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
         </section>
 
         <section class="part_two">
-            <div class="left_side">
-                <h2>Les clés de la<br>confiance en soi</h2>
-                <p>Tout est dans la tête, une simple idée peut devenir une idée de génie. Alors qu’est-ce que tu attends ?</p>
-                <a class="btn filled-btn" href="">Découvrir l'article</a>
+            <div class="right_side">
+                <img src="public/img/undraw_meditation.svg">
             </div>
-
+            <div class="left_side">
+                <h2>Découvre tes avantages !</h2>
+                <p>Créer sa boîte n’a jamais été aussi facile. En effet, les jeunes maîtrisent plus les outils numériques que les autres générations...</p>
+                <a class="btn filled-btn" href="">Découvrir</a>
+            </div>
+        </section>
+        <section class="part_two">
+            <div class="left_side">
+                <h2>Garde le smile !</h2>
+                <p>C’est en utilisant tes forces, en restant positif et en n’ayant pas peur d’échouer que ton projet se réalisera !</p>
+                <a class="btn filled-btn" href="">Découvrir</a>
+            </div>
+            <div class="right_side">
+                <img src="public/img/undraw_meditation.svg">
+            </div>
+        </section>
+        <section class="part_two">
+            <div class="right_side">
+                <img src="public/img/undraw_meditation.svg">
+            </div>
+            <div class="left_side">
+                <h2>Le p’tit guide de création d’entreprise</h2>
+                <p>T’es complêtement perdu et tu ne sais pas comment te lancer ? Nous aussi... enfin, ça c’était avant d’avoir lu notre guide !</p>
+                <a class="btn filled-btn" href="">Découvrir</a>
+            </div>
+        </section>
+        <section class="part_two">
+            <div class="left_side">
+                <h2>Besoin d’un coup de main ?</h2>
+                <p>On se doutait bien que t’étais en galère et qu’il te fallait un peu d’aide. Du coup, on a fait une petite liste des meilleures aides qui avantages les jeunes dans leur lancement d’entreprise !</p>
+                <a class="btn filled-btn" href="">Découvrir</a>
+            </div>
             <div class="right_side">
                 <img src="public/img/undraw_meditation.svg">
             </div>
         </section>
 
-        <section class="etape-entreprise">
+        <!--<section class="etape-entreprise">
             <img src="public/img/etape_picto.png" alt="">
             <div class="etape-entreprise-bloc">
                 <h2>10 étapes pour créer<br>son entrprise</h2>
                 <p>Tu ne sais pas par où commencer, ni comment t’y prendre ? Nous avons la solution ! Installe-toi et prends-en de la graine.</p>
                 <a href="#">Découvrir l'article</a>
             </div>
-        </section>
+        </section>-->
 
         <section id="sucessStory-ancre" class="slider">
             <h2>Ils se sont lancés</h2>
@@ -103,7 +126,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <?php foreach ($tTestimony as $value2) { ?>
                 <div class="testimonyCard">
                     <figure>
-                        <img src="back/data/<?= $value2['file']?>" alt="photo temoignage de l'autre">
+                        <img src="back/data/<?= $value2['file'] ?>" alt="photo temoignage de l'autre">
                     </figure>
                     <blockquote>
                         <?= $value2['body']?>
@@ -116,18 +139,23 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
         </section>
         <section id="actus-ancre" class="entrepreneur_month desktop">
             <?php foreach ($tPost as $value) { ?>
-                <figure>
-                    <img src="back/data/<?= $value['file'] ?>" alt="photo Justine Hutteau">
-                </figure>
                 <div>
-                    <h2>L'entrepreneur du mois</h2>
-                    <p><?= $value['body'] ?></p>
+                    <figure>
+                        <img src="back/data/<?= $value['file'] ?>" alt="photo Justine Hutteau">
+                    </figure>
+                    <div>
+                        <h2>Le talent du mois</h2>
+                        <p><?= $value['body'] ?></p>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <a href="#" class="btn filled-btn">Soutiens <?= $value['name'] ?></a>
                 </div>
         </section>
 
         <section class="entrepreneur_month mobile">
             <div>
-                <h2>L'entrepreneur du mois</h2>
+                <h2>Le talent du mois</h2>
             </div>
             <figure>
                 <img src="back/data/<?= $value['file'] ?>" alt="photo Justine Hutteau">

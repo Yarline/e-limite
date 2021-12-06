@@ -35,6 +35,10 @@ if (!isset($_SESSION['user'])) {
 					</p>
 					<p class="addContent">
 						<label>Contenu</label>
+						<input type="text" name="name" placeholder="Le nom du talent" required></input>
+					</p>
+					<p class="addContent">
+						<label>Contenu</label>
 						<textarea type="text" name="body" placeholder="Votre contenu" required></textarea>
 					</p>
 					<p class="button-bo">
