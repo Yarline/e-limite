@@ -39,6 +39,12 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 </div>
             </div>
         </section>
+        <article class="adventure">
+            <h2>L’entrepreneuriat : la grande aventure !</h2>
+            <figure>
+                <img src="public/img/undraw_meditation.svg" alt="">
+            </figure>
+        </article>
         <div id="avdices-ancre"></div>
         <section class="advices">
             <h2>T’es jeune et tu veux te lancer ?</h2>
@@ -46,23 +52,23 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
 
             <div class="three">
                 <div class="time">
-                    <span class="iconify" data-icon="ic:round-hourglass-bottom" style="color: #5c7aea; font-size: 55px;"></span>
-                    <p class="little_title">Optimise ton temps</p>
-                    <p class="little_title-text">On sait très bien que tu passes beaucoup trop de temps sur Tiktok... Utilise le autrement !</p>
+                    <span class="iconify" data-icon="ic:round-hourglass-bottom" style="color: #e23000; font-size: 55px;"></span>
+                    <p class="little_title">Tu penses qu’il n’y a que des contraintes ?</p>
+                    <p class="little_title-text">Eh bien détrompes toi ! Tu es jeune et tu peux exploiter de nombreux avantages spécifiques à ta tranche d’âge.</p>
                 </div>
 
                 <div class="inform">
 
-                    <span class="iconify" data-icon="ic:baseline-connected-tv" style="color: #5c7aea; font-size: 55px;"></span>
-                    <p class="little_title">Renseignes toi !</p>
-                    <p class="little_title-text">Il y a beaucoup d’avantages à ta disposition, nous sommes là pour t’aider à les trouver !</p>
+                    <span class="iconify" data-icon="ic:baseline-connected-tv" style="color: #e23000; font-size: 55px;"></span>
+                    <p class="little_title">La liberté à portée de main !</p>
+                    <p class="little_title-text">Avec une bonne méthode de travail et une gestion efficace de ton planning, tu pourras travailler où et quand tu veux ! </p>
                 </div>
 
                 <div class="trust">
-                    <span class="iconify" data-icon="ic:baseline-favorite-border" style="color: #5c7aea; font-size: 55px;"></span>
+                    <span class="iconify" data-icon="ic:baseline-favorite-border" style="color: #e23000; font-size: 55px;"></span>
 
                     <p class="little_title">Aie confiance en toi !</p>
-                    <p class="little_title-text">Malgré certaines contraintes et quelques freins, tu as tout pour te lancer !</p>
+                    <p class="little_title-text"> “Les éléments clés d'un bon entrepreneur sont la motivation, la détermination et la rigueur.” Florian, 20 ans </p>
                 </div>
             </div>
         </section>

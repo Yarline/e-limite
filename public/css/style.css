@@ -211,6 +211,90 @@ section.entrepreneur_month div h2 {
     height: 100vh;
     width: 100%;
 }
+.header-banner:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--black);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+
+.banner-content {
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    max-width: 1050px;
+}
+
+.banner-content p{
+    color: white;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.banner-content h1 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.btn-group {
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+.filled-btn {
+    background-color: #FFC65F;
+}
+
+.empty-btn {
+    border: solid 1px #FFC357;
+    color: #FFC357;
+}
+
+.typing {
+    position: relative;
+    line-height: 60px;
+    display: inline-block;
+    color: #FFF;
+    min-width: 1px;
+    min-height: 24px;
+}
+
+.typing:after {
+    content: "";
+    position: absolute;
+    top: 5%;
+    right: -2px;
+    width: 1px;
+    height: 90%;
+    border-right: 2px solid #FFF;
+    animation: blink .5s infinite ease;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
 
 
 /* FOOTER */
@@ -333,93 +417,27 @@ section.entrepreneur_month div h2 {
     font-size: 12px;
     line-height: 18px;
 }
-
-.header-banner:before {
-    content: "";
+/* ADVENTURES */
+.adventure{
+    padding: 70px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.adventure h2{
+    margin-right: 70px;
+    width: 450px;
+}
+.adventure figure{
+    width: 350px;
+    height: 250px;
+}
+.adventure figure img{
     width: 100%;
     height: 100%;
-    position: absolute;
-    background-color: var(--black);
-    opacity: 0.5;
-    top: 0;
-    left: 0;
+    object-fit: cover;
 }
-
-.banner-content {
-    transform: translate(-50%, -50%);
-    text-align: center;
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    width: 90%;
-    max-width: 1050px;
-}
-
-.banner-content p{
-    color: white;
-    max-width: 700px;
-    margin: auto;
-    margin-bottom: 80px;
-}
-
-.banner-content h1 {
-    color: white;
-    margin-bottom: 40px;
-}
-
-.btn-group {
-    margin-bottom: 50px;
-}
-
-.btn {
-    padding: 10px 30px;
-    border-radius: 7px;
-    margin: 20px;
-}
-
-.filled-btn {
-    background-color: #FFC65F;
-}
-
-.empty-btn {
-    border: solid 1px #FFC357;
-    color: #FFC357;
-}
-
-.typing {
-    position: relative;
-    line-height: 60px;
-    display: inline-block;
-    color: #FFF;
-    min-width: 1px;
-    min-height: 24px;
-}
-
-.typing:after {
-    content: "";
-    position: absolute;
-    top: 5%;
-    right: -2px;
-    width: 1px;
-    height: 90%;
-    border-right: 2px solid #FFF;
-    animation: blink .5s infinite ease;
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent
-    }
-}
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-}
-
-
 /**NOS CONSEILS POUR TE LANCER**/
 
 .advices {
