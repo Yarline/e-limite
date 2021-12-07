@@ -152,7 +152,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                     </div>
                 </div>
                 <div class="btn-group">
-                    <a href="<?= $value['social'] ?>" class="btn filled-btn" target="_blanck">Soutiens <?= $value['name'] ?></a>
+                    <a href="<?= $value['social'] ?>" class="btn filled-btn" target="_blank">Soutiens <?= $value['name'] ?></a>
                 </div>
         </section>
 
