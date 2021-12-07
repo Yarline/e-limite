@@ -257,6 +257,8 @@ section.entrepreneur_month div h2 {
 
 .filled-btn {
     background-color: #FFC65F;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .empty-btn {
@@ -301,7 +303,7 @@ section.entrepreneur_month div h2 {
 
 .footer-jaune {
     height: 650px;
-    background-color: var(--yellow);
+    background-color: #FFDA9F;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -310,7 +312,7 @@ section.entrepreneur_month div h2 {
 }
 
 .footer-jaune-titre {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 40px;
     line-height: 60px;
     margin-bottom: 25px;
@@ -349,7 +351,7 @@ section.entrepreneur_month div h2 {
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
-    background: #5C7AEA;
+    background: #E23000;
     border-radius: 0px 7px 7px 0px;
 }
 
@@ -379,10 +381,10 @@ section.entrepreneur_month div h2 {
 
 .footer-jaune-resaux .container svg {
     font-size: 25px;
+    color: #E23000;
 }
 
 .footer-bleu {
-    background: #5C7AEA;
     height: 110px;
     display: flex;
     flex-direction: column;
@@ -391,7 +393,6 @@ section.entrepreneur_month div h2 {
 
 .footer-bleu p {
     text-align: center;
-    color: #FFFFFF;
 }
 
 .footer-bleu .container {
@@ -403,14 +404,12 @@ section.entrepreneur_month div h2 {
 
 .footer-bleu .container p {
     margin: 0 7px;
-    color: #ffffff;
 }
 
 .footer-bleu .container a {
     text-decoration: none;
     font-size: 12px;
     line-height: 18px;
-    color: #FFFFFF;
 }
 
 .footer-bleu p {
@@ -465,7 +464,7 @@ section.entrepreneur_month div h2 {
 }
 
 .paragraph {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     max-width: 1050px;
     text-align: center;
     color: #999898;
@@ -502,7 +501,7 @@ section.entrepreneur_month div h2 {
     justify-content: center;
     display: flex;
     align-items: center;
-    margin: 200px 0;
+    margin: 0 0 50px 0;
 }
 
 div.left_side {
@@ -593,8 +592,10 @@ div.right_side img {
 .testimonyCard {
     width: 25%;
     margin: 0 70px;
-    text-align: center;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 .testimonyCard figure {
@@ -657,83 +658,42 @@ div.right_side img {
     transform: translateX(-50%);
 }
 
-.contactSection {
-    padding: 50px 200px;
-    justify-content: space-around;
-}
+/* CONTACT */
 
-.mentoring {
-    width: 30%;
+section.contactSection{
+    height: 100vh;
+    background-color: #FFDA9F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.contactSection div{
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    width: 550px;
+    height: 695px;
+    border-radius: 20px;
+    padding: 0 220px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
-
-.mentoring h2 {
-    line-height: 50px;
+section.contactSection div h2{
+    font-size: 40px;
+    margin-bottom: 72px;
 }
-
-.mentoring p {
-    color: var(--blackgrey);
+section.contactSection div p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
 }
-
-form.contact {
-    width: 45%;
-    box-shadow: 3px 3px lightgrey, -3px 0 .4em lightgrey;
-    padding: 30px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-form.contact h2 {
-    margin-bottom: 40px;
+section.contactSection div a{
+    width: 250px;
     text-align: center;
 }
 
-form.contact>div {
-    margin-bottom: 20px;
-}
-
-.form-items-group {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.mid-form-items-size {
-    width: 48%;
-}
-
-input,
-textarea,
-select {
-    background-color: #F1F4F8;
-    border: none;
-}
-
-input,
-select {
-    height: 30px;
-}
-
-form.contact label:not(.box label) {
-    margin-bottom: 7px;
-}
-
-.btn-form {
-    margin-left: 50%;
-    transform: translateX(-50%);
-    outline: auto;
-}
-
-.box div {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    width: 50%;
-    justify-content: flex-end;
-}
+/* FIN CONTACT */
 
 section.entrepreneur_month.mobile {
     display: none;
@@ -786,6 +746,30 @@ section.body-error div.img-text-error div h2{
 }
 
 /* FIN 403 404 */
+
+/* MENTOR */
+
+section.mentor{
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.mentor h2{
+    margin-bottom: 44px;
+}
+section.mentor div{
+    width: 350px;
+    margin-right: 300px;
+    height: fit-content;
+}
+section.mentor a{
+    width: 206px;
+    height: fit-content;
+    text-align: center;
+}
+
+/* FIN MENTOR */
 
 
 /* RESPONSIVE */
