@@ -154,7 +154,6 @@ nav a.social-nav{
 /*ENTREPRENEUR DU MOIS*/
 
 section.entrepreneur_month {
-    height: 720px;
     width: 100%;
     margin-bottom: 100px;
     display: flex;
@@ -167,11 +166,12 @@ section.entrepreneur_month > div{
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 section.entrepreneur_month figure {
-    height: 331px;
-    max-width: 547px;
+    height: 404px;
+    max-width: 447px;
     margin-right: 100px;
     object-fit: cover;
     box-shadow: 5px 5px 7px slateblue;
@@ -183,7 +183,7 @@ section.entrepreneur_month figure img {
     object-fit: cover;
 }
 
-section.entrepreneur_month div {
+section.entrepreneur_month div.entrepreneur_text {
     width: 436px;
 }
 
@@ -503,32 +503,31 @@ section.entrepreneur_month div h2 {
     align-items: center;
     margin: 0 0 50px 0;
 }
-
-div.left_side {
+div.text_confidence {
     max-width: 475px;
 }
 
-.right_side {
-    max-width: 524px;
-    margin-right: 69px;
+.img_confidence {
+    max-width: 502px;
 }
 
-div.left_side h2 {
+div.text_confidence h2 {
     margin-bottom: 35px;
 }
 
-.left_side .btn {
+div.text_confidence a.btn {
     margin: 0;
 }
 
-div.left_side p {
+div.text_confidence p {
     line-height: 1.5;
     margin-bottom: 50px;
 }
-
-div.right_side img {
+.right_side{
+    margin-left: 108px;
+}
+div.img_confidence img {
     width: 100%;
-    margin-left: 20px;
 }
 
 

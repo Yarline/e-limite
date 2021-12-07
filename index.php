@@ -74,43 +74,43 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
         </section>
 
         <section class="part_two">
-            <div class="right_side">
-                <img src="public/img/undraw_meditation.svg">
+            <div class="img_confidence">
+                <img src="public/img/avantages.png">
             </div>
-            <div class="left_side">
+            <div class="right_side text_confidence">
                 <h2>Découvre tes avantages !</h2>
                 <p>Créer sa boîte n’a jamais été aussi facile. En effet, les jeunes maîtrisent plus les outils numériques que les autres générations...</p>
                 <a class="btn filled-btn" href="">Découvrir</a>
             </div>
         </section>
         <section class="part_two">
-            <div class="left_side">
+            <div class="text_confidence">
                 <h2>Garde le smile !</h2>
                 <p>C’est en utilisant tes forces, en restant positif et en n’ayant pas peur d’échouer que ton projet se réalisera !</p>
                 <a class="btn filled-btn" href="">Découvrir</a>
             </div>
-            <div class="right_side">
-                <img src="public/img/undraw_meditation.svg">
+            <div class="right_side img_confidence">
+                <img src="public/img/smile.png">
             </div>
         </section>
         <section class="part_two">
-            <div class="right_side">
-                <img src="public/img/undraw_meditation.svg">
+            <div class="img_confidence">
+                <img src="public/img/création.png">
             </div>
-            <div class="left_side">
+            <div class="right_side text_confidence">
                 <h2>Le p’tit guide de création d’entreprise</h2>
                 <p>T’es complêtement perdu et tu ne sais pas comment te lancer ? Nous aussi... enfin, ça c’était avant d’avoir lu notre guide !</p>
                 <a class="btn filled-btn" href="">Découvrir</a>
             </div>
         </section>
         <section class="part_two">
-            <div class="left_side">
+            <div class="text_confidence">
                 <h2>Besoin d’un coup de main ?</h2>
                 <p>On se doutait bien que t’étais en galère et qu’il te fallait un peu d’aide. Du coup, on a fait une petite liste des meilleures aides qui avantages les jeunes dans leur lancement d’entreprise !</p>
                 <a class="btn filled-btn" href="">Découvrir</a>
             </div>
-            <div class="right_side">
-                <img src="public/img/undraw_meditation.svg">
+            <div class="right_side img_confidence">
+                <img src="public/img/interrogation.png">
             </div>
         </section>
 
@@ -146,13 +146,13 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                     <figure>
                         <img src="back/data/<?= $value['file'] ?>" alt="photo du talent du mois">
                     </figure>
-                    <div>
+                    <div class="entrepreneur_text">
                         <h2>Le talent du mois</h2>
                         <p><?= $value['body'] ?></p>
                     </div>
                 </div>
                 <div class="btn-group">
-                    <a href="#" class="btn filled-btn">Soutiens <?= $value['name'] ?></a>
+                    <a href="<?= $value['social'] ?>" class="btn filled-btn" target="_blanck">Soutiens <?= $value['name'] ?></a>
                 </div>
         </section>
 
