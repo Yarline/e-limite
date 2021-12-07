@@ -33,6 +33,11 @@ if(empty($_POST['body'])){
 	header('Location: ../addPost.php');
 	exit();
 }
+if(empty($_POST['social'])){	
+	flash_in('error', 'Le contenu ne peut pas être vide.');
+	header('Location: ../addPost.php');
+	exit();
+}
 
 $error = false;
 if($_FILES['fichier']['error'] != 0){
@@ -54,11 +59,12 @@ if($error){
     $newName = 'pic-'.time().'.'.$extFile;
     move_uploaded_file($_FILES['fichier']['tmp_name'],'../data/'.$newName);
 
-    $add = $db->prepare('INSERT INTO post (file, name, body) VALUES (:file, :name, :body)');
+    $add = $db->prepare('INSERT INTO post (file, name, body, social) VALUES (:file, :name, :body, :social)');
     $add->execute([
         ':file' => $newName,
         ':name' => $_POST['name'],
-        ':body' => $_POST['body']
+        ':body' => $_POST['body'],
+        ':social' => $_POST['social']
     ]);
     header('Location: ../addPost.php?success');
     exit();

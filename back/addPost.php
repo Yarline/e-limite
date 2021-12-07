@@ -27,19 +27,23 @@ if (!isset($_SESSION['user'])) {
 				<h1>Nouveau post</h1>
 				<form method="POST" action="core/addPost.php" enctype="multipart/form-data">
 					<p class="addFile">
-						<label for="more">Ajout de l'mage
+						<label for="more">Ajout de l'image
 							<span class="iconify" data-icon="bx:bx-image-add"></span>
 							<div id="display-image"></div>
 						</label>
 						<input type="file" name="fichier" id="more" onchange="getImage(this.value);" required>			
 					</p>
 					<p class="addContent">
-						<label>Contenu</label>
-						<input type="text" name="name" placeholder="Le nom du talent" required></input>
+						<label>Nom</label>
+						<input type="text" name="name" placeholder="Le nom du talent" required>
 					</p>
 					<p class="addContent">
 						<label>Contenu</label>
 						<textarea type="text" name="body" placeholder="Votre contenu" required></textarea>
+					</p>
+					<p class="addContent">
+						<label>Réseau</label>
+						<input type="text" name="social" placeholder="Adresse du réseau" required>
 					</p>
 					<p class="button-bo">
 						<button class="btn-bo" type="submit">Valider</button>

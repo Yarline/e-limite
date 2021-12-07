@@ -45,7 +45,7 @@
                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9120409457e5f9581d7ec805f_7f9fd51774" tabindex="-1" value=""></div>
                     <div class="optionalParent">
                         <div class="clear foot">
-                            <input type="submit" value="Subscribe" name="subscribe" id="footer-submit" class="button">
+                            <input type="submit" value="Je m'inscris" name="subscribe" id="footer-submit" class="button">
                             <!-- <p class="brandingLogo"><a href="http://eepurl.com/hO9JrL" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p> -->
                         </div>
                     </div>

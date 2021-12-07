@@ -81,43 +81,43 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
         </section>
 
         <section class="part_two">
-            <div class="right_side">
-                <img src="public/img/undraw_meditation.svg">
+            <div class="img_confidence">
+                <img src="public/img/avantages.png">
             </div>
-            <div class="left_side">
+            <div class="right_side text_confidence">
                 <h2>Découvre tes avantages !</h2>
                 <p>Créer sa boîte n’a jamais été aussi facile. En effet, les jeunes maîtrisent plus les outils numériques que les autres générations...</p>
                 <a class="btn filled-btn" href="">Découvrir</a>
             </div>
         </section>
         <section class="part_two">
-            <div class="left_side">
+            <div class="text_confidence">
                 <h2>Garde le smile !</h2>
                 <p>C’est en utilisant tes forces, en restant positif et en n’ayant pas peur d’échouer que ton projet se réalisera !</p>
                 <a class="btn filled-btn" href="">Découvrir</a>
             </div>
-            <div class="right_side">
-                <img src="public/img/undraw_meditation.svg">
+            <div class="right_side img_confidence">
+                <img src="public/img/smile.png">
             </div>
         </section>
         <section class="part_two">
-            <div class="right_side">
-                <img src="public/img/undraw_meditation.svg">
+            <div class="img_confidence">
+                <img src="public/img/création.png">
             </div>
-            <div class="left_side">
+            <div class="right_side text_confidence">
                 <h2>Le p’tit guide de création d’entreprise</h2>
                 <p>T’es complêtement perdu et tu ne sais pas comment te lancer ? Nous aussi... enfin, ça c’était avant d’avoir lu notre guide !</p>
                 <a class="btn filled-btn" href="">Découvrir</a>
             </div>
         </section>
         <section class="part_two">
-            <div class="left_side">
+            <div class="text_confidence">
                 <h2>Besoin d’un coup de main ?</h2>
                 <p>On se doutait bien que t’étais en galère et qu’il te fallait un peu d’aide. Du coup, on a fait une petite liste des meilleures aides qui avantages les jeunes dans leur lancement d’entreprise !</p>
                 <a class="btn filled-btn" href="">Découvrir</a>
             </div>
-            <div class="right_side">
-                <img src="public/img/undraw_meditation.svg">
+            <div class="right_side img_confidence">
+                <img src="public/img/interrogation.png">
             </div>
         </section>
 
@@ -155,15 +155,15 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
             <?php foreach ($tPost as $value) { ?>
                 <div>
                     <figure>
-                        <img src="back/data/<?= $value['file'] ?>" alt="photo Justine Hutteau">
+                        <img src="back/data/<?= $value['file'] ?>" alt="photo du talent du mois">
                     </figure>
-                    <div>
+                    <div class="entrepreneur_text">
                         <h2>Le talent du mois</h2>
                         <p><?= $value['body'] ?></p>
                     </div>
                 </div>
                 <div class="btn-group">
-                    <a href="#" class="btn filled-btn">Soutiens <?= $value['name'] ?></a>
+                    <a href="<?= $value['social'] ?>" class="btn filled-btn" target="_blank">Soutiens <?= $value['name'] ?></a>
                 </div>
         </section>
 
@@ -172,10 +172,14 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <h2>Le talent du mois</h2>
             </div>
             <figure>
-                <img src="back/data/<?= $value['file'] ?>" alt="photo Justine Hutteau">
+                <img src="back/data/<?= $value['file'] ?>" alt="photo du talent du mois">
             </figure>
             <div>
+                <h2>Le talent du mois</h2>
                 <p><?= $value['body'] ?></p>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn filled-btn">Soutiens <?= $value['name'] ?></a>
             </div>
         <?php } ?>
         </section>
@@ -189,68 +193,21 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
             </video>
         </section>
 
-        <section class="flex contactSection">
-            <div class="mentoring">
-                <h2 class="desktop">Trouves ton <br>mentor.</h2>
-                <h2 class="mobile">Trouves ton mentor.</h2>
-                <p>Tu seras mis en relation avec entrepreneur qui te guidera vers la voie du succès. Saisis ta chance ! Toi aussi tu auras ta success story !</p>
-            </div>
-            <form action="post" class="contact">
+        <section class="contactSection">
+            <div>
                 <h2>La parole est à toi !</h2>
-                <div class="flex">
-                    <div class="form-items-group mid-form-items-size">
-                        <label for="">Nom</label>
-                        <input type="text" name="lastname" placeholder=" Nom">
-                    </div>
-                    <div class="form-items-group mid-form-items-size">
-                        <label for="">Prénom</label>
-                        <input type="text" name="firstname" placeholder=" Prénom">
-                    </div>
-                </div>
-                <div class="form-items-group">
-                    <label for="">Adresse mail</label>
-                    <input type="email" name="email" placeholder=" exemple@exemple.fr">
-                </div>
-                <div>
-                    <p>Qu’est-ce qui t’empêche de te lancer ?</p>
-                    <div class="flex box">
-                        <div>
-                            <label for="">Financement</label>
-                            <input type="checkbox" name="problem">
-                        </div>
-                        <div>
-                            <label for="">Manque de confiance</label>
-                            <input type="checkbox" name="problem">
-                        </div>
-                    </div>
-                    <div class="flex box">
-                        <div>
-                            <label for="">Les démarches</label>
-                            <input type="checkbox" name="problem">
-                        </div>
-                        <div>
-                            <label for="">Autres</label>
-                            <input type="checkbox" name="problem">
-                        </div>
-                    </div>
-                </div>
-                <div class="form-items-group">
-                    <label for="">Statut</label>
-                    <select name="status" id="">
-                        <option value="">Etudiant</option>
-                        <option value="">Employé</option>
-                        <option value="">En reconversion</option>
-                        <option value="">Sans emploi</option>
-                    </select>
-                </div>
-                <div class="form-items-group">
-                    <label for="">Mon projet</label>
-                    <textarea name="project" id="" cols="30" rows="5"></textarea>
-                </div>
-                <button type="submit" class="btn filled-btn btn-form">Je trouve mon mentor</button>
-            </form>
+                <p>Tu souhaites te lancer, mais tu as encore des hésitations ? T’as tout pour toi t’invite à remplir ce petit formulaire afin de te donner toutes les informations dont tu peux avoir besoin avant de te lancer. Si tu ne sais pas vers quel statut juridique t’orienter ou que tu ne possèdes pas assez de recules sur les aides dont tu pourrais bénéficier ?</p>
+                <p> Appuies sur “Je commence maintenant !” et trouve les réponses à tes questions </p>
+                <a class="btn filled-btn" href="">Je commence maintenant !</a>
+            </div>
         </section>
-
+        <section class="mentor">
+            <div>
+                <h2>Deviens le mentor dont tu as rêvé</h2>
+                <p>À ton tour, donne un coup de pouce à un jeune entrepreneur et aide le à réussir !</p>
+            </div>
+            <a class="btn filled-btn" href="">Je deviens mentor</a>
+        </section>
 
     </main>
     <footer>
