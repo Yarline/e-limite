@@ -12,9 +12,16 @@ $testimony->execute();
 
 $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
 
-?><html lang="fr">
+?>
+<html xmlns:og=”http://ogp.me/ns#” lang="fr">
 
 <head>
+    <!-- open graph | partage du site visuel -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="T'as tout pour toi – Il suffit de te lancer" />
+    <meta property="og:url" content="https://www.tastoutpourtoi.fr/" />
+    <meta property="og:image" content="public/img/logo.png" />
+    <meta property="og:description" content="Tu as entre 20 et 35 ans et tu souhaites devenir entrepreneur ? Rendez-vous sur notre site tastoutpourtoi.fr et retrouve tout ce dont tu as besoin pour lancer ton projet. Alors qu'attends tu pour te lancer." />
     <?php include 'include/head.php'; ?>
     <link rel="stylesheet" href="public/css/style.css">
     <title>Accueil</title>
@@ -125,19 +132,23 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
 
         <section id="sucessStory-ancre" class="slider">
             <h2>Ils se sont lancés</h2>
-            <div class="autoplay">
-                <?php foreach ($tTestimony as $value2) { ?>
-                <div class="testimonyCard">
-                    <figure>
-                        <img src="back/data/<?= $value2['file'] ?>" alt="photo temoignage de l'autre">
-                    </figure>
-                    <blockquote>
-                        <?= $value2['body']?>
-                    </blockquote>
-                    <p class="nom"><?= $value2['name']?></p>
-                    <small class="entreprise"><?= $value2['entreprise']?></small>
+            <div id="slider-container">
+                <span onclick="slideLeft()" class="iconify left-btn" data-icon="akar-icons:chevron-left"></span>
+                <div class="slider-card_wrapper" id="slider-card_wrapper">
+                    <?php foreach ($tTestimony as $value2) { ?>
+                        <div class="testimonyCard">
+                            <figure>
+                                <img src="back/data/<?= $value2['file'] ?>" alt="photo temoignage de l'autre">
+                            </figure>
+                            <blockquote>
+                                <?= $value2['body'] ?>
+                            </blockquote>
+                            <p class="nom"><?= $value2['name'] ?></p>
+                            <small class="entreprise"><?= $value2['entreprise'] ?></small>
+                        </div>
+                    <?php } ?>
                 </div>
-                <?php } ?>
+                <span onclick="slideRight()" class="iconify right-btn" data-icon="akar-icons:chevron-right"></span>
             </div>
         </section>
         <section id="actus-ancre" class="entrepreneur_month desktop">
