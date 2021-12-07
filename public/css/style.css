@@ -261,6 +261,8 @@ section.entrepreneur_month div h2 {
     max-width: 700px;
     margin: auto;
     margin-bottom: 80px;
+    font-size: 22px;
+    line-height: 29px;
 }
 
 .banner-content h1 {
@@ -268,12 +270,8 @@ section.entrepreneur_month div h2 {
     margin-bottom: 40px;
 }
 
-.btn-group {
-    margin-bottom: 50px;
-}
-
 .btn {
-    padding: 10px 30px;
+    padding: 17px 60px;
     border-radius: 7px;
     margin: 20px;
 }
@@ -281,7 +279,7 @@ section.entrepreneur_month div h2 {
 .filled-btn {
     background-color: #FFC65F;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .empty-btn {
@@ -291,11 +289,12 @@ section.entrepreneur_month div h2 {
 
 .typing {
     position: relative;
-    line-height: 60px;
+    line-height: 70px;
     display: inline-block;
     color: #FFF;
     min-width: 1px;
-    min-height: 24px;
+    min-height: 60px;
+    font-size: 70px;
 }
 
 .typing:after {
@@ -360,7 +359,7 @@ section.entrepreneur_month div h2 {
 #footer-newsletter {
     width: 300px;
     font-weight: normal;
-    font-size: 20px;
+    font-size: px;
     line-height: 30px;
     color: #999898;
     padding-left: 16px;
@@ -984,5 +983,20 @@ section.mentor a {
     }
     .desktop_nav {
         display: none;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    h2 {
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .typing{
+        font-size: 25px;
+        line-height: 30px;
+        min-height: 32px;
     }
 }
