@@ -27,11 +27,11 @@ $modif = $read->fetch();
 </head>
 <body>
     <main>
-        <div class="login-form-container">
-            <?php include('../include/navAdmin.php'); ?>
-            <section class="item new-posts-form">
-                <h1>Modifier un témoignage</h1> 
+        <div class="testimony-form-container">
+            <?php include('../include/navAdmin-testimony.php'); ?> 
+            <section class="item">
                 <form method="POST" action="core/updateTestimony.php" enctype="multipart/form-data">
+                    <h1>Modifier un témoignage</h1>  
                     <p>
                         <input type="hidden" name="id" value="<?= $modif['id'] ?>">
                     </p>
