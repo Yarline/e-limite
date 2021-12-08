@@ -88,6 +88,10 @@ section {
     border-radius: 5px;
     padding: 10px 20px;
     transition: 0.4s;
+    content: none;
+}
+.btn-header::after {
+    content: none!important;
 }
 
 .btn-header:hover {
@@ -1013,6 +1017,12 @@ section.mentor a {
         margin: 0;
         text-align: center;
     }
+    section.entrepreneur_month.mobile div {
+        margin-top: 40px;
+        padding: 0px 50px;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* legales */
@@ -1119,6 +1129,8 @@ section.mentor a {
     section.entrepreneur_month.mobile div {
         margin-top: 0px;
         padding: 0px 50px;
+        display: flex;
+        flex-direction: column;
     }
     section.entrepreneur_month.mobile {
         height: unset;
