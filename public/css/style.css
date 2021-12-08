@@ -231,7 +231,6 @@ section.entrepreneur_month>div {
 section.entrepreneur_month figure {
     height: 404px;
     max-width: 447px;
-    margin-right: 100px;
     object-fit: cover;
     box-shadow: 5px 5px 7px #FFDA9F;
 }
@@ -244,6 +243,7 @@ section.entrepreneur_month figure img {
 
 section.entrepreneur_month div.entrepreneur_text {
     width: 465px;
+    padding: 0 50px;
 }
 
 section.entrepreneur_month div p {
@@ -325,6 +325,7 @@ section.entrepreneur_month div h2 {
     font-size: 22px;
     transition: 0.3s;
     text-align: center;
+    white-space: nowrap;
 }
 
 .filled-btn:hover {
@@ -1116,17 +1117,12 @@ section.mentor a {
         overflow: hidden;
     }
     section.entrepreneur_month.mobile div {
-        margin-top: 40px;
+        margin-top: 0px;
         padding: 0px 50px;
     }
     section.entrepreneur_month.mobile {
         height: unset;
-        padding-bottom: 50px;
-    }
-    section.entrepreneur_month.mobile {
-        height: unset;
         padding: 0px 50px;
-        padding-bottom: 50px;
         width: unset;
     }
     .reasonWhy {
@@ -1234,5 +1230,11 @@ section.mentor a {
         font-size: 18px;
         line-height: 22px;
         text-align: center;
+    }
+    section.entrepreneur_month div p {
+        margin-bottom: 41px;
+    }
+    section.entrepreneur_month.mobile.btn-group{
+        margin-top: 0;
     }
 }
