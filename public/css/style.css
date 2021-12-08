@@ -939,30 +939,31 @@ section.mentor a {
         line-height: 30px;
         min-height: 32px;
     }
-    .adventure{
+    .adventure {
         flex-direction: column;
         margin-bottom: 0;
         padding: 0 60px;
         margin-bottom: 80px;
     }
-    .adventure h2, .advices h2{
+    .adventure h2,
+    .advices h2 {
         margin-right: 0;
         text-align: center;
         font-weight: 800;
         font-size: 26px;
         line-height: 31px;
     }
-    .div.text_confidence{
+    .div.text_confidence {
         max-width: 100%;
     }
     .right_side {
         margin-left: 0;
     }
-    .mobile-up{
+    .mobile-up {
         flex-direction: column;
         text-align: right;
     }
-    .mobile-down{
+    .mobile-down {
         flex-direction: column-reverse;
         text-align: left;
     }
@@ -982,6 +983,10 @@ section.mentor a {
     }
     .nav_logo img {
         width: 60px;
+    }
+    section.contactSection div {
+        width: 300px;
+        padding: 0 80px;
     }
     .btn-group {
         display: flex;
@@ -1117,30 +1122,31 @@ section.mentor a {
         font-size: 15px;
         line-height: 22.5px;
     }
-    .adventure{
+    .adventure {
         flex-direction: column;
         margin-bottom: 0;
         padding: 0 60px;
         margin-bottom: 80px;
     }
-    .adventure h2, .advices h2{
+    .adventure h2,
+    .advices h2 {
         margin-right: 0;
         text-align: center;
         font-weight: 800;
         font-size: 26px;
         line-height: 31px;
     }
-    .div.text_confidence{
+    .div.text_confidence {
         max-width: 100%;
     }
     .right_side {
         margin-left: 0;
     }
-    .mobile-up{
+    .mobile-up {
         flex-direction: column;
         text-align: right;
     }
-    .mobile-down{
+    .mobile-down {
         flex-direction: column-reverse;
         text-align: left;
     }
