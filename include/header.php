@@ -3,7 +3,7 @@
 </figure>
 <nav>
     <div class="desktop_nav">
-        <a class="link" href="#advantages-ancre">Les avantages</a>
+        <a class="link" href="#advices-ancre">Les avantages</a>
         <a class="link" href="#sucessStory-ancre">Success story</a>
         <a class="link" href="#actus-ancre">Actualités</a>
         <a class="link btn-header" href="#tutors">Les indispensables</a>
