@@ -1,11 +1,11 @@
-//  $(window).bind('mousewheel', function(event) {
-//      if (event.originalEvent.wheelDelta >= 0) {
-//          document.querySelector('header').style.position = "fixed"
-//      } else {
-//          document.querySelector('header').style.position = ""
+ $(window).bind('mousewheel', function(event) {
+     if (event.originalEvent.wheelDelta >= 0) {
+         document.querySelector('header').style.position = "fixed"
+     } else {
+         document.querySelector('header').style.position = ""
 
-//      }
-//  });
+     }
+ });
 
  function menu() {
      if (document.getElementById('burger').classList.contains('open')) {
