@@ -10,6 +10,9 @@
     --blackgrey: #999898;
     --black: #000;
 }
+body{
+    overflow-x: hidden;
+}
 
 
 /* font-family */
@@ -88,8 +91,8 @@ section {
 }
 
 .btn-header:hover {
-    box-shadow: inset 2px 2px 5px 0px #ffffff80, 0px 0px 4px 0px #00000080, 3px 3px 3px -1px #00000080;
-    filter: opacity(0.85);
+    background-color: #E23000;
+    transition: 0.4s;
 }
 
 .nav_logo img {
@@ -305,11 +308,12 @@ section.entrepreneur_month div h2 {
     border: none;
     font-size: 22px;
     transition: 0.3s;
+    text-align: center;
 }
 
 a.btn.filled-btn:hover {
-    box-shadow: inset 2px 2px 5px 0px #ffffff80, 0px 0px 4px 0px #00000080, 3px 3px 3px -1px #00000080;
-    filter: opacity(0.85);
+    background-color: #E23000;
+    transition: 0.4s;
 }
 
 .empty-btn {
@@ -361,6 +365,7 @@ a.btn.filled-btn:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 50px;
 }
 
 .footer-jaune-titre {
@@ -565,14 +570,11 @@ a.btn.filled-btn:hover {
     justify-content: center;
     display: flex;
     align-items: center;
+    padding: 0 50px;
 }
 
 div.text_confidence {
-    max-width: 475px;
-}
-
-.img_confidence {
-    max-width: 502px;
+    max-width: 650px;
 }
 
 div.text_confidence h2 {
@@ -593,7 +595,7 @@ div.text_confidence p {
 }
 
 div.img_confidence img {
-    width: 100%;
+    max-width: 500px;
 }
 
 
@@ -725,19 +727,20 @@ section.contactSection {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 50px;
 }
 
 section.contactSection div {
     background-color: white;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
-    width: 550px;
-    height: 695px;
+    max-width: 550px;
+    min-height: 695px;
     border-radius: 20px;
-    padding: 0 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 50px;
 }
 
 section.contactSection div h2 {
@@ -759,7 +762,9 @@ section.contactSection div a {
 
 
 /* popup mentor */
-#overlay,#overlay_contact_form {
+
+#overlay,
+#overlay_contact_form {
     position: fixed;
     left: 0px;
     top: 0px;
@@ -883,8 +888,9 @@ section.body-error div.img-text-error div h2 {
 section.mentor {
     height: 40vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 50px;
 }
 
 section.mentor h2 {
@@ -893,7 +899,6 @@ section.mentor h2 {
 
 section.mentor div {
     width: 350px;
-    margin-right: 300px;
     height: fit-content;
 }
 
@@ -970,6 +975,19 @@ section.mentor a {
         width: 75%;
         margin: auto;
         display: block;
+        max-width: 500px;
+    }
+    section.mentor {
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 50px;
+    }
+    section.mentor div {
+        width: 100%;
+        margin: 0;
+        text-align: center;
     }
 }
 
@@ -994,12 +1012,17 @@ section.mentor a {
     header {
         padding: 0 20px;
     }
+    #footer-newsletter {
+        width: 254px;
+    }
     .nav_logo img {
         width: 60px;
     }
+    section.mentor div {
+        margin-right: 0px;
+    }
     section.contactSection div {
-        width: 300px;
-        padding: 0 80px;
+        width: unset;
     }
     .btn-group {
         display: flex;
@@ -1054,6 +1077,7 @@ section.mentor a {
         margin-bottom: 0px;
         margin-left: 0%;
         transform: translateX(0%);
+        width: 100%;
     }
     section.entrepreneur_month.mobile {
         display: flex;
@@ -1090,7 +1114,6 @@ section.mentor a {
     .contactSection {
         padding: 0px 50px;
         flex-direction: column;
-        align-items: center;
     }
     form.contact {
         width: 100%;
@@ -1167,5 +1190,20 @@ section.mentor a {
         width: 75%;
         margin: auto;
         display: block;
+    }
+    section.mentor div {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .mentor{
+        flex-direction: column;
+    }
+    #footer-newsletter{
+        width: unset;
+        max-width: 300px;
+    }
+    #footer-submit {
+        width: 150px;
     }
 }
