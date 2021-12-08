@@ -51,8 +51,8 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <img src="public/img/undraw_meditation.svg" alt="">
             </figure>
         </article>
-        <div id="avdices-ancre"></div>
-        <section class="advices">
+       
+        <section id="advices-ancre" class="advices">
             <h2>T’es jeune et tu veux te lancer ?</h2>
             <p class="paragraph">Tu l’ignores peut-être mais tu es dans la meilleure période de ta vie pour entreprendre ! Il te suffit de beaucoup de passion, d’un peu d’organisation, d’une dose de discipline et d’une pincée de motivation avant de devenir ton propre patron !</p>
 
