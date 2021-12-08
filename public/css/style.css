@@ -73,9 +73,16 @@ p {
     justify-content: space-between;
 }
 
+
 /*HEADER*/
+
 .nav_logo img {
     width: 130px;
+}
+
+.desktop_nav {
+    display: flex;
+    align-items: center;
 }
 
 header {
@@ -91,43 +98,57 @@ header nav a {
     font-size: 17px;
     margin: 0 30px 0 30px;
 }
-nav a.social-nav{
+
+nav a.social-nav {
     margin: 0 15px 0 15px;
 }
+
+.social-nav svg {
+    font-size: 25px;
+}
+
+
 /* mobile display */
-.mobile-nav, #burger, .mobile_link-group {
+
+.mobile-nav,
+#burger,
+.mobile_link-group {
     display: none;
 }
 
-#burger{
+#burger {
     cursor: pointer;
 }
-.mobile_link-group{
+
+.mobile_link-group {
     position: absolute;
     z-index: 4;
     width: 100vw;
     right: 0;
     top: 80px;
-    background:rgb(255, 255, 255, 0.9);
+    background: rgb(255, 255, 255, 0.9);
     color: gray;
 }
-.mobile_link-group li{
+
+.mobile_link-group li {
     text-align: right;
     padding: 25px 20px;
     border-bottom: solid 1px lightgrey;
     cursor: pointer;
 }
-.mobile_link-group .social{
+
+.mobile_link-group .social {
     cursor: auto;
 }
-.mobile_link-group li:hover{
+
+.mobile_link-group li:hover {
     background-color: rgb(255, 255, 255, 1);
     color: var(--yellow);
 }
 
 
-
 /*FIN HEADER*/
+
 
 /***Bannière***/
 
@@ -161,7 +182,8 @@ section.entrepreneur_month {
     align-items: center;
     flex-direction: column;
 }
-section.entrepreneur_month > div{
+
+section.entrepreneur_month>div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -211,6 +233,7 @@ section.entrepreneur_month div h2 {
     height: 100vh;
     width: 100%;
 }
+
 .header-banner:before {
     content: "";
     width: 100%;
@@ -233,11 +256,13 @@ section.entrepreneur_month div h2 {
     max-width: 1050px;
 }
 
-.banner-content p{
+.banner-content p {
     color: white;
     max-width: 700px;
     margin: auto;
     margin-bottom: 80px;
+    font-size: 22px;
+    line-height: 29px;
 }
 
 .banner-content h1 {
@@ -245,12 +270,8 @@ section.entrepreneur_month div h2 {
     margin-bottom: 40px;
 }
 
-.btn-group {
-    margin-bottom: 50px;
-}
-
 .btn {
-    padding: 10px 30px;
+    padding: 17px 60px;
     border-radius: 7px;
     margin: 20px;
     cursor: pointer;
@@ -259,8 +280,8 @@ section.entrepreneur_month div h2 {
 .filled-btn {
     background-color: #FFC65F;
     font-weight: bold;
-    font-size: 18px;
     border: none;
+    font-size: 22px;
 }
 
 .empty-btn {
@@ -270,11 +291,12 @@ section.entrepreneur_month div h2 {
 
 .typing {
     position: relative;
-    line-height: 60px;
+    line-height: 70px;
     display: inline-block;
     color: #FFF;
     min-width: 1px;
-    min-height: 24px;
+    min-height: 60px;
+    font-size: 70px;
 }
 
 .typing:after {
@@ -326,28 +348,28 @@ section.entrepreneur_month div h2 {
 }
 
 .footer-form {
-    max-width: 440px;
+    max-width: 540px;
 }
 
 .footer-form div {
-    width: 440px;
     display: flex;
-    /* justify-content: center; */
     margin-bottom: 30px;
 }
 
 #footer-newsletter {
+    font-family: 'Barlow';
     width: 300px;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    color: #999898;
+    color: #212121;
     padding-left: 16px;
     border-radius: 7px 0px 0px 7px;
 }
 
 #footer-submit {
-    width: 140px;
+    font-family: 'Barlow';
+    width: 180px;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -355,6 +377,7 @@ section.entrepreneur_month div h2 {
     color: #FFFFFF;
     background: #E23000;
     border-radius: 0px 7px 7px 0px;
+    cursor: pointer;
 }
 
 #footer-newsletter,
@@ -409,36 +432,44 @@ section.entrepreneur_month div h2 {
 }
 
 .footer-bleu .container a {
-    text-decoration: none;
-    font-size: 12px;
+    text-decoration: underline;
+    font-size: 15px;
     line-height: 18px;
 }
 
 .footer-bleu p {
     font-size: 12px;
-    line-height: 18px;
+    line-height: 22px;
 }
+
+
 /* ADVENTURES */
-.adventure{
+
+.adventure {
     padding: 70px 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
-.adventure h2{
+
+.adventure h2 {
     margin-right: 70px;
     width: 450px;
 }
-.adventure figure{
+
+.adventure figure {
     width: 350px;
     height: 250px;
 }
-.adventure figure img{
+
+.adventure figure img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+
 /**NOS CONSEILS POUR TE LANCER**/
 
 .advices {
@@ -473,11 +504,12 @@ section.entrepreneur_month div h2 {
 }
 
 .little_title {
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 37px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
     text-align: center;
     color: var(--black);
+    margin-bottom: 20px
 }
 
 .little_title-text {
@@ -505,6 +537,7 @@ section.entrepreneur_month div h2 {
     align-items: center;
     margin: 0 0 50px 0;
 }
+
 div.text_confidence {
     max-width: 475px;
 }
@@ -525,9 +558,11 @@ div.text_confidence p {
     line-height: 1.5;
     margin-bottom: 50px;
 }
-.right_side{
+
+.right_side {
     margin-left: 108px;
 }
+
 div.img_confidence img {
     width: 100%;
 }
@@ -682,16 +717,18 @@ z-index: 2;
     transform: translateX(-50%);
 }
 
+
 /* CONTACT */
 
-section.contactSection{
+section.contactSection {
     height: 100vh;
     background-color: #FFDA9F;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-section.contactSection div{
+
+section.contactSection div {
     background-color: white;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
     width: 550px;
@@ -703,16 +740,20 @@ section.contactSection div{
     align-items: center;
     justify-content: center;
 }
-section.contactSection div h2{
+
+section.contactSection div h2 {
     font-size: 40px;
     margin-bottom: 72px;
 }
-section.contactSection div p{
+
+section.contactSection div p {
     margin-bottom: 20px;
     font-size: 18px;
     text-align: center;
+    line-height: 21px;
 }
-section.contactSection div a{
+
+section.contactSection div a {
     width: 250px;
     text-align: center;
 }
@@ -780,71 +821,84 @@ h2.mobile {
     display: none;
 }
 
+
 /* 403 404 */
 
-section.nav-error{
+section.nav-error {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     max-width: 100%;
     height: 10vh;
 }
-section.nav-error a{
+
+section.nav-error a {
     text-decoration: none;
     color: black;
     font-size: 24px;
 }
-section.body-error{
+
+section.body-error {
     max-width: 100%;
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-section.body-error div.img-text-error{
+
+section.body-error div.img-text-error {
     display: flex;
     align-content: center;
     align-items: center;
 }
-section.body-error div.img-text-error img{
+
+section.body-error div.img-text-error img {
     max-width: 576px;
     margin-right: 30px;
 }
 
-section.body-error div.img-text-error div{
+section.body-error div.img-text-error div {
     text-align: center;
 }
-section.body-error div.img-text-error div h1{
+
+section.body-error div.img-text-error div h1 {
     font-size: 72px;
     font-weight: bold;
 }
-section.body-error div.img-text-error div h2{
+
+section.body-error div.img-text-error div h2 {
     font-size: 36px;
 }
 
+
 /* FIN 403 404 */
+
 
 /* MENTOR */
 
-section.mentor{
+section.mentor {
     height: 55vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-section.mentor h2{
+
+section.mentor h2 {
     margin-bottom: 44px;
 }
-section.mentor div{
+
+section.mentor div {
     width: 350px;
     margin-right: 300px;
     height: fit-content;
 }
-section.mentor a{
+
+section.mentor a {
     width: 206px;
     height: fit-content;
     text-align: center;
 }
+
 
 /* FIN MENTOR */
 
@@ -1000,11 +1054,26 @@ section.mentor a{
         /* width: 100%; */
         height: 80px;
     }
-    .mobile-nav, #burger {
+    .mobile-nav,
+    #burger {
         display: block;
     }
     .desktop_nav {
         display: none;
     }
-
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    h2 {
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .typing{
+        font-size: 25px;
+        line-height: 30px;
+        min-height: 32px;
+    }
 }
