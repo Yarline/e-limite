@@ -90,6 +90,9 @@ section {
     transition: 0.4s;
     content: none;
 }
+.btn-header::after {
+    content: none!important;
+}
 
 .btn-header:hover {
     background-color: #E23000;
