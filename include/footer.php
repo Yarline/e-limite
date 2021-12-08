@@ -79,7 +79,7 @@
     </div>
     <div class="footer-bleu">
         <div class="container">
-            <a href="#">Mentions légales</a>
+            <a href="legales.php">Mentions légales</a>
             <p> | </p>
             <a href="#">Kit presse</a>
             <p> | </p>
