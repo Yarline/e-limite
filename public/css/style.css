@@ -91,8 +91,8 @@ section {
 }
 
 .btn-header:hover {
-    box-shadow: inset 2px 2px 5px 0px #ffffff80, 0px 0px 4px 0px #00000080, 3px 3px 3px -1px #00000080;
-    filter: opacity(0.85);
+    background-color: #E23000;
+    transition: 0.4s;
 }
 
 .nav_logo img {
@@ -311,8 +311,8 @@ section.entrepreneur_month div h2 {
 }
 
 a.btn.filled-btn:hover {
-    box-shadow: inset 2px 2px 5px 0px #ffffff80, 0px 0px 4px 0px #00000080, 3px 3px 3px -1px #00000080;
-    filter: opacity(0.85);
+    background-color: #E23000;
+    transition: 0.4s;
 }
 
 .empty-btn {
@@ -764,7 +764,8 @@ section.contactSection div a {
 
 /* popup mentor */
 
-#overlay {
+#overlay,
+#overlay_contact_form {
     position: fixed;
     left: 0px;
     top: 0px;
@@ -943,30 +944,31 @@ section.mentor a {
         line-height: 30px;
         min-height: 32px;
     }
-    .adventure{
+    .adventure {
         flex-direction: column;
         margin-bottom: 0;
         padding: 0 60px;
         margin-bottom: 80px;
     }
-    .adventure h2, .advices h2{
+    .adventure h2,
+    .advices h2 {
         margin-right: 0;
         text-align: center;
         font-weight: 800;
         font-size: 26px;
         line-height: 31px;
     }
-    .div.text_confidence{
+    .div.text_confidence {
         max-width: 100%;
     }
     .right_side {
         margin-left: 0;
     }
-    .mobile-up{
+    .mobile-up {
         flex-direction: column;
         text-align: right;
     }
-    .mobile-down{
+    .mobile-down {
         flex-direction: column-reverse;
         text-align: left;
     }
@@ -984,8 +986,18 @@ section.mentor a {
     header {
         padding: 0 20px;
     }
+    #footer-newsletter {
+        width: 254px;
+    }
     .nav_logo img {
         width: 60px;
+    }
+    section.mentor div {
+        margin-right: 0px;
+    }
+    section.contactSection div {
+        width: 275px;
+        padding: 0 80px;
     }
     .btn-group {
         display: flex;
@@ -1120,30 +1132,31 @@ section.mentor a {
         font-size: 15px;
         line-height: 22.5px;
     }
-    .adventure{
+    .adventure {
         flex-direction: column;
         margin-bottom: 0;
         padding: 0 60px;
         margin-bottom: 80px;
     }
-    .adventure h2, .advices h2{
+    .adventure h2,
+    .advices h2 {
         margin-right: 0;
         text-align: center;
         font-weight: 800;
         font-size: 26px;
         line-height: 31px;
     }
-    .div.text_confidence{
+    .div.text_confidence {
         max-width: 100%;
     }
     .right_side {
         margin-left: 0;
     }
-    .mobile-up{
+    .mobile-up {
         flex-direction: column;
         text-align: right;
     }
-    .mobile-down{
+    .mobile-down {
         flex-direction: column-reverse;
         text-align: left;
     }
@@ -1163,5 +1176,8 @@ section.mentor a {
     #footer-newsletter{
         width: unset;
         max-width: 300px;
+    }
+    #footer-submit {
+        width: 150px;
     }
 }
