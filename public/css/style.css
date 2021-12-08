@@ -80,18 +80,17 @@ section {
 
 /*HEADER*/
 
-.btn-header{
+.btn-header {
     background: #FFC65F;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     transition: 0.4s;
 }
 
-.btn-header:hover{
+.btn-header:hover {
     box-shadow: inset 2px 2px 5px 0px #ffffff80, 0px 0px 4px 0px #00000080, 3px 3px 3px -1px #00000080;
     filter: opacity(0.85);
 }
-
 
 .nav_logo img {
     width: 60px;
@@ -538,6 +537,11 @@ a.btn.filled-btn:hover {
     margin-bottom: 20px;
 }
 
+.inform .little_title,
+.trust .little_title {
+    margin-bottom: 55px;
+}
+
 .little_title-text {
     font-weight: 400;
     text-align: center;
@@ -936,6 +940,7 @@ section.mentor a {
         min-height: 32px;
     }
 }
+
 @media (max-width: 600px) {
     .nav_logo img {
         width: 55px;
