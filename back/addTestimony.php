@@ -23,12 +23,12 @@ if (!isset($_SESSION['user'])) {
 <body>
 	<main>
 		<div class="login-form-container">
-			<?php include('../include/navAdmin.php'); ?>
+			<?php include('../include/navAdmin-testimony.php'); ?>
 			<section class="item new-posts-form">
 				<h1>Ajouter un Témoignage</h1>
 				<form method="POST" action="core/addTestimony.php" enctype="multipart/form-data">
 					<p class="addFile">
-						<label for="more">Ajout de l'mage
+						<label for="more">Ajout de l'image
 							<span class="iconify" data-icon="bx:bx-image-add"></span>
 							<div id="display-image"></div>
 						</label>

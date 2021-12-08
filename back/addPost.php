@@ -23,7 +23,7 @@ if (!isset($_SESSION['user'])) {
 <body>
 	<main>
 		<div class="testimony-form-container">
-			<?php include('../include/navAdmin.php'); ?>
+			<?php include('../include/navAdmin-posts.php'); ?>
 			<section class="item new-posts-form">
 				<h1>Nouveau post</h1>
 				<form method="POST" action="core/addPost.php" enctype="multipart/form-data">

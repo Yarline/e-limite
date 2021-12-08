@@ -79,7 +79,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </section>
 
-        <section class="part_two">
+        <section class="part_two mobile-up">
             <div class="img_confidence">
                 <img src="public/img/avantages.png">
             </div>
@@ -89,7 +89,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <a class="btn filled-btn" href="">Découvrir</a>
             </div>
         </section>
-        <section class="part_two">
+        <section class="part_two mobile-down">
             <div class="text_confidence">
                 <h2>Garde le smile !</h2>
                 <p>C’est en utilisant tes forces, en restant positif et en n’ayant pas peur d’échouer que ton projet se réalisera !</p>
@@ -99,7 +99,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <img src="public/img/smile.png">
             </div>
         </section>
-        <section class="part_two">
+        <section class="part_two mobile-up">
             <div class="img_confidence">
                 <img src="public/img/création.png">
             </div>
@@ -109,7 +109,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <a class="btn filled-btn" href="">Découvrir</a>
             </div>
         </section>
-        <section class="part_two">
+        <section class="part_two mobile-down">
             <div class="text_confidence">
                 <h2>Besoin d’un coup de main ?</h2>
                 <p>On se doutait bien que t’étais en galère et qu’il te fallait un peu d’aide. Du coup, on a fait une petite liste des meilleures aides qui avantages les jeunes dans leur lancement d’entreprise !</p>

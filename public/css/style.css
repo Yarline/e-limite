@@ -72,25 +72,25 @@ p {
     display: flex;
     justify-content: space-between;
 }
-section{
+
+section {
     margin-bottom: 100px;
 }
 
 
 /*HEADER*/
 
-.btn-header{
+.btn-header {
     background: #FFC65F;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     transition: 0.4s;
 }
 
-.btn-header:hover{
+.btn-header:hover {
     box-shadow: inset 2px 2px 5px 0px #ffffff80, 0px 0px 4px 0px #00000080, 3px 3px 3px -1px #00000080;
     filter: opacity(0.85);
 }
-
 
 .nav_logo img {
     width: 60px;
@@ -190,6 +190,7 @@ nav a.social-nav {
     cursor: pointer;
 }
 
+
 /*ENTREPRENEUR DU MOIS*/
 
 section.entrepreneur_month {
@@ -225,6 +226,7 @@ section.entrepreneur_month figure img {
 section.entrepreneur_month div.entrepreneur_text {
     width: 465px;
 }
+
 section.entrepreneur_month div p {
     margin-bottom: 41px;
 }
@@ -306,9 +308,7 @@ section.entrepreneur_month div h2 {
 }
 
 a.btn.filled-btn:hover {
-    box-shadow: inset 2px 2px 5px 0px #ffffff80,
-                0px 0px 4px 0px #00000080,
-                3px 3px 3px -1px #00000080;
+    box-shadow: inset 2px 2px 5px 0px #ffffff80, 0px 0px 4px 0px #00000080, 3px 3px 3px -1px #00000080;
     filter: opacity(0.85);
 }
 
@@ -537,6 +537,11 @@ a.btn.filled-btn:hover {
     margin-bottom: 20px;
 }
 
+.inform .little_title,
+.trust .little_title {
+    margin-bottom: 55px;
+}
+
 .little_title-text {
     font-weight: 400;
     text-align: center;
@@ -591,17 +596,22 @@ div.img_confidence img {
     width: 100%;
 }
 
+
 /* SLIDER */
 
- .slider {
+.slider {
     padding: 10px 50px;
     /* height: fit-content; */
 }
-.prev-arrow, .next-arrow{
+
+.prev-arrow,
+.next-arrow {
     height: 100%;
     margin: auto;
     cursor: pointer;
 }
+
+
 /*
 #slider-container{
     position: relative;
@@ -614,6 +624,8 @@ div.img_confidence img {
     text-align: center;
     margin-bottom: 50px;
 }
+
+
 /* .slider-card_wrapper{
     display: flex;
     position: relative;
@@ -633,6 +645,7 @@ top: 50%;
 cursor: pointer;
 z-index: 2;
 } */
+
 .testimonyCard {
     min-width: 200px;
     width: 250px;
@@ -673,9 +686,11 @@ z-index: 2;
     color: var(--purple);
 }
 
+
 /* .slider h2 {
     margin-bottom: 50px;
 } */
+
 
 /* .slick-prev {
     position: absolute;
@@ -741,60 +756,65 @@ section.contactSection div a {
     width: 250px;
     text-align: center;
 }
+
+
 /* popup mentor */
 #overlay,#overlay_contact_form {
     position: fixed;
     left: 0px;
-    top:0px;
-    background-color: rgba(0,0 ,0 , 0.5);
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
-    z-index:4;
-    display:none;
-    }
+    z-index: 4;
+    display: none;
+}
 
-    #popUp{
+#popUp {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width : 40%;
+    width: 40%;
     min-width: 200px;
     background-color: white;
     padding: 3em;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     z-index: 7;
-    }
+}
 
-    #popUp h2{
-        margin-bottom: 20px;
-    }
-    .accept{
-        margin-bottom: 20px;
-    }
+#popUp h2 {
+    margin-bottom: 20px;
+}
 
-    .btn-group{
-        text-align: center;
-        justify-content: space-between;
-    }
-    
-    .confirmation_response{
-        display: none;
-    }
+.accept {
+    margin-bottom: 20px;
+}
 
-    .column-input-group{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
+.btn-group {
+    text-align: center;
+    justify-content: space-between;
+}
 
-.column-input-group input{
+.confirmation_response {
+    display: none;
+}
+
+.column-input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.column-input-group input {
     background-color: #F2F2F2;
     margin: 10px 0;
     border: none;
     height: 30px;
 }
+
+
 /* FIN CONTACT */
 
 section.entrepreneur_month.mobile {
@@ -891,7 +911,7 @@ section.mentor a {
 
 @media (max-width: 929px) {
     .nav_logo img {
-        width: 100px;
+        width: 55px;
     }
     header {
         /* width: 100%; */
@@ -918,7 +938,41 @@ section.mentor a {
         line-height: 30px;
         min-height: 32px;
     }
+    .adventure {
+        flex-direction: column;
+        margin-bottom: 0;
+        padding: 0 60px;
+        margin-bottom: 80px;
+    }
+    .adventure h2,
+    .advices h2 {
+        margin-right: 0;
+        text-align: center;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .div.text_confidence {
+        max-width: 100%;
+    }
+    .right_side {
+        margin-left: 0;
+    }
+    .mobile-up {
+        flex-direction: column;
+        text-align: right;
+    }
+    .mobile-down {
+        flex-direction: column-reverse;
+        text-align: left;
+    }
+    div.img_confidence img {
+        width: 75%;
+        margin: auto;
+        display: block;
+    }
 }
+
 @media (max-width: 600px) {
     .nav_logo img {
         width: 55px;
@@ -926,12 +980,19 @@ section.mentor a {
     header {
         padding: 0 20px;
     }
+    .nav_logo img {
+        width: 60px;
+    }
+    section.contactSection div {
+        width: 300px;
+        padding: 0 80px;
+    }
     .btn-group {
         display: flex;
         flex-direction: column;
     }
     section.advices {
-        padding: 0 50px;
+        padding: 0 60px;
     }
     .time,
     .inform,
@@ -939,7 +1000,6 @@ section.mentor a {
         margin-top: 50px;
     }
     section.part_two {
-        flex-direction: column-reverse;
         margin: 100px 0;
         padding: 0 50px;
     }
@@ -1060,5 +1120,38 @@ section.mentor a {
     p {
         font-size: 15px;
         line-height: 22.5px;
+    }
+    .adventure {
+        flex-direction: column;
+        margin-bottom: 0;
+        padding: 0 60px;
+        margin-bottom: 80px;
+    }
+    .adventure h2,
+    .advices h2 {
+        margin-right: 0;
+        text-align: center;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .div.text_confidence {
+        max-width: 100%;
+    }
+    .right_side {
+        margin-left: 0;
+    }
+    .mobile-up {
+        flex-direction: column;
+        text-align: right;
+    }
+    .mobile-down {
+        flex-direction: column-reverse;
+        text-align: left;
+    }
+    div.img_confidence img {
+        width: 75%;
+        margin: auto;
+        display: block;
     }
 }
