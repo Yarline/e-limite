@@ -68,7 +68,7 @@ $('.close_contact').click(function(){
              }
          },
          {
-             breakpoint: 600,
+             breakpoint: 601,
              settings: {
                  prevArrow: '<span class="iconify next-arrow" data-icon="akar-icons:chevron-right" data-width="24"></span>',
                  nextArrow: '<span class="iconify next-arrow" data-icon="akar-icons:chevron-right" data-width="24"></span>',

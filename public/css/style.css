@@ -308,6 +308,7 @@ section.entrepreneur_month div h2 {
     border: none;
     font-size: 22px;
     transition: 0.3s;
+    text-align: center;
 }
 
 a.btn.filled-btn:hover {
@@ -996,8 +997,7 @@ section.mentor a {
         margin-right: 0px;
     }
     section.contactSection div {
-        width: 275px;
-        padding: 0 80px;
+        width: unset;
     }
     .btn-group {
         display: flex;
