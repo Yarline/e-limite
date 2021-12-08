@@ -114,15 +114,6 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </section>
 
-        <!--<section class="etape-entreprise">
-            <img src="public/img/etape_picto.png" alt="">
-            <div class="etape-entreprise-bloc">
-                <h2>10 étapes pour créer<br>son entrprise</h2>
-                <p>Tu ne sais pas par où commencer, ni comment t’y prendre ? Nous avons la solution ! Installe-toi et prends-en de la graine.</p>
-                <a href="#">Découvrir l'article</a>
-            </div>
-        </section>-->
-
         <section id="sucessStory-ancre" class="slider">
             <h2>Ils se sont lancés</h2>
             <div class="autoplay">

@@ -72,6 +72,9 @@ p {
     display: flex;
     justify-content: space-between;
 }
+section{
+    margin-bottom: 100px;
+}
 
 
 /*HEADER*/
@@ -171,12 +174,10 @@ nav a.social-nav {
     cursor: pointer;
 }
 
-
 /*ENTREPRENEUR DU MOIS*/
 
 section.entrepreneur_month {
     width: 100%;
-    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -479,8 +480,6 @@ a.btn.filled-btn:hover {
 /**NOS CONSEILS POUR TE LANCER**/
 
 .advices {
-    margin-top: 100px;
-    margin-bottom: 100px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -541,7 +540,6 @@ a.btn.filled-btn:hover {
     justify-content: center;
     display: flex;
     align-items: center;
-    margin: 0 0 100px 0;
 }
 
 div.text_confidence {
@@ -572,53 +570,6 @@ div.text_confidence p {
 div.img_confidence img {
     width: 100%;
 }
-
-
-/* ETAPE POUR CREER SON ENTREPRISE */
-
-.etape-entreprise {
-    height: 720px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--yellow);
-    margin-bottom: 70px;
-}
-
-.etape-entreprise img,
-.etape-entreprise div {
-    width: 50%;
-}
-
-.etape-entreprise img {
-    max-width: 554px;
-}
-
-.etape-entreprise div {
-    text-align: right;
-    max-width: 482px;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    padding: 0px 50px 0px 25px;
-}
-
-.etape-entreprise div h2 {
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.etape-entreprise-bloc p {
-    margin-bottom: 55px;
-}
-
-.etape-entreprise-bloc a {
-    color: white;
-    background: var(--purple);
-    border-radius: 7px;
-    padding: 7px 40px;
-}
-
 
 /* SLIDER */
 
@@ -682,10 +633,6 @@ div.img_confidence img {
     position: absolute;
     right: -20px;
     top: 50%;
-}
-
-.reasonWhy {
-    margin-bottom: 70px;
 }
 
 .reasonWhy h2,
