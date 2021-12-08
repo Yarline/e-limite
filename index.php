@@ -143,6 +143,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <!-- <span onclick="slideRight()" class="iconify right-btn" data-icon="akar-icons:chevron-right"></span> -->
             </div>
         </section>
+        
         <section id="actus-ancre" class="entrepreneur_month desktop">
             <?php foreach ($tPost as $value) { ?>
                 <div>
@@ -198,14 +199,14 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <h2>Deviens le mentor dont tu as rêvé</h2>
                 <p>À ton tour, donne un coup de pouce à un jeune entrepreneur et aide le à réussir !</p>
             </div>
-            <a class="btn filled-btn" onclick="popUp()" href="#">Je deviens mentor</a>
+            <span class="btn filled-btn" onclick="popUp()">Je deviens mentor</span>
         </section>
 
         <div id="overlay">
             <section id="popUp">
                 <div class="popUpform">
                     <h2>Deviens mentor!</h2>
-                    <form action="">
+                    <form action="addMentor.php">
                         <div class="column-input-group">
                             <label for="name">Ton nom*</label>
                             <input type="text" name="name">
@@ -216,20 +217,20 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                         </div>
                         <div class="column-input-group">
                             <label for="mail">Ton adresse email*</label>
-                            <input type="mail" name="mail">
+                            <input type="mail" name="email">
                         </div>
                         <div class="accept">
                             <input type="checkbox" name="accept">
                             <label for="accept">J'accepte que mes informations soit utilisés dans le cadre de ce dispositif.</label>
                         </div>
                         <div class="btn-group">
-                            <button onclick="close()" class="btn empty-btn">Annuler</button>
+                            <button class="btn empty-btn close">Annuler</button>
                             <button type="submit" class="btn filled-btn">Envoyer</button>
                         </div>
                     </form>
                 </div>
                 <div class="confirmation_response">
-                    <span class="iconify closeIcon" onclick="popUp()" data-icon="akar-icons:cross"></span>
+                    <span class="iconify closeIcon close"  data-icon="akar-icons:cross"></span>
                     <h2>Ton inscription en tant que mentor a bien été prise en compte.</h2>
                     <p>Un mail de validation vient de t’être envoyé. Nous te recontactons rapidement.</p>
                 </div>

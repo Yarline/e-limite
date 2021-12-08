@@ -11,11 +11,12 @@ function menu() {
 function popUp(){
     document.getElementById('overlay').style.display='block'
 }
-function close(){
-    document.querySelector('.popUpform form').close();
+$('.close').click(function(){
     document.getElementById('overlay').style.display='none'
     return false;
-}
+    
+})   
+
 var container = document.getElementById('sucessStory-ancre')
 var slider = document.getElementById('slider-card_wrapper');
 var slides = document.getElementsByClassName('testimonyCard').length;
@@ -62,73 +63,6 @@ $('.center').slick({
       }
     ]
   });
-// window.addEventListener("resize", checkWidth);
-
-// function checkWidth() {
-//     containerWidth = container.offsetWidth;
-//     setParams(containerWidth);
-// }
-
-// function setParams(w) {
-//     if (w < 551) {
-//         slidesPerPage = 1;
-//     } else {
-//         if (w < 901) {
-//             slidesPerPage = 2;
-//         } else {
-//             if (w < 1101) {
-//                 slidesPerPage = 3;
-//             } else {
-//                 slidesPerPage = 4;
-//             }
-//         }
-//     }
-//     slidesCount = slides - slidesPerPage;
-//     if (currentPosition > slidesCount) {
-//         currentPosition -= slidesPerPage;
-//     };
-//     currentMargin = - currentPosition * (100 / slidesPerPage);
-//     slider.style.marginLeft = currentMargin + '%';
-//     if (currentPosition > 0) {
-//         buttons[0].classList.remove('inactive');
-//     }
-//     if (currentPosition < slidesCount) {
-//         buttons[1].classList.remove('inactive');
-//     }
-//     if (currentPosition >= slidesCount) {
-//         buttons[1].classList.add('inactive');
-//     }
-// }
-
-// setParams();
-
-// function slideRight() {
-//     if (currentPosition != 0) {
-//         slider.style.marginLeft = currentMargin + (100 / slidesPerPage) + '%';
-//         currentMargin += (100 / slidesPerPage);
-//         currentPosition--;
-//     };
-//     if (currentPosition === 0) {
-//         buttons[0].classList.add('inactive');
-//     }
-//     if (currentPosition < slidesCount) {
-//         buttons[1].classList.remove('inactive');
-//     }
-// };
-
-// function slideLeft() {
-//     if (currentPosition != slidesCount) {
-//         slider.style.marginLeft = currentMargin - (100 / slidesPerPage) + '%';
-//         currentMargin -= (100 / slidesPerPage);
-//         currentPosition++;
-//     };
-//     if (currentPosition == slidesCount) {
-//         buttons[1].classList.add('inactive');
-//     }
-//     if (currentPosition > 0) {
-//         buttons[0].classList.remove('inactive');
-//     }
-// };
 
 window.onload = function () {
     var typeString = ['Il suffit de te lancer !', 'T\'as tout pour toi'];
