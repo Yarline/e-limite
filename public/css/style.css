@@ -308,7 +308,7 @@ section.entrepreneur_month div h2 {
 }
 
 a.btn.filled-btn:hover {
-    box-shadow: inset 2px 2px 5px 0px #ffffff80, 0px 0px 4px 0px #00000080, 3px 3px 3px -1px #00000080;
+    background: linear-gradient(166deg, rgba(255,198,95,1) 0%, rgba(226,48,0,1) 100%);
     filter: opacity(0.85);
 }
 
