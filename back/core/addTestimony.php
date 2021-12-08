@@ -20,11 +20,6 @@ if(empty($_POST['name'])){
 	header('Location: ../addPost.php');
 	exit();
 }
-if(empty($_POST['entreprise'])){	
-	flash_in('error', 'Le nom d\'entreprise ne peut pas être vide.');
-	header('Location: ../addPost.php');
-	exit();
-}
 
 $error = false;
 if($_FILES['fichier']['error'] != 0){
@@ -46,12 +41,11 @@ if($error){
     $newName = 'pic-'.time().'.'.$extFile;
     move_uploaded_file($_FILES['fichier']['tmp_name'],'../data/'.$newName);
 
-    $add = $db->prepare('INSERT INTO testimony (file, body, name, entreprise) VALUES (:file, :body, :name, :entreprise)');
+    $add = $db->prepare('INSERT INTO testimony (file, body, name) VALUES (:file, :body, :name)');
     $add->execute([
         ':file' => $newName,
         ':body' => $_POST['body'],
-        ':name' => $_POST['name'],
-        ':entreprise' => $_POST['entreprise']
+        ':name' => $_POST['name']
     ]);
     header('Location: ../testimony.php?success');
     exit();

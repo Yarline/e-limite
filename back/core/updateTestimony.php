@@ -10,7 +10,6 @@ if (!isset($_SESSION['user'])) {
 
 $_POST['body'] = trim($_POST['body']);
 $_POST['name'] = trim($_POST['name']);
-$_POST['entreprise'] = trim($_POST['entreprise']);
 
 if(isset($_FILES['fichier']) AND !empty($_FILES['fichier']['name'])){
     
@@ -55,12 +54,11 @@ if($error){
     exit();
 }else{
 
-    $mod = $db->prepare('UPDATE testimony SET body = :body, name = :name, entreprise = :entreprise WHERE id = :id');
+    $mod = $db->prepare('UPDATE testimony SET body = :body, name = :name WHERE id = :id');
     $mod->execute([
         ':id' => $_POST['id'],
         ':body' => $_POST['body'],
-        ':name' => $_POST['name'],
-        ':entreprise' => $_POST['entreprise']
+        ':name' => $_POST['name']
     ]);
     header('Location: ../testimony.php?success');
     exit();

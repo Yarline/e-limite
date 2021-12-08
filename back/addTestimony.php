@@ -18,6 +18,7 @@ if (!isset($_SESSION['user'])) {
 	<link rel="stylesheet" href="../public/css/style.css">
 	<link rel="stylesheet" href="css/backoffice.css">
 	<?php include('../include/head.php'); ?>
+	<title>Ajouter un témoignage</title>
 </head>
 <body>
 	<main>
@@ -40,10 +41,6 @@ if (!isset($_SESSION['user'])) {
 					<p class="input-name">
 						<label>Prénom</label>
 						<input type="text" name="name" placeholder="Prénom" required>
-					</p>
-					<p class="input-name">
-						<label>Entreprise</label>
-						<input type="text" name="entreprise" placeholder="Votre entreprise" required>
 					</p>
 					<p class="button-bo">
 						<button class="btn-bo" type="submit">Valider</button>

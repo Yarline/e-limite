@@ -18,7 +18,7 @@
     })(document, "script");
 </script>
 
-<script src="<?php echo URL ?>public/js/script.js"></script>
+<script src="public/js/script.js"></script>
 <div>
     <div class="footer-jaune">
         <h2 class="footer-jaune-titre">T’as tout pour toi !</h2>

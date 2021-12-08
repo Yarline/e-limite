@@ -135,7 +135,6 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                             <?= $value2['body'] ?>
                         </blockquote>
                         <p class="nom"><?= $value2['name'] ?></p>
-                        <small class="entreprise"><?= $value2['entreprise'] ?></small>
                     </div>
                 <?php } ?>
                 <!-- </div> -->
@@ -144,20 +143,22 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
         </section>
         
         <section id="actus-ancre" class="entrepreneur_month desktop">
-            <?php foreach ($tPost as $value) { ?>
-                <div>
-                    <figure>
-                        <img src="back/data/<?= $value['file'] ?>" alt="photo du talent du mois">
-                    </figure>
-                    <div class="entrepreneur_text">
-                        <h2>Le talent du mois</h2>
-                        <p><?= $value['body'] ?></p>
+        <?php foreach ($tPost as $value) { ?>
+            <div>
+                <figure>
+                    <img src="back/data/<?= $value['file'] ?>" alt="photo du talent du mois">
+                </figure>
+                <div class="entrepreneur_text">
+                    <h2>Le talent du mois</h2>
+                    <p><?= $value['body'] ?></p>
+                    <div class="btn-group">
+                        <a href="<?= $value['social'] ?>" class="btn filled-btn" target="_blank">Soutiens <?= $value['name'] ?></a>
                     </div>
                 </div>
-                <div class="btn-group">
-                    <a href="<?= $value['social'] ?>" class="btn filled-btn" target="_blank">Soutiens <?= $value['name'] ?></a>
-                </div>
+                
         </section>
+            </div>
+            
 
         <section class="entrepreneur_month mobile">
             <div>

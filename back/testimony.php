@@ -18,12 +18,11 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <?php include('../include/head.php'); ?>
     <title>Témoignages</title>
-    <link rel="stylesheet" href="<?php echo URL ?>public/css/reset.css">
-	<link rel="stylesheet" href="<?php echo URL ?>public/css/style.css">
+    <link rel="stylesheet" href="../public/css/reset.css">
+	<link rel="stylesheet" href="../public/css/style.css">
 	<link rel="stylesheet" href="css/backoffice.css">
 </head>
 <body>
-   <header> <?php include('../include/header.php'); ?> </header>
     <main>
         <div class="testimony-form-container" style="height: fit-content;">
         <?php include('../include/navAdmin.php'); ?> 
@@ -39,7 +38,6 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                     <img src="data/<?= $value['file']?>" alt="">
                 </figure>
                 <p class="name"><?= $value['name'] ?></p>
-                    <p class="society"><?= $value['entreprise'] ?></p>
                     <div class='icon'>
                         <a href="updateTestimony.php?id=<?= $value['id']?>">Modifier</a>
                         <a href="core/deletTestimony.php?id=<?= $value['id']?>">Supprimer</a>

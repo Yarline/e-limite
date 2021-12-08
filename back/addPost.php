@@ -14,13 +14,13 @@ if (!isset($_SESSION['user'])) {
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="<?php echo URL ?>public/css/reset.css">
-	<link rel="stylesheet" href="<?php echo URL ?>public/css/style.css">
+	<link rel="stylesheet" href="../public/css/reset.css">
+	<link rel="stylesheet" href="../public/css/style.css">
 	<link rel="stylesheet" href="css/backoffice.css">
 	<?php include('../include/head.php'); ?>
+	<title>Ajouter un talent</title>
 </head>
 <body>
-<header> <?php include('../include/header.php'); ?> </header>
 	<main>
 		<div class="testimony-form-container">
 			<?php include('../include/navAdmin.php'); ?>

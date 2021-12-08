@@ -18,7 +18,7 @@ include('../config/settings.php');
 	<main>
 		<div class="login-form-container">
 			<figure class="login_logo">
-				<img src="../public/img/logo.png" alt="logo">
+				<img src="../public/img/logo.PNG" alt="logo">
 			</figure>
 			<div class="login-form">
 				<form id="login-form" method="POST" action="core/login.php">
