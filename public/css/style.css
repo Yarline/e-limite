@@ -510,6 +510,7 @@ a.btn.filled-btn:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0 50px;
 }
 
 .advices h2 {
@@ -1191,5 +1192,11 @@ section.mentor a {
     }
     #footer-submit {
         width: 150px;
+    }
+    .banner-content p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
     }
 }
