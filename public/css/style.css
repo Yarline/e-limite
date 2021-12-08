@@ -88,6 +88,7 @@ section {
     border-radius: 5px;
     padding: 10px 20px;
     transition: 0.4s;
+    content: none;
 }
 
 .btn-header:hover {
@@ -327,7 +328,7 @@ section.entrepreneur_month div h2 {
     text-align: center;
 }
 
-a.btn.filled-btn:hover {
+.filled-btn:hover {
     background-color: #E23000;
     transition: 0.4s;
 }
@@ -628,6 +629,8 @@ div.img_confidence img {
     height: 100%;
     margin: auto;
     cursor: pointer;
+    display: flex!important;
+    align-items: center;
 }
 
 
@@ -925,6 +928,10 @@ section.mentor a {
     text-align: center;
 }
 
+.slick-slider{
+    height: 340px;
+    width: 100%;
+}
 
 /* FIN MENTOR */
 
@@ -1005,6 +1012,12 @@ section.mentor a {
         width: 100%;
         margin: 0;
         text-align: center;
+    }
+    section.entrepreneur_month.mobile div {
+        margin-top: 40px;
+        padding: 0px 50px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -1112,6 +1125,8 @@ section.mentor a {
     section.entrepreneur_month.mobile div {
         margin-top: 40px;
         padding: 0px 50px;
+        display: flex;
+        flex-direction: column;
     }
     section.entrepreneur_month.mobile {
         height: unset;
@@ -1159,7 +1174,7 @@ section.mentor a {
     .flex.box {
         display: block;
     }
-    button.btn.filled-btn.btn-form {
+    .filled-btn.btn-form {
         margin: 0;
         margin-left: 0;
         transform: translateX(0);
