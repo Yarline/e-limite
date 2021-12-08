@@ -25,7 +25,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
 <body>
     <main>
         <div class="testimony-form-container" style="height: fit-content;">
-        <?php include('../include/navAdmin.php'); ?> 
+        <?php include('../include/navAdmin-testimony.php'); ?> 
             <section class="item new-posts-form">
                 <div class='heading'>
                     <h1>Témoignages</h1>
