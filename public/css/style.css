@@ -515,7 +515,7 @@ a.btn.filled-btn:hover {
     line-height: 36px;
     text-align: center;
     color: var(--black);
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .little_title-text {
