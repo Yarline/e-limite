@@ -742,7 +742,7 @@ section.contactSection div a {
     text-align: center;
 }
 /* popup mentor */
-#overlay {
+#overlay,#overlay_contact_form {
     position: fixed;
     left: 0px;
     top:0px;

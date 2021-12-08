@@ -123,7 +123,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
         <section id="sucessStory-ancre" class="slider">
             <h2>Ils se sont lancés</h2>
             <div class="center" style="display:flex;">
-            
+
                 <!-- <span onclick="slideLeft()" class="iconify left-btn" data-icon="akar-icons:chevron-left"></span> -->
                 <!-- <div class="slider-card_wrapper" id="slider-card_wrapper"> -->
                 <?php foreach ($tTestimony as $value2) { ?>
@@ -141,24 +141,24 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <!-- <span onclick="slideRight()" class="iconify right-btn" data-icon="akar-icons:chevron-right"></span> -->
             </div>
         </section>
-        
+
         <section id="actus-ancre" class="entrepreneur_month desktop">
-        <?php foreach ($tPost as $value) { ?>
-            <div>
-                <figure>
-                    <img src="back/data/<?= $value['file'] ?>" alt="photo du talent du mois">
-                </figure>
-                <div class="entrepreneur_text">
-                    <h2>Le talent du mois</h2>
-                    <p><?= $value['body'] ?></p>
-                    <div class="btn-group">
-                        <a href="<?= $value['social'] ?>" class="btn filled-btn" target="_blank">Soutiens <?= $value['name'] ?></a>
+            <?php foreach ($tPost as $value) { ?>
+                <div>
+                    <figure>
+                        <img src="back/data/<?= $value['file'] ?>" alt="photo du talent du mois">
+                    </figure>
+                    <div class="entrepreneur_text">
+                        <h2>Le talent du mois</h2>
+                        <p><?= $value['body'] ?></p>
+                        <div class="btn-group">
+                            <a href="<?= $value['social'] ?>" class="btn filled-btn" target="_blank">Soutiens <?= $value['name'] ?></a>
+                        </div>
                     </div>
-                </div>
-                
+
         </section>
-            </div>
-            
+        </div>
+
 
         <section class="entrepreneur_month mobile">
             <div>
@@ -191,9 +191,38 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <h2>La parole est à toi !</h2>
                 <p>Tu souhaites te lancer, mais tu as encore des hésitations ? T’as tout pour toi t’invite à remplir ce petit formulaire afin de te donner toutes les informations dont tu peux avoir besoin avant de te lancer. Si tu ne sais pas vers quel statut juridique t’orienter ou que tu ne possèdes pas assez de recules sur les aides dont tu pourrais bénéficier ?</p>
                 <p> Appuies sur “Je commence maintenant !” et trouve les réponses à tes questions </p>
-                <a class="btn filled-btn" href="">Je commence maintenant !</a>
+                <span onclick="popUpContact()" class="btn filled-btn">Je commence maintenant !</span>
             </div>
         </section>
+        <div id="overlay_contact_form">
+            <section id="popUp">
+                <div class="popUpform">
+                    <h2>La parole est à toi</h2>
+                    <form action="addMentor.php">
+                        <div class="column-input-group">
+                            <label for="name">Ton nom*</label>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="column-input-group">
+                            <label for="firstname">Ton prénom*</label>
+                            <input type="text" name="firstname">
+                        </div>
+                        <div class="column-input-group">
+                            <label for="mail">Ton adresse email*</label>
+                            <input type="mail" name="email">
+                        </div>
+                        <div class="column-input-group">
+                            <label for="age">Ton âge</label>
+                            <input type="number" name="age">
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn empty-btn close_contact">Annuler</button>
+                            <button type="submit" class="btn filled-btn">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
         <section class="mentor">
             <div>
                 <h2>Deviens le mentor dont tu as rêvé</h2>
@@ -230,7 +259,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                     </form>
                 </div>
                 <div class="confirmation_response">
-                    <span class="iconify closeIcon close"  data-icon="akar-icons:cross"></span>
+                    <span class="iconify closeIcon close" data-icon="akar-icons:cross"></span>
                     <h2>Ton inscription en tant que mentor a bien été prise en compte.</h2>
                     <p>Un mail de validation vient de t’être envoyé. Nous te recontactons rapidement.</p>
                 </div>
