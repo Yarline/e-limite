@@ -1244,7 +1244,7 @@ section.mentor a {
         text-align: center;
     }
     section.entrepreneur_month div p {
-        margin-bottom: 41px;
+        margin-bottom: 0px;
     }
     section.entrepreneur_month.mobile.btn-group{
         margin-top: 0;
