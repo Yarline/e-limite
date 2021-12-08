@@ -891,7 +891,7 @@ section.mentor a {
 
 @media (max-width: 929px) {
     .nav_logo img {
-        width: 100px;
+        width: 55px;
     }
     header {
         /* width: 100%; */
@@ -931,7 +931,7 @@ section.mentor a {
         flex-direction: column;
     }
     section.advices {
-        padding: 0 50px;
+        padding: 0 60px;
     }
     .time,
     .inform,
@@ -939,7 +939,6 @@ section.mentor a {
         margin-top: 50px;
     }
     section.part_two {
-        flex-direction: column-reverse;
         margin: 100px 0;
         padding: 0 50px;
     }
@@ -1060,5 +1059,37 @@ section.mentor a {
     p {
         font-size: 15px;
         line-height: 22.5px;
+    }
+    .adventure{
+        flex-direction: column;
+        margin-bottom: 0;
+        padding: 0 60px;
+        margin-bottom: 80px;
+    }
+    .adventure h2, .advices h2{
+        margin-right: 0;
+        text-align: center;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .div.text_confidence{
+        max-width: 100%;
+    }
+    .right_side {
+        margin-left: 0;
+    }
+    .mobile-up{
+        flex-direction: column;
+        text-align: right;
+    }
+    .mobile-down{
+        flex-direction: column-reverse;
+        text-align: left;
+    }
+    div.img_confidence img {
+        width: 75%;
+        margin: auto;
+        display: block;
     }
 }
