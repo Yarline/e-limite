@@ -759,8 +759,7 @@ section.contactSection div a {
 
 
 /* popup mentor */
-
-#overlay {
+#overlay,#overlay_contact_form {
     position: fixed;
     left: 0px;
     top: 0px;

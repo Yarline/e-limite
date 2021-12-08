@@ -17,14 +17,23 @@
      }
  }
 
- function popUp() {
-     document.getElementById('overlay').style.display = 'block'
- }
- $('.close').click(function() {
-     document.getElementById('overlay').style.display = 'none'
-     return false;
+function popUp(){
+    document.getElementById('overlay').style.display='block'
+}
+function popUpContact(){
+    document.getElementById('overlay_contact_form').style.display='block'
+}
 
- })
+$('.close').click(function(){
+    document.getElementById('overlay').style.display='none'
+    return false;
+    
+})   
+$('.close_contact').click(function(){
+    document.getElementById('overlay_contact_form').style.display='none'
+    return false;
+    
+}) 
 
  var container = document.getElementById('sucessStory-ancre')
  var slider = document.getElementById('slider-card_wrapper');
