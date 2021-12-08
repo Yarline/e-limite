@@ -984,6 +984,9 @@ section.mentor a {
     .nav_logo img {
         width: 60px;
     }
+    section.mentor div {
+        margin-right: 205px;
+    }
     section.contactSection div {
         width: 300px;
         padding: 0 80px;
