@@ -759,7 +759,9 @@ section.contactSection div a {
 
 
 /* popup mentor */
-#overlay,#overlay_contact_form {
+
+#overlay,
+#overlay_contact_form {
     position: fixed;
     left: 0px;
     top: 0px;
@@ -980,14 +982,17 @@ section.mentor a {
     header {
         padding: 0 20px;
     }
+    #footer-newsletter {
+        width: 254px;
+    }
     .nav_logo img {
         width: 60px;
     }
     section.mentor div {
-        margin-right: 205px;
+        margin-right: 0px;
     }
     section.contactSection div {
-        width: 300px;
+        width: 275px;
         padding: 0 80px;
     }
     .btn-group {
@@ -1156,5 +1161,8 @@ section.mentor a {
         width: 75%;
         margin: auto;
         display: block;
+    }
+    #footer-submit {
+        width: 150px;
     }
 }
