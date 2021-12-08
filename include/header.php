@@ -6,7 +6,7 @@
         <a class="link" href="#advantages-ancre">Les avantages</a>
         <a class="link" href="#sucessStory-ancre">Success story</a>
         <a class="link" href="#actus-ancre">Actualités</a>
-        <a class="link" href="#tutors">Parrainage</a>
+        <a class="link btn-header" href="#tutors">Les indispensables</a>
 
 
         <a class="social-nav" href="https://www.linkedin.com/in/t-as-tout-pour-toi-365878226/" target="_blank"><span class="iconify" data-icon="ant-design:linkedin-filled" style="color: #e23000;"></span></a>
