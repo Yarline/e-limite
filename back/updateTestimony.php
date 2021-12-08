@@ -29,7 +29,7 @@ $modif = $read->fetch();
     <main>
         <div class="testimony-form-container">
             <?php include('../include/navAdmin-testimony.php'); ?> 
-            <section class="item">
+            <section class="item new-posts-form">
                 <form method="POST" action="core/updateTestimony.php" enctype="multipart/form-data">
                     <h1>Modifier un témoignage</h1>  
                     <p>
