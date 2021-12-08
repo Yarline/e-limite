@@ -1,5 +1,5 @@
 <figure class="nav_logo">
-    <img src="<?php echo URL ?>public/img/logo.png" alt="logo">
+    <img src="public/img/logo.PNG" alt="logo">
 </figure>
 <nav>
     <div class="desktop_nav">
