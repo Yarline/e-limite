@@ -570,14 +570,11 @@ a.btn.filled-btn:hover {
     justify-content: center;
     display: flex;
     align-items: center;
+    padding: 0 50px;
 }
 
 div.text_confidence {
-    max-width: 475px;
-}
-
-.img_confidence {
-    max-width: 502px;
+    max-width: 650px;
 }
 
 div.text_confidence h2 {
@@ -598,7 +595,7 @@ div.text_confidence p {
 }
 
 div.img_confidence img {
-    width: 100%;
+    max-width: 500px;
 }
 
 
@@ -891,8 +888,9 @@ section.body-error div.img-text-error div h2 {
 section.mentor {
     height: 40vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 50px;
 }
 
 section.mentor h2 {
@@ -901,7 +899,6 @@ section.mentor h2 {
 
 section.mentor div {
     width: 350px;
-    margin-right: 300px;
     height: fit-content;
 }
 
@@ -978,12 +975,14 @@ section.mentor a {
         width: 75%;
         margin: auto;
         display: block;
+        max-width: 500px;
     }
     section.mentor {
         height: 40vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 0 50px;
     }
     section.mentor div {
         width: 100%;
@@ -1064,6 +1063,7 @@ section.mentor a {
         margin-bottom: 0px;
         margin-left: 0%;
         transform: translateX(0%);
+        width: 100%;
     }
     section.entrepreneur_month.mobile {
         display: flex;
