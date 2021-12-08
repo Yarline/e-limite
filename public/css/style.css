@@ -935,6 +935,38 @@ section.mentor a {
         line-height: 30px;
         min-height: 32px;
     }
+    .adventure{
+        flex-direction: column;
+        margin-bottom: 0;
+        padding: 0 60px;
+        margin-bottom: 80px;
+    }
+    .adventure h2, .advices h2{
+        margin-right: 0;
+        text-align: center;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .div.text_confidence{
+        max-width: 100%;
+    }
+    .right_side {
+        margin-left: 0;
+    }
+    .mobile-up{
+        flex-direction: column;
+        text-align: right;
+    }
+    .mobile-down{
+        flex-direction: column-reverse;
+        text-align: left;
+    }
+    div.img_confidence img {
+        width: 75%;
+        margin: auto;
+        display: block;
+    }
 }
 @media (max-width: 600px) {
     .nav_logo img {
