@@ -346,28 +346,28 @@ section.entrepreneur_month div h2 {
 }
 
 .footer-form {
-    max-width: 440px;
+    max-width: 540px;
 }
 
 .footer-form div {
-    width: 440px;
     display: flex;
-    /* justify-content: center; */
     margin-bottom: 30px;
 }
 
 #footer-newsletter {
+    font-family: 'Barlow';
     width: 300px;
     font-weight: normal;
-    font-size: px;
+    font-size: 20px;
     line-height: 30px;
-    color: #999898;
+    color: #212121;
     padding-left: 16px;
     border-radius: 7px 0px 0px 7px;
 }
 
 #footer-submit {
-    width: 140px;
+    font-family: 'Barlow';
+    width: 180px;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -375,6 +375,7 @@ section.entrepreneur_month div h2 {
     color: #FFFFFF;
     background: #E23000;
     border-radius: 0px 7px 7px 0px;
+    cursor: pointer;
 }
 
 #footer-newsletter,
@@ -429,14 +430,14 @@ section.entrepreneur_month div h2 {
 }
 
 .footer-bleu .container a {
-    text-decoration: none;
-    font-size: 12px;
+    text-decoration: underline;
+    font-size: 15px;
     line-height: 18px;
 }
 
 .footer-bleu p {
     font-size: 12px;
-    line-height: 18px;
+    line-height: 22px;
 }
 
 
@@ -501,11 +502,12 @@ section.entrepreneur_month div h2 {
 }
 
 .little_title {
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 37px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
     text-align: center;
     color: var(--black);
+    margin-bottom: 20px
 }
 
 .little_title-text {
@@ -723,6 +725,7 @@ section.contactSection div p {
     margin-bottom: 20px;
     font-size: 18px;
     text-align: center;
+    line-height: 21px;
 }
 
 section.contactSection div a {

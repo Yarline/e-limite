@@ -38,7 +38,7 @@
                     <!-- <h2>T'as tout pour toi</h2> -->
                     <!-- <div class="mc-field-group"> -->
                     <!-- <label for="mce-EMAIL">Email Address </label> -->
-                    <input type="email" value="" name="EMAIL" class="required email" id="footer-newsletter">
+                    <input type="email" placeholder="reussite@gmail.com" name="EMAIL" class="required email" id="footer-newsletter">
                     <!-- </div> -->
 
                     <!-- </div> real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
