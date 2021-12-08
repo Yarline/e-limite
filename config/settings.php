@@ -13,6 +13,8 @@ try{
     die('Erreur :'.$e->getMessage());
 }
 
+define('URL', '/e-limite/');
+
 function flash_in($type, $message){
     if(empty($_SESSION['message']))
         $_SESSION['message'] = [];

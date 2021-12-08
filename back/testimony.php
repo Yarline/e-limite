@@ -18,32 +18,35 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <?php include('../include/head.php'); ?>
     <title>Témoignages</title>
-    <link rel="stylesheet" href="../public/css/reset.css">
-	<link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="<?php echo URL ?>public/css/reset.css">
+	<link rel="stylesheet" href="<?php echo URL ?>public/css/style.css">
 	<link rel="stylesheet" href="css/backoffice.css">
 </head>
 <body>
-    <?php include('../includes/header.php'); ?> 
+   <header> <?php include('../include/header.php'); ?> </header>
     <main>
-        <div class="login-form-container">
+        <div class="testimony-form-container" style="height: fit-content;">
         <?php include('../include/navAdmin.php'); ?> 
             <section class="item new-posts-form">
                 <div class='heading'>
                     <h1>Témoignages</h1>
                     <a href="addTestimony.php" class="btn filled-btn">Poster</a>
                 </div>
+                <div class="testimony_container">
                 <?php foreach ($tTestimony as $value) { ?>
+                <div class="cardTestimonyCrud">
                 <figure class="show_testimony">
                     <img src="data/<?= $value['file']?>" alt="">
-                    <figcaption><?= $value['name'] ?></figcaption>
-                    <figcaption><?= $value['entreprise'] ?></figcaption>
-                    <figcaption><?= $value['body'] ?></figcaption>
+                </figure>
+                <p class="name"><?= $value['name'] ?></p>
+                    <p class="society"><?= $value['entreprise'] ?></p>
                     <div class='icon'>
                         <a href="updateTestimony.php?id=<?= $value['id']?>">Modifier</a>
                         <a href="core/deletTestimony.php?id=<?= $value['id']?>">Supprimer</a>
                     </div>
-                </figure>
+                </div>
                 <?php } ?>
+                </div>
             </section>
         </div>
     </main>

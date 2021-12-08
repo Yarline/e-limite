@@ -23,7 +23,6 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
     <meta property="og:image" content="public/img/logo.png" />
     <meta property="og:description" content="Tu as entre 20 et 35 ans et tu souhaites devenir entrepreneur ? Rendez-vous sur notre site tastoutpourtoi.fr et retrouve tout ce dont tu as besoin pour lancer ton projet. Alors qu'attends tu pour te lancer." />
     <?php include 'include/head.php'; ?>
-    <link rel="stylesheet" href="public/css/style.css">
     <title>Accueil</title>
 
 </head>
