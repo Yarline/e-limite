@@ -16,22 +16,24 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
 ?><!DOCTYPE html>
 <html>
 <head>
-    <?php include('../includes/head.php'); ?>
+    <?php include('../include/head.php'); ?>
     <title>Témoignages</title>
+    <link rel="stylesheet" href="../public/css/reset.css">
+	<link rel="stylesheet" href="../public/css/style.css">
+	<link rel="stylesheet" href="css/backoffice.css">
 </head>
 <body>
     <?php include('../includes/header.php'); ?> 
     <main>
-        <?php include('../includes/navAdmin.php'); ?>
-            
-            <section class='item'>
-                
+        <div class="login-form-container">
+        <?php include('../include/navAdmin.php'); ?> 
+            <section class="item new-posts-form">
                 <div class='heading'>
                     <h1>Témoignages</h1>
-                    <a href="addTestimony.php">Poster</a>
+                    <a href="addTestimony.php" class="btn filled-btn">Poster</a>
                 </div>
                 <?php foreach ($tTestimony as $value) { ?>
-                <figure>
+                <figure class="show_testimony">
                     <img src="data/<?= $value['file']?>" alt="">
                     <figcaption><?= $value['name'] ?></figcaption>
                     <figcaption><?= $value['entreprise'] ?></figcaption>
@@ -43,7 +45,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 </figure>
                 <?php } ?>
             </section>
-        
+        </div>
     </main>
 </body>
 </html>

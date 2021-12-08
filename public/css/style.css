@@ -196,7 +196,7 @@ section.entrepreneur_month figure {
     max-width: 447px;
     margin-right: 100px;
     object-fit: cover;
-    box-shadow: 5px 5px 7px slateblue;
+    box-shadow: 5px 5px 7px #FFDA9F;
 }
 
 section.entrepreneur_month figure img {
@@ -566,7 +566,7 @@ div.text_confidence p {
 }
 
 .right_side {
-    margin-left: 108px;
+    margin-left: 121px;
 }
 
 div.img_confidence img {

@@ -214,6 +214,39 @@ aside.new-posts {
     background: #F2F2F2;
 }
 
+figure.show_testimony{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+figure.show_testimony img{
+    width: 100px;
+}
+div.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+div.heading h1{
+    margin: 0;
+}
+div.heading a.filled-btn{
+    background-color: rgba(95, 152, 237, 0.41);
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    transition: 0.3s;
+}
+figure div.icon a{
+    color: red;
+}
+figure div.icon a:first-child{
+    margin-right: 30px;
+    color: rgb(72, 132, 223);
+}
+
 @media (max-width: 970px) {
     .login-form input {
         width: 230px;
