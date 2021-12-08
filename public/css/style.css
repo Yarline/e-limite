@@ -1245,6 +1245,7 @@ section.mentor a {
     }
     section.entrepreneur_month div p {
         margin-bottom: 0px;
+        margin-top: 30px;
     }
     section.entrepreneur_month.mobile.btn-group{
         margin-top: 0;
