@@ -28,7 +28,7 @@ if (!isset($_SESSION['user'])) {
 				<h1>Ajouter un Témoignage</h1>
 				<form method="POST" action="core/addTestimony.php" enctype="multipart/form-data">
 					<p class="addFile">
-						<label for="more">Ajout de l'mage
+						<label for="more">Ajout de l'image
 							<span class="iconify" data-icon="bx:bx-image-add"></span>
 							<div id="display-image"></div>
 						</label>
