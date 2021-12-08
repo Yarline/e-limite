@@ -628,6 +628,8 @@ div.img_confidence img {
     height: 100%;
     margin: auto;
     cursor: pointer;
+    display: flex!important;
+    align-items: center;
 }
 
 
@@ -925,6 +927,10 @@ section.mentor a {
     text-align: center;
 }
 
+.slick-slider{
+    height: 340px;
+    width: 100%;
+}
 
 /* FIN MENTOR */
 
