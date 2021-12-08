@@ -301,4 +301,10 @@ div.heading a.filled-btn{
         width: 230px;
         height: 40px;
     }
+    .new-posts-group-links {
+        width: 120px;
+    }
+    .new-posts {
+        min-width: 145px;
+    }
 }
