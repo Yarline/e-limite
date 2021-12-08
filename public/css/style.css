@@ -88,8 +88,8 @@ section {
 }
 
 .btn-header:hover {
-    box-shadow: inset 2px 2px 5px 0px #ffffff80, 0px 0px 4px 0px #00000080, 3px 3px 3px -1px #00000080;
-    filter: opacity(0.85);
+    background-color: #E23000;
+    transition: 0.4s;
 }
 
 .nav_logo img {
@@ -308,8 +308,8 @@ section.entrepreneur_month div h2 {
 }
 
 a.btn.filled-btn:hover {
-    box-shadow: inset 2px 2px 5px 0px #ffffff80, 0px 0px 4px 0px #00000080, 3px 3px 3px -1px #00000080;
-    filter: opacity(0.85);
+    background-color: #E23000;
+    transition: 0.4s;
 }
 
 .empty-btn {
