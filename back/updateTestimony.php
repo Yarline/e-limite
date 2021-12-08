@@ -51,7 +51,7 @@ $modif = $read->fetch();
                         <input type="text" name="name" placeholder="Prénom" value="<?= $modif['name'] ?>" required>
                     </p>
                     <p class="button-bo">
-                        <button type="submit">Valider</button>
+                        <button class="btn-bo" type="submit">Valider</button>
                     </p>
                 </form>
             </section>
