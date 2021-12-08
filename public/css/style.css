@@ -116,14 +116,14 @@ header {
     box-shadow: 2px 2px 3px grey;
 }
 
-header nav a {
+header nav a.link {
     font-size: 17px;
     margin: 0 30px 0 30px;
 
     position: relative;
 }
 
-header nav a:hover:after {
+header nav a.link:hover:after {
     position: absolute;
     bottom: -15px;
     left: 50%;
