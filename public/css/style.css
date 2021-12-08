@@ -730,6 +730,7 @@ section.contactSection {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 50px;
 }
 
 section.contactSection div {
@@ -977,6 +978,17 @@ section.mentor a {
         width: 75%;
         margin: auto;
         display: block;
+    }
+    section.mentor {
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section.mentor div {
+        width: 100%;
+        margin: 0;
+        text-align: center;
     }
 }
 
