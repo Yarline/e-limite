@@ -83,7 +83,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
             <div class="img_confidence">
                 <img src="public/img/avantages.png">
             </div>
-            <div class="right_side text_confidence">
+            <div id="avantages_ancre" class="right_side text_confidence">
                 <h2>Découvre tes avantages !</h2>
                 <p>Créer sa boîte n’a jamais été aussi facile. En effet, les jeunes maîtrisent plus les outils numériques que les autres générations...</p>
                 <a class="btn filled-btn" href="">Découvrir</a>

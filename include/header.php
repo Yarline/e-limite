@@ -5,7 +5,7 @@
     <div class="desktop_nav">
         <a class="link" href="#advices-ancre">Les avantages</a>
         <a class="link" href="#sucessStory-ancre">Success story</a>
-        <a class="link" href="#actus-ancre">Actualités</a>
+        <a class="link" href="#avantages_ancre">Actualités</a>
         <a class="link btn-header" href="#tutors">Les indispensables</a>
 
 
@@ -19,7 +19,7 @@
         <ul class="mobile_link-group">
             <li><a class="mobile_link" href="#advices-ancre">Les avantages</a></li>
             <li><a class="mobile_link" href="#sucessStory-ancre">Success story</a></li>
-            <li><a class="mobile_link" href="#actus-ancre">Actualités</a></li>
+            <li><a class="mobile_link" href="#avantages_ancre">Actualités</a></li>
             <li><a class="mobile_link" href="#tutors">Les indispensables</a></li>
             <li class="social">
                 <a class="social-nav" href="https://www.linkedin.com/in/t-as-tout-pour-toi-365878226/" target="_blank"><span class="iconify" data-icon="ant-design:linkedin-filled" style="color: #e23000;"></span></a>
