@@ -391,7 +391,7 @@ section.entrepreneur_month div h2 {
 }
 
 .footer-jaune-resaux p {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 18px;
 }
 
@@ -991,13 +991,12 @@ section.mentor a {
         font-size: 30px;
         line-height: 30px;
     }
-    
     h2 {
         font-weight: 800;
         font-size: 26px;
         line-height: 30px;
     }
-    .typing{
+    .typing {
         font-size: 25px;
         line-height: 30px;
         min-height: 32px;
