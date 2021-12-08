@@ -253,12 +253,14 @@ section.entrepreneur_month div h2 {
     padding: 10px 30px;
     border-radius: 7px;
     margin: 20px;
+    cursor: pointer;
 }
 
 .filled-btn {
     background-color: #FFC65F;
     font-weight: bold;
     font-size: 18px;
+    border: none;
 }
 
 .empty-btn {
@@ -714,7 +716,60 @@ section.contactSection div a{
     width: 250px;
     text-align: center;
 }
+/* popup mentor */
+#overlay {
+    position: fixed;
+    left: 0px;
+    top:0px;
+    background-color: rgba(0,0 ,0 , 0.5);
+    width: 100%;
+    height: 100%;
+    z-index:4;
+    display:none;
+    }
 
+    #popUp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width : 40%;
+    min-width: 200px;
+    background-color: white;
+    padding: 3em;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    z-index: 7;
+    }
+
+    #popUp h2{
+        margin-bottom: 20px;
+    }
+    .accept{
+        margin-bottom: 20px;
+    }
+
+    .btn-group{
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+    .confirmation_response{
+        display: none;
+    }
+
+    .column-input-group{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+.column-input-group input{
+    background-color: #F2F2F2;
+    margin: 10px 0;
+    border: none;
+    height: 30px;
+}
 /* FIN CONTACT */
 
 section.entrepreneur_month.mobile {

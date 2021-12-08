@@ -8,6 +8,14 @@ function menu() {
     }
 }
 
+function popUp(){
+    document.getElementById('overlay').style.display='block'
+}
+function close(){
+    document.querySelector('.popUpform form').close();
+    document.getElementById('overlay').style.display='none'
+    return false;
+}
 var container = document.getElementById('sucessStory-ancre')
 var slider = document.getElementById('slider-card_wrapper');
 var slides = document.getElementsByClassName('testimonyCard').length;

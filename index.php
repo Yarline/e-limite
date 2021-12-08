@@ -206,8 +206,43 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <h2>Deviens le mentor dont tu as rêvé</h2>
                 <p>À ton tour, donne un coup de pouce à un jeune entrepreneur et aide le à réussir !</p>
             </div>
-            <a class="btn filled-btn" href="">Je deviens mentor</a>
+            <a class="btn filled-btn" onclick="popUp()" href="#">Je deviens mentor</a>
         </section>
+
+        <div id="overlay">
+            <section id="popUp">
+                <div class="popUpform">
+                    <h2>Deviens mentor!</h2>
+                    <form action="">
+                        <div class="column-input-group">
+                            <label for="name">Ton nom*</label>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="column-input-group">
+                            <label for="firstname">Ton prénom*</label>
+                            <input type="text" name="firstname">
+                        </div>
+                        <div class="column-input-group">
+                            <label for="mail">Ton adresse email*</label>
+                            <input type="mail" name="mail">
+                        </div>
+                        <div class="accept">
+                            <input type="checkbox" name="accept">
+                            <label for="accept">J'accepte que mes informations soit utilisés dans le cadre de ce dispositif.</label>
+                        </div>
+                        <div class="btn-group">
+                            <button onclick="close()" class="btn empty-btn">Annuler</button>
+                            <button type="submit" class="btn filled-btn">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="confirmation_response">
+                    <span class="iconify closeIcon" onclick="popUp()" data-icon="akar-icons:cross"></span>
+                    <h2>Ton inscription en tant que mentor a bien été prise en compte.</h2>
+                    <p>Un mail de validation vient de t’être envoyé. Nous te recontactons rapidement.</p>
+                </div>
+            </section>
+        </div>
 
     </main>
     <footer>
