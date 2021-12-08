@@ -132,23 +132,24 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
 
         <section id="sucessStory-ancre" class="slider">
             <h2>Ils se sont lancés</h2>
-            <div id="slider-container">
-                <span onclick="slideLeft()" class="iconify left-btn" data-icon="akar-icons:chevron-left"></span>
-                <div class="slider-card_wrapper" id="slider-card_wrapper">
-                    <?php foreach ($tTestimony as $value2) { ?>
-                        <div class="testimonyCard">
-                            <figure>
-                                <img src="back/data/<?= $value2['file'] ?>" alt="photo temoignage de l'autre">
-                            </figure>
-                            <blockquote>
-                                <?= $value2['body'] ?>
-                            </blockquote>
-                            <p class="nom"><?= $value2['name'] ?></p>
-                            <small class="entreprise"><?= $value2['entreprise'] ?></small>
-                        </div>
-                    <?php } ?>
-                </div>
-                <span onclick="slideRight()" class="iconify right-btn" data-icon="akar-icons:chevron-right"></span>
+            <div class="center" style="display:flex;">
+            
+                <!-- <span onclick="slideLeft()" class="iconify left-btn" data-icon="akar-icons:chevron-left"></span> -->
+                <!-- <div class="slider-card_wrapper" id="slider-card_wrapper"> -->
+                <?php foreach ($tTestimony as $value2) { ?>
+                    <div class="testimonyCard">
+                        <figure>
+                            <img src="back/data/<?= $value2['file'] ?>" alt="photo temoignage de l'autre">
+                        </figure>
+                        <blockquote>
+                            <?= $value2['body'] ?>
+                        </blockquote>
+                        <p class="nom"><?= $value2['name'] ?></p>
+                        <small class="entreprise"><?= $value2['entreprise'] ?></small>
+                    </div>
+                <?php } ?>
+                <!-- </div> -->
+                <!-- <span onclick="slideRight()" class="iconify right-btn" data-icon="akar-icons:chevron-right"></span> -->
             </div>
         </section>
         <section id="actus-ancre" class="entrepreneur_month desktop">

@@ -616,21 +616,28 @@ div.img_confidence img {
 
 /* SLIDER */
 
-.slider {
-    padding: 20px 100px;
-    height: fit-content;
+ .slider {
+    padding: 10px 50px;
+    /* height: fit-content; */
 }
+.prev-arrow, .next-arrow{
+    height: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+/*
 #slider-container{
     position: relative;
     width: 80vw;
     overflow: hidden;
     padding: 50px 70px;
-}
+} */
 
 .slider h2 {
     text-align: center;
+    margin-bottom: 50px;
 }
-.slider-card_wrapper{
+/* .slider-card_wrapper{
     display: flex;
     position: relative;
     width: fit-content;
@@ -648,14 +655,17 @@ right: 10px;
 top: 50%;
 cursor: pointer;
 z-index: 2;
-}
+} */
 .testimonyCard {
+    min-width: 200px;
     width: 250px;
     margin: 0 70px;
     padding: 20px;
-    display: flex;
+    text-align: center;
+    /* display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    justify-content: center; */
 }
 
 .testimonyCard figure {
@@ -672,8 +682,9 @@ z-index: 2;
 }
 
 .testimonyCard blockquote {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     line-height: 30px;
+    min-height: 120px;
 }
 
 .nom {
@@ -685,11 +696,11 @@ z-index: 2;
     color: var(--purple);
 }
 
-.slider h2 {
+/* .slider h2 {
     margin-bottom: 50px;
-}
+} */
 
-.slick-prev {
+/* .slick-prev {
     position: absolute;
     left: -20px;
     top: 50%;
@@ -699,7 +710,7 @@ z-index: 2;
     position: absolute;
     right: -20px;
     top: 50%;
-}
+} */
 
 .reasonWhy {
     margin-bottom: 70px;
@@ -948,13 +959,13 @@ section.mentor a {
         margin-bottom: 25px;
     }
     .testimonyCard {
-        width: 25%;
+        /* width: 25%; */
         margin: 0px 40px;
         text-align: center;
         padding: 20px;
     }
     .slider {
-        padding: 0px 50px;
+        padding: 0px 30px;
     }
     section.entrepreneur_month {
         flex-direction: column;
