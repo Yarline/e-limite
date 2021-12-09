@@ -62,7 +62,9 @@
             </article>
 
             <article class="reorientation-section">
+                
                 <h2>4. Facilité de réorientation en cas de pépin</h2>
+                <div class="two_sides">
                 <p class="text-articles">Les jeunes et la génération actuelle sont plus aptes à reprendre leurs études plus tard.
 
                     En effet, de nos jours il est beaucoup plus simple pour toi de te réorienter et de reprendre tes études ; c’est mieux accepté par la société. De part ton jeune âge, si jamais le projet

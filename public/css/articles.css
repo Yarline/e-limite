@@ -72,13 +72,13 @@ article {
     margin-bottom: 35px;
 }
 
-.threats-article,
-.learningprocess-section,
-.reorientation {
+.two_sides {
     display: flex;
 }
 
-p.text-articles {
+.threats-article.text-articles,
+.learningprocess-section.text-articles,
+.reorientation-section.text-articles {
     max-width: 650px;
 }
 
