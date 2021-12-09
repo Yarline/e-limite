@@ -581,7 +581,7 @@ section.entrepreneur_month div h2 {
 .trust,
 .inform,
 .time {
-    margin: 0 15px;
+    padding: 0 15px;
 }
 
 .three div svg {
@@ -930,7 +930,7 @@ section.mentor h2 {
 }
 
 section.mentor div {
-    width: 350px;
+    max-width: 350px;
     height: fit-content;
 }
 
@@ -983,7 +983,7 @@ section.mentor a {
     .adventure {
         flex-direction: column;
         margin-bottom: 0;
-        padding: 0 60px;
+        padding: 0 50px;
         margin-bottom: 80px;
     }
     .adventure h2,
@@ -1044,7 +1044,7 @@ section.mentor a {
         width: unset;
         padding: 0;
     }
-    section.contactSection div .btn{
+    section.contactSection div .btn {
         margin: 0;
         padding: 15px 50px;
     }
@@ -1087,7 +1087,7 @@ section.mentor a {
         width: unset;
         padding: 0;
     }
-    section.contactSection div .btn{
+    section.contactSection div .btn {
         margin: 0;
         padding: 15px 50px;
     }
@@ -1096,7 +1096,7 @@ section.mentor a {
         flex-direction: column;
     }
     section.advices {
-        padding: 0 60px;
+        padding: 0 50px;
     }
     .time,
     .inform,
@@ -1225,7 +1225,7 @@ section.mentor a {
     .adventure {
         flex-direction: column;
         margin-bottom: 0;
-        padding: 0;
+        padding: 0 50px;
         margin-bottom: 80px;
     }
     .adventure h2,
