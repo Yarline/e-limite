@@ -48,7 +48,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
         <article class="adventure">
             <h2>L’entrepreneuriat : la grande aventure !</h2>
             <figure>
-                <img src="public/img/undraw_meditation.svg" alt="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8VSGUUu_pVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </figure>
         </article>
        
@@ -179,10 +179,9 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
         <section class="reasonWhy">
             <h2>Pourquoi se lancer ?</h2>
             <p>Tu es encore là ? Tu hésites encore ? Lance toi !</p>
-            <video width="450" autoplay loop muted>
-                <source src=public/video/prod.webm type=video/webm>
-                <source src=public/video/prod.mp4 type=video/mp4>
-            </video>
+            <figure>
+                <iframe width="800" height="425" src="https://www.youtube.com/embed/l1m99X1smik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </figure>
         </section>
 
         <section class="contactSection">

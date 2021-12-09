@@ -735,10 +735,9 @@ z-index: 2;
     text-align: center;
 }
 
-.reasonWhy video {
-    margin-bottom: 30px;
-    margin-left: 50%;
-    transform: translateX(-50%);
+.reasonWhy figure {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -1110,12 +1109,6 @@ section.mentor a {
     }
     section.entrepreneur_month {
         flex-direction: column;
-    }
-    .reasonWhy video {
-        margin-bottom: 0px;
-        margin-left: 0%;
-        transform: translateX(0%);
-        width: 100%;
     }
     section.entrepreneur_month.mobile {
         display: flex;
