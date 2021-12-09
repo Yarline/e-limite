@@ -776,6 +776,7 @@ section.contactSection div p {
     font-size: 18px;
     text-align: center;
     line-height: 21px;
+    padding: 0 50px
 }
 
 section.contactSection div a {
@@ -911,7 +912,7 @@ section.body-error div.img-text-error div h2 {
 section.mentor {
     height: 40vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 0 50px;
 }
@@ -1126,7 +1127,6 @@ section.mentor a {
     section.entrepreneur_month.mobile figure {
         margin-right: 0;
         box-shadow: 0px 0px 0px;
-        padding: 0px 50px;
         overflow: hidden;
     }
     section.entrepreneur_month.mobile div {
@@ -1248,6 +1248,7 @@ section.mentor a {
     }
     section.entrepreneur_month div p {
         margin-bottom: 0px;
+        margin-top: 30px;
     }
     section.entrepreneur_month.mobile.btn-group {
         margin-top: 0;

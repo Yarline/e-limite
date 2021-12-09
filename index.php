@@ -168,7 +168,6 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <img src="back/data/<?= $value['file'] ?>" alt="photo du talent du mois">
             </figure>
             <div>
-                <h2>Le talent du mois</h2>
                 <p><?= $value['body'] ?></p>
             </div>
             <div class="btn-group">
