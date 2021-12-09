@@ -41,7 +41,7 @@
                     Le fait de ne pas avoir de charges financières est un avantage précieux pour toi. Tu n’as pas la nécessité de devoir payer quelque chose à la fin du mois ! Si tu gagnes peu d’argent au début du lancement de ton projet, cela sera moins impactant que si tu avais une famille et un logement à charge.
                 </p>
                 
-                <img src="public/contraintes.png" alt="">
+                <img src="public/img/contraintes.png" alt="">
             </article>
 
 
@@ -58,7 +58,7 @@
                 <p class="text-articles"> Les jeunes ont pour la plupart une facilité d'utilisation des outils numériques instinctive, ce qui leur permet d'être bien plus performant et efficace rapidement.
 
                     De nos jours,tu as presque tout le temps accès à Internet, que ce soit sur ton téléphone ou sur un ordinateur. Tu as donc une facilité d'accès à l'information incomparable à celle des anciennes générations au même âge ! Tu as ainsi accès aux informations nécessaires pour te former, découvrir, apprendre et évoluer dans tous les domaines possibles.</p>
-                <img src="public/lire.png" alt="">
+                <img src="public/img/lire.png" alt="">
             </article>
 
             <article class="reorientation-section">
@@ -67,7 +67,7 @@
 
                     En effet, de nos jours il est beaucoup plus simple pour toi de te réorienter et de reprendre tes études ; c’est mieux accepté par la société. De part ton jeune âge, si jamais le projet
                     entrepreneurial venait à échouer, tu pourrais te réinsérer et intégrer une formation plus rapidement ! </p>
-                    <img src="public/reorientation.png" alt=""> <img src="" alt="">
+                    <img src="public/img/reorientation.png" alt=""> <img src="" alt="">
             </article>
 
             <article class="notenoughtime-section">
