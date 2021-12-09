@@ -29,7 +29,7 @@
                 </video>
             </div>
         </section>
-        <section>
+        <section class="text-section">
             <p>Depuis le début des années 90, le salariat n'attire plus. Les nouvelles générations sont de moins en moins disposées à effectuer un travail qui ne leur plait pas. C’est ce phénomène qui pousse de plus en plus de personnes à se lancer et à créer une entreprise. Guidées par leur passion et leur motivation, elles augmentent sensiblement leurs chances de succès pour la suite.</p>
             <article>
                 <h2>1. Pas de contraintes</h2>
