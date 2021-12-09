@@ -1040,6 +1040,14 @@ section.mentor a {
     .reasonWhy figure iframe {
         width: 100%;
     }
+    section.contactSection div {
+        width: unset;
+        padding: 0;
+    }
+    section.contactSection div .btn{
+        margin: 0;
+        padding: 15px 50px;
+    }
 }
 
 
@@ -1077,6 +1085,11 @@ section.mentor a {
     }
     section.contactSection div {
         width: unset;
+        padding: 0;
+    }
+    section.contactSection div .btn{
+        margin: 0;
+        padding: 15px 50px;
     }
     .btn-group {
         display: flex;
