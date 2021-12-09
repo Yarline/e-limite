@@ -11,9 +11,9 @@
     <header>
         <?php include 'include/header.php'; ?>
     </header>
-    <main class="container_legal">
-        <h2 style="text-align: center; margin-bottom:30px;">Mentions légales</h2>
-        <h3>1 – Propriété et Exploitation </h3>
+    <main class="container_legal raw-container">
+        <h1 class="h1-legale">Mentions légales</h1>
+        <h2 class="h2-legale" class="h2-legale">1 – Propriété et Exploitation </h2>
 
         <p>Le présent site accessible à l’adresse : www.tastoutpourtoi.fr est exploité et est la propriété de la société E-Limite, société au capital de 9 675,00 euros, immatriculée au Registre du Commerce et des Sociétés de Nanterre.
 
@@ -22,14 +22,14 @@
         Le directeur et responsable de la publication du site web est Madame Gloria SCHERER.
         </p>
 
-        <h3>2 – Hébergement du site</h3>
+        <h2 class="h2-legale">2 – Hébergement du site</h2>
 
         <p>
             Le prestataire assurant le stockage direct et permanent est la société OVH, SAS au capital de 10 069 020 €, immatriculée au RCS de Lille Métropole sous le numéro n° 424 761 419 00045, dont le siège social est situé 2 rue Kellermann – 59100 Roubaix – France.
         </p>
 
 
-        <h3>3 – Informations d’ordre technique</h3>
+        <h2 class="h2-legale">3 – Informations d’ordre technique</h2>
 
         <p>L’utilisateur (signifie au titre des présentes également l’internaute) reconnaît également avoir pris connaissance des présentes informations légales et s’engage à la respecter.
 
@@ -43,7 +43,7 @@
         </p>
 
 
-        <h3>4 – Contenu du site et Propriété</h3>
+        <h2 class="h2-legale">4 – Contenu du site et Propriété</h2>
 
         <p>Les informations fournies par la société E-Limite le sont à titre indicatif. La société E-Limite ne saurait garantir l’exactitude, la complétude, l’actualité des informations diffusées sur son site.
 
@@ -55,7 +55,7 @@
         </p>
 
 
-        <h3>5 – Marques</h3>
+        <h2 class="h2-legale">5 – Marques</h2>
 
         <p>Les marques de la société E-Limite et de ses partenaires, ainsi que les logos figurant sur le site, sont des marques déposées.
 
@@ -69,7 +69,7 @@
         </p>
 
 
-        <h3>6 – Liens hypertextes</h3>
+        <h2 class="h2-legale">6 – Liens hypertextes</h2>
 
         <p>La société E-Limite référence à titre d’information par des liens hypertextes d’autres ressources présentes sur le réseau internet. La société E-Limite s’engage en cas de désaccord et sur simple demande d’un site référencé à supprimer le lien hypertexte dans les meilleurs délais.
 
@@ -81,14 +81,14 @@
         </p>
 
 
-        <h3>7 – Autorisation de reproduction de contenu</h3>
+        <h2 class="h2-legale">7 – Autorisation de reproduction de contenu</h2>
 
         <p>
             Pour toute information et demande de reproduction d’un contenu paru sur le site www.tastoutpourtoi.fr (textes, graphiques, illustrations) quel qu’en soit le support, l’utilisateur est invité à adresser sa demande par courrier au siège social de la société E-Limite.
         </p>
 
 
-        <h3>8 – Protection des données personnelles.</h3>
+        <h2 class="h2-legale">8 – Protection des données personnelles.</h2>
 
         <p>Les informations recueillies dans les questionnaires sont traitées par la société E-Limite sur ses systèmes d’informations et stockées auprès de la société OVH SAS, immatriculée au RCS de Lille sous le numéro 424 761 419, dont le siège social est situé 2 rue Kellermann – 59100 Roubaix – France, en sa qualité d’hébergeur du site web de la société NOIL et par la société Google Ireland Limited, immatriculée en Irlande sous le numéro 368047, dont le siège est situé Gordon House, Barrow Street, Dublin 4, Irlande, dans le cadre du service de drive pour le stockage des données.
 
@@ -108,7 +108,7 @@
 
         </p>
 
-        <h3>9 – Informations relatives aux cookies.</h3>
+        <h2 class="h2-legale">9 – Informations relatives aux cookies.</h2>
 
         <p>La société E-Limite vous informe qu’elle souhaite implanter un “cookie” dans votre ordinateur lors de votre connexion au site Web accessible à l’adresse www.noil-motors.com. Un “cookie” ne permet pas de vous identifier ; en revanche, il enregistre des informations relatives à la navigation de votre ordinateur sur le site précité (les pages que vous avez consultées, la date et l´heure de la consultation, etc.) que la société E-Limite pourra lire lors de visites ultérieures. La durée de conservation de ces informations dans votre ordinateur est d’un (1) an.
 
@@ -118,7 +118,7 @@
 
         </p>
 
-        <h3>10 – Responsabilité</h3>
+        <h2 class="h2-legale">10 – Responsabilité</h2>
 
         <p>En utilisant le site internet situé à l’adresse https://tastoutpourtoi.fr/, (ci-après « le Site »), chaque personne (ci-après l’ « Utilisateur ») accepte les présentes conditions d’utilisation du Site sans réserve. Lesdites conditions peuvent être modifiées à tout moment sans préavis. L’Utilisateur devra en conséquence vérifier régulièrement le Site pour rester informé de tout changement ou mise à jour des Conditions d’Utilisation du Site.
 

@@ -15,7 +15,7 @@ include('../config/settings.php');
 </head>
 
 <body>
-	<main>
+	<main class="raw-container">
 		<div class="login-form-container">
 			<figure class="login_logo">
 				<img src="../public/img/logo.PNG" alt="logo">

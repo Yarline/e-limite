@@ -12,7 +12,7 @@
     <header>
         <?php include 'include/header.php'; ?>
     </header>
-    <main>
+    <main class="raw-container">
         <div class="breadcrumb">
             <a href="index.php" class="link_homepage">
                 <span class="iconify" data-icon="bi:arrow-down-circle"></span> Accueil</a>
