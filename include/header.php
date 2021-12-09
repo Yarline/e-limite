@@ -11,9 +11,9 @@
         <a class="link btn-header" href="#tutors">Les indispensables</a>
 
 
-        <a class="social-nav" href="https://www.linkedin.com/in/t-as-tout-pour-toi-365878226/" target="_blank"><span class="iconify" data-icon="ant-design:linkedin-filled" style="color: #e23000;"></span></a>
-        <a class="social-nav" href="https://www.instagram.com/tastoutpourtoi/" target="_blank"><span class="iconify" data-icon="akar-icons:instagram-fill" style="color: #e23000;"></span></a>
-        <a class="social-nav" href="https://twitter.com/Tastoutpourtoi1" target="_blank"><span class="iconify" data-icon="akar-icons:twitter-fill" style="color: #e23000;"></span></a>
+        <a class="social-nav" href="https://www.linkedin.com/in/t-as-tout-pour-toi-365878226/" target="_blank"><span class="iconify" data-icon="ant-design:linkedin-filled""></span></a>
+        <a class="social-nav" href="https://www.instagram.com/tastoutpourtoi/" target="_blank"><span class="iconify" data-icon="akar-icons:instagram-fill""></span></a>
+        <a class="social-nav" href="https://twitter.com/Tastoutpourtoi1" target="_blank"><span class="iconify" data-icon="akar-icons:twitter-fill""></span></a>
     </div>
     <div class="mobile-nav">
         <a id="burger" onClick="menu();"><span class="iconify" data-icon="icon-park:hamburger-button" data-width="30"></span></a>
