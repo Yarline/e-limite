@@ -188,7 +188,7 @@ article {
 
 iframe.article_video {
     max-width: 525px;
-    max-height: 365px;
+    height: 100%;
 }
 
 .strengh-text {
