@@ -17,6 +17,7 @@
             <a href="index.php" class="link_homepage">
                 <span class="iconify" data-icon="bi:arrow-down-circle"></span> Accueil</a>
         </div>
+    <main class="raw-container">
         <section class="article_video_section">
             <div class="video_descr">
                 <div class="video-text">
