@@ -4,6 +4,13 @@
         
     </figure>
         <div class="new-posts-group">
+            <aside>
+                <?php
+                    if(!empty($_SESSION['user']))
+                        echo '<p>Bonjour '.$_SESSION['user']['username'].'</p>';
+                    flash_out(); 
+                ?>
+            </aside>
             <div class="new-posts-group-links">
                 <a href="../back/testimony.php">
                     <img src="../public/img/plus.svg" alt="">Témoignages
