@@ -1,5 +1,7 @@
 <figure class="nav_logo">
-    <img src="public/img/logo.PNG" alt="logo">
+    <a href="/">
+        <img src="public/img/logo.PNG" alt="logo">
+    </a>
 </figure>
 <nav>
     <div class="desktop_nav">
