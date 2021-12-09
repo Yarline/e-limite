@@ -32,13 +32,16 @@
         <section class="text-section">
             <p class="summup">Depuis le début des années 90, le salariat n'attire plus. Les nouvelles générations sont de moins en moins disposées à effectuer un travail qui ne leur plait pas. C’est ce phénomène qui pousse de plus en plus de personnes à se lancer et à créer une entreprise. Guidées par leur passion et leur motivation, elles augmentent sensiblement leurs chances de succès pour la suite.</p>
 
+                    Le fait de ne pas avoir de charges financières est un avantage précieux pour toi. Tu n’as pas la nécessité de devoir payer quelque chose à la fin du mois ! Si tu gagnes peu d’argent au début du lancement de ton projet, cela sera moins impactant que si tu avais une famille et un logement à charge.
+                </p>
             <article class="threats-article">
                 <h2>1. Pas de contraintes</h2>
                 <p class="text-articles"> Quand on est jeune, on n’a rien à perdre, on n’a pas de grosses responsabilités En effet, de 17 jusqu’à 25 ans, les jeunes n'ont pas d’enfants et très rarement de crédits à charge. Pour la plupart, ils vivent souvent même au domicile parental.
 
                     Le fait de ne pas avoir de charges financières est un avantage précieux pour toi. Tu n’as pas la nécessité de devoir payer quelque chose à la fin du mois ! Si tu gagnes peu d’argent au début du lancement de ton projet, cela sera moins impactant que si tu avais une famille et un logement à charge.
                 </p>
-                <img src="" alt="">
+                
+                <img src="public/contraintes.png" alt="">
             </article>
 
 
@@ -48,7 +51,6 @@
 
                     En tant que jeune diplômé, tu peux également acquérir le statut d'étudiant-entrepreneur. Tu peux disposer d’un accompagnement par des structures dédiées : les Pépites (Pôles Étudiants pour l’Innovation, le Transfert et l’Entrepreneuriat) et la prolongation des droits étudiants (sécurité sociale, transport...).
                 </p>
-                <img src="" alt="">
             </article>
 
             <article class="learningprocess-section">
@@ -56,7 +58,7 @@
                 <p class="text-articles"> Les jeunes ont pour la plupart une facilité d'utilisation des outils numériques instinctive, ce qui leur permet d'être bien plus performant et efficace rapidement.
 
                     De nos jours,tu as presque tout le temps accès à Internet, que ce soit sur ton téléphone ou sur un ordinateur. Tu as donc une facilité d'accès à l'information incomparable à celle des anciennes générations au même âge ! Tu as ainsi accès aux informations nécessaires pour te former, découvrir, apprendre et évoluer dans tous les domaines possibles.</p>
-                <img src="" alt="">
+                <img src="public/lire.png" alt="">
             </article>
 
             <article class="reorientation-section">
@@ -67,9 +69,7 @@
 
                     En effet, de nos jours il est beaucoup plus simple pour toi de te réorienter et de reprendre tes études ; c’est mieux accepté par la société. De part ton jeune âge, si jamais le projet
                     entrepreneurial venait à échouer, tu pourrais te réinsérer et intégrer une formation plus rapidement ! </p>
-                    
-                <img src="" alt="">
-                </div>
+                    <img src="public/reorientation.png" alt=""> <img src="" alt="">
             </article>
 
             <article class="notenoughtime-section">

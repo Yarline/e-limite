@@ -45,12 +45,12 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 </div>
             </div>
         </section>
-        <article class="adventure">
+        <section class="adventure">
             <h2>L’entrepreneuriat : la grande aventure !</h2>
             <figure>
             <iframe src="https://www.youtube.com/embed/8VSGUUu_pVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </figure>
-        </article>
+            </section>
        
         <section id="advices-ancre" class="advices">
             <h2>T’es jeune et tu veux te lancer ?</h2>
