@@ -12,7 +12,7 @@
     <header>
         <?php include 'include/header.php'; ?>
     </header>
-    <main>
+    <main class="raw-container">
         <section class="part_two">
             <div>
                 <h2>Les 5 clés de la confianceen soi</h2>
