@@ -1,0 +1,95 @@
+/* couleur */
+
+:root {
+    --purple: #5C7AEA;
+    --white: #fff;
+    --yellow: #FFC357;
+    --blackgrey: #999898;
+    --black: #000;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* font-family */
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../font/Barlow/BarlowCondensed-Bold.woff2') format('woff2'), url('../font/Barlow/BarlowCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../font/Barlow/BarlowCondensed-Medium.woff2') format('woff2'), url('../font/Barlow/BarlowCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../font/Barlow/BarlowCondensed-Regular.woff2') format('woff2'), url('../font/Barlow/BarlowCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../font/Barlow/BarlowCondensed-Thin.woff2') format('woff2'), url('../font/Barlow/BarlowCondensed-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* font-style */
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 35px;
+}
+
+* {
+    font-size: 16px;
+}
+
+
+/* ARTICLES : LES 5 avantages de l'entreprenariat pour les jeunes */
+
+article {
+    margin-bottom: 35px;
+}
+
+.threats-article,
+.learningprocess-section,
+.reorientation {
+    display: flex;
+}
+
+p.text-articles {
+    max-width: 650px;
+}
+
+.text-section {
+    padding: 0 50px;
+}
+
+.summup {
+    margin-bottom: 50px;
+}
+
+img {
+    max-width: 480px;
+}
