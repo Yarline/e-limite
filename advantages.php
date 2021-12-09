@@ -4,7 +4,7 @@
 
 <head>
     <?php include 'include/head.php'; ?>
-    <title>Accueil</title>
+    <title>Avantages</title>
 
 </head>
 
@@ -23,11 +23,7 @@
                 </div>
             </div>
             <div class="art_video_container">
-                <video class="article_video" autoplay loop muted>
-                    <source src=public/video/prod.webm type=video/webm>
-                    <source src=public/video/prod.mp4 type=video/mp4>
-                </video>
-            </div>
+            <iframe class="article_video" src="https://www.youtube.com/embed/GJzlD8Sx1So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
         </section>
         <section class="text-section">
             <p class="summup">Depuis le début des années 90, le salariat n'attire plus. Les nouvelles générations sont de moins en moins disposées à effectuer un travail qui ne leur plait pas. C’est ce phénomène qui pousse de plus en plus de personnes à se lancer et à créer une entreprise. Guidées par leur passion et leur motivation, elles augmentent sensiblement leurs chances de succès pour la suite.</p>
