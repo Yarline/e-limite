@@ -10,7 +10,8 @@
     --blackgrey: #999898;
     --black: #000;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
 
@@ -90,6 +91,7 @@ section {
     transition: 0.4s;
     content: none;
 }
+
 .btn-header::after {
     content: none!important;
 }
@@ -121,9 +123,8 @@ header {
 }
 
 header nav a.link {
-    font-size: 17px;
+    font-size: 20px;
     margin: 0 30px 0 30px;
-
     position: relative;
 }
 
@@ -133,10 +134,8 @@ header nav a.link:hover:after {
     left: 50%;
     transform: translateX(-50%);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
-
     width: 100%;
     height: 2px;
-
     background-color: #E23000;
     content: '';
 }
@@ -932,10 +931,11 @@ section.mentor a {
     text-align: center;
 }
 
-.slick-slider{
+.slick-slider {
     height: 340px;
     width: 100%;
 }
+
 
 /* FIN MENTOR */
 
@@ -1025,17 +1025,20 @@ section.mentor a {
     }
 }
 
+
 /* legales */
-.container_legal{
-    padding:90px 0;
+
+.container_legal {
+    padding: 90px 0;
     margin: auto;
     width: 90%;
 }
-.container_legal h3{
+
+.container_legal h3 {
     margin-bottom: 10px;
 }
 
-.container_legal p{
+.container_legal p {
     margin-bottom: 25px;
 }
 
@@ -1227,10 +1230,10 @@ section.mentor a {
         margin: 0;
         text-align: center;
     }
-    .mentor{
+    .mentor {
         flex-direction: column;
     }
-    #footer-newsletter{
+    #footer-newsletter {
         width: unset;
         max-width: 300px;
     }
@@ -1246,7 +1249,7 @@ section.mentor a {
     section.entrepreneur_month div p {
         margin-bottom: 0px;
     }
-    section.entrepreneur_month.mobile.btn-group{
+    section.entrepreneur_month.mobile.btn-group {
         margin-top: 0;
     }
 }
