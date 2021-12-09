@@ -23,10 +23,7 @@
                 </div>
             </div>
             <div class="art_video_container">
-                <video class="article_video" autoplay loop muted>
-                    <source src=public/video/prod.webm type=video/webm>
-                    <source src=public/video/prod.mp4 type=video/mp4>
-                </video>
+            <iframe class="article_video" src="https://www.youtube.com/embed/Uh6taA-4wQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
         <section>
