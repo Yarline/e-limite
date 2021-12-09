@@ -68,18 +68,85 @@ h2 {
 
 /* ARTICLES : LES 5 avantages de l'entreprenariat pour les jeunes */
 
+.breadcrumb {
+    padding: 150px 50px 20px 50px;
+}
+
+.breadcrumb svg {
+    font-size: 25px;
+    transform: rotate(90deg);
+    padding-top: 20px;
+}
+
+.link_homepage {
+    text-decoration: underline;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.article_video {
+    width: 525px;
+}
+
+.descr-section {
+    width: 590px;
+}
+
+.article_video_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    padding-top: 25px;
+}
+
+.advantages-h2 {
+    max-width: 590px
+}
+
+.icon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.date:first-child {
+    padding-right: 20px;
+}
+
+.icon svg {
+    padding-right: 10px;
+}
+
 article {
-    margin-bottom: 35px;
+    margin-bottom: 100px;
 }
 
 .two_sides {
     display: flex;
+    justify-content: space-between;
+}
+
+.threats-article img {
+    width: 480px;
+    padding-left: 40px;
+}
+
+.learningprocess-section img {
+    width: 416px;
+    padding-left: 40px;
+}
+
+.reorientation-section img {
+    width: 541px;
+    padding-right: 40px;
 }
 
 .threats-article.text-articles,
 .learningprocess-section.text-articles,
 .reorientation-section.text-articles {
     max-width: 650px;
+    padding-right: 40px;
 }
 
 .text-section {
@@ -87,9 +154,17 @@ article {
 }
 
 .summup {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
-img {
+.img {
     max-width: 480px;
+}
+
+.share {
+    margin-bottom: 30px;
+}
+
+.share_icon svg {
+    font-size: 40px;
 }
