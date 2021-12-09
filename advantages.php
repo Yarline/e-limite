@@ -13,6 +13,10 @@
         <?php include 'include/header.php'; ?>
     </header>
     <main>
+        <div class="breadcrumb">
+            <a href="index.php" class="link_homepage">
+                <span class="iconify" data-icon="bi:arrow-down-circle"></span> Accueil</a>
+        </div>
         <section class="article_video_section">
             <div class="video_descr">
                 
@@ -98,7 +102,7 @@
                 </p>
             </article>
             <div>
-                <p>Partager</p>
+                <p class="share">Partager</p>
                 <div class="share_icon">
                     <a href=""><span class="iconify" data-icon="el:facebook" style="color: #1977f3;"></span></a>
                     <a href=""><span class="iconify" data-icon="el:linkedin" style="color: #1977f3;"></span></a>

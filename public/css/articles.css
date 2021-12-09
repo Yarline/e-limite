@@ -68,6 +68,23 @@ h2 {
 
 /* ARTICLES : LES 5 avantages de l'entreprenariat pour les jeunes */
 
+.breadcrumb {
+    padding: 150px 50px 20px 50px;
+}
+
+.breadcrumb svg {
+    font-size: 25px;
+    transform: rotate(90deg);
+    padding-top: 20px;
+}
+
+.link_homepage {
+    text-decoration: underline;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
 .article_video {
     width: 525px;
 }
@@ -80,7 +97,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
-    padding-top: 150px;
+    padding-top: 25px;
 }
 
 .advantages-h2 {
@@ -142,6 +159,10 @@ article {
 
 .img {
     max-width: 480px;
+}
+
+.share {
+    margin-bottom: 30px;
 }
 
 .share_icon svg {
