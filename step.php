@@ -32,11 +32,6 @@
         <section>
             <p>Créer sa boîte n'a jamais été aussi facile. Les jeunes maîtrisent beaucoup plus les outils numériques. De nos jours, se lancer ne nécessite plus de devoir acheter une usine.
                 Depuis le début des années 90, le salariat n'attire plus. Les nouvelles générations sont de moins en moins disposées à effectuer un travail qui ne leur plait pas. C’est ce phénomène qui pousse de plus en plus de personnes à se lancer et à créer une entreprise. Guidées par leur passion et leur motivation, elles augmentent sensiblement leurs chances de succès pour la suite. </p>
-            <article>
-                <h2>1. Utilise tes forces</h2>
-                <p>Tu as des facilités, tu es très doué dans un domaine qui te passionne ? Si tu éprouves du plaisir pendant certaines activités, c’est que la réponse est oui ! Il faut toujours être à l’écoute des émotions positives que tu ressens quand tu agis. </p>
-                <img src="" alt="">
-            </article>
 
             <article>
                 <h2>Étape 1 : L’idée </h2>
@@ -52,7 +47,7 @@
 
                     N’oublis pas de faire tester ton idée en posant des questions à tes futurs potentiels utilisateurs/consommateurs, vérifie de bien répondre à leur(s) problématique(s), et assure-toi de la viabilité de ton projet avant de te lancer.
                 </p>
-                <img src="" alt="">
+                <img src="public/img/idees.png" alt="">
             </article>
 
             <article>
@@ -68,7 +63,7 @@
                     Les jeunes ont moins d'obligations et de contraintes, ils ont donc plus de temps pour eux mais aussi pour apprendre. Ils n'ont pas à s'occuper de leurs enfants, de leurs maisons. Les jeunes peuvent donc, à tout moment, se mettre à travailler sur leur projet entrepreneurial. Alors qu'un parent a plus de difficultés à se libérer puisqu'il doit rentrer, s'occuper de ses enfants, leur faire à manger, les doucher, les coucher....
 
                     Tu peux donc mettre ce temps à profit pour apprendre de nouvelles choses et acquérir de nouvelles compétences au lieu de regarder des vidéos de petits chats sur Tik Tok...</p>
-                <img src="" alt="">
+                    <img src="public/img/projet.png" alt="">
             </article>
 
             <article>
@@ -78,7 +73,7 @@
                     Cette étude à plusieurs buts, elle va te permettre d’apprendre à connaître les acteurs d’un marché afin de t’assurer qu’il n’est pas saturé, mais aussi à connaître tes futurs consommateurs, leurs habitudes, leurs attentes etc…
 
                     Mais surtout l’étude de marché va te donner une multitude de données chiffrées afin de pouvoir te positionner et de perfectionner ton plan de communication.</p>
-                <img src="" alt="">
+                
             </article>
 
             <article>
@@ -96,7 +91,6 @@
 
                     Toutes ces réflexions vont te permettre de vérifier la rentabilité de ton projet.
                 </p>
-                <img src="" alt="">
             </article>
 
             <article>
@@ -104,8 +98,8 @@
                 <p>Tu peux trouver toutes sortes de solutions afin de financer ton projet, ton épargne personnelle, un prêt bancaire, un prêts solidaires, du crowdfunding, ou des aides diverses attribuées aux entrepreneurs de moins de 30 ans.
 
                     En résumé, trouver l’argent nécessaire à la réalisation de ton projet n’est pas chose facile mais une multitude de solutions s’offre à toi.
-
                 </p>
+                <img src="public/img/money.png" alt="">
             </article>
             <article>
                 <h2>Étape 5 : Trouver des financements </h2>
@@ -125,6 +119,7 @@
 
                     Nous te conseillons de te faire accompagner pour prendre cette décision, prend le temps d’évaluer et de comparer chaque statut juridique afin de prendre une décision en adéquation avec la vision que tu as de ta future entreprise.
                 </p>
+                <img src="public/img/juge.png" alt="">
             </article>
             <article>
                 <h2>Étape 8 : Faire ses formalités de création </h2>
@@ -150,6 +145,7 @@
 
                     Et pour finir n’oublie pas de de suivre régulièrement les indicateurs de la santé de ton entreprise pour sa réussite et la tienne.
                 </p>
+                <img src="public/img/month.png" alt="">
             </article>
             <div>
                 <p>Partager</p>
