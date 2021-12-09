@@ -13,56 +13,66 @@
         <?php include 'include/header.php'; ?>
     </header>
     <main>
+    <div class="breadcrumb">
+            <a href="index.php" class="link_homepage">
+                <span class="iconify" data-icon="bi:arrow-down-circle"></span> Accueil</a>
+        </div>
         <section class="article_video_section">
             <div class="video_descr">
+                <div class="video-text">
                 <h2>Les 5 clés de la confiance en soi</h2>
-                <p>Tout est dans la tête, une simple idée peut devenir une idée de génie. Alors qu’est-ce que tu attends ?</p>
-                <div class="icon">
-                    <p><span class="iconify" data-icon="bx:bx-calendar-alt" style="color: #e64920;"></span> 25 Nov 2021</p>
-                    <p><span class="iconify" data-icon="ep:clock" style="color: #e64920;"></span>10 h 30</p>
+                <p>Tout est dans la tête, une simple idée peut devenir une idée de génie. Alors qu’est-ce que tu attends ?</p></div>
+                <div class="icon-trust">
+                    <p class="date"><span class="iconify" data-icon="bx:bx-calendar-alt" style="color: #e64920;"></span> 25 Nov 2021</p>
+                    <p class="date"><span class="iconify" data-icon="ep:clock" style="color: #e64920;"></span>10 h 30</p>
                 </div>
             </div>
             <div class="art_video_container">
-            <iframe class="article_video" src="https://www.youtube.com/embed/2H-ouIqPrXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="525px" height="365px" class="article_video" src="https://www.youtube.com/embed/2H-ouIqPrXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             </div>
         </section>
-        <section>
-            <p>La confiance en soi s’acquiert grâce à une sécurité intérieure, une affirmation de tes besoins, une acquisition de compétences et une reconnaissance par les autres. Le travail de confiance en soi est un travail d’introspection. Un individu qui se connaît, et qui sait s’accepter aura une confiance en lui plus accrue qu’une personne qui passe son temps à se remettre en question.
+        <section class="text-section">
+            <p class="summup">La confiance en soi s’acquiert grâce à une sécurité intérieure, une affirmation de tes besoins, une acquisition de compétences et une reconnaissance par les autres. Le travail de confiance en soi est un travail d’introspection. Un individu qui se connaît, et qui sait s’accepter aura une confiance en lui plus accrue qu’une personne qui passe son temps à se remettre en question.
 
                 La confiance en soi se développe et n’aura de cesse d’évoluer au cours de ta vie. Chacun d’entre nous connaît un jour dans sa vie un manque de confiance en soi. Le manque de confiance en soi s’exprime au travers d’une multiplicité de sentiments : timidité, manque d’assurance.
 
             </p>
-            <article>
+            <article class="strengh">
+                <div class="strengh-text">
                 <h2>1. Utilise tes forces</h2>
-                <p>Tu as des facilités, tu es très doué dans un domaine qui te passionne ? Si tu éprouves du plaisir pendant certaines activités, c’est que la réponse est oui ! Il faut toujours être à l’écoute des émotions positives que tu ressens quand tu agis. </p>
+                <p>Tu as des facilités, tu es très doué dans un domaine qui te passionne ? Si tu éprouves du plaisir pendant certaines activités, c’est que la réponse est oui ! Il faut toujours être à l’écoute des émotions positives que tu ressens quand tu agis. </p></div>
                 <img src="public/img/force.png" alt="">
             </article>
 
             <article>
+           
                 <h2>2. Reste positif et adapte tes croyances</h2>
                 <p>Le premier frein à l’action est la pensée ! Cela dit, c’est toi qui la crée : tu peux donc l’apprivoiser, la domestiquer. Il te sera bénéfique de trouver des mantras ou des citations qui te motivent. Après les avoir notés quelque part, il ne te reste qu’à les réciter quand tu es en manque de confiance ! Parfois, les crier peut t’aider à te libérer d’encore plus d’énergie négative pour ne garder que le positif, idéal pour une bonne santé mentale et reprendre confiance en soi.</p>
 
             </article>
 
-            <article>
+            <article class="fail">
+            <img src="public/img/echouer.png" alt="">
+                <div class="fail-text">
                 <h2>3. Échouer : c’est normal, c’est humain. Tout le monde passe par là</h2>
                 <p>Acceptez l’échec, aimez-le, c’est une marche qui vous rapproche de la réussite. Les gens qui se vantent d’avoir réussi sans jamais échouer sont malhonnêtes et menteurs. L’échec est humain.
 
-                    Il ne faut pas avoir peur de l’échec, il faut l’aimer, l’accepter. C’est une des étapes essentielles vers la réussite ! Les charlatans qui te mentent et te disent qu’ils ont réussi sans problèmes sont malhonnêtes et te mentent. L’échec est tout à fait humain.</p>
-                <img src="public/img/echouer.png" alt="">
+                    Il ne faut pas avoir peur de l’échec, il faut l’aimer, l’accepter. C’est une des étapes essentielles vers la réussite ! Les charlatans qui te mentent et te disent qu’ils ont réussi sans problèmes sont malhonnêtes et te mentent. L’échec est tout à fait humain.</p></div>
+               
             </article>
 
-            <article>
+            <article class="nojugement">
+                <div class="nojugement-text">
                 <h2>4. Ne tiens pas compte du regard et du jugement des autres</h2>
                 <p>Quand tu commences à te demander ce que les gens vont penser de toi ou de ton projet, c’est admettre la défaite avant d’avoir terminé. Il faut faire attention à l’avis des autres et vivre sa vie !
 
-                    Les gens qui critiquent ne sont pas forcément des exemples, surtout ceux qui n’entreprennent pas eux-mêmes. Pour rester dans une optique positive, garde des personnes positives et supportrices près de toi et tu en bénéficieras grandement.</p>
+                    Les gens qui critiquent ne sont pas forcément des exemples, surtout ceux qui n’entreprennent pas eux-mêmes. Pour rester dans une optique positive, garde des personnes positives et supportrices près de toi et tu en bénéficieras grandement.</p></div>
                 <img src="public/img/care.png" alt="">
             </article>
 
             <article>
-                <h2>5. Garde une vision positive </h2>
+                <h2 class="vision-positive-h2">5. Garde une vision positive </h2>
                 <p>
                     Ton imagination est la clé de ton succès. Visualise la réussite dans tous ses détails et ne lâche pas cette vision. Ton subconscient t’y mènera en évitant certains problèmes potentiels en route.
 

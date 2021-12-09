@@ -168,3 +168,56 @@ article {
 .share_icon svg {
     font-size: 40px;
 }
+
+
+/*ARTICLE LES 5 CLÉS DE LA CONFIANCE EN SOI*/
+
+.video-text {
+    max-width: 590px;
+}
+
+.icon-trust {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+iframe.article_video {
+    max-width: 525px;
+    max-height: 365px;
+}
+
+.strengh-text {
+    max-width: 650px;
+}
+
+.strengh img {
+    max-width: 483px;
+}
+
+.fail img {
+    max-width: 480px;
+}
+
+.fail-text {
+    max-width: 650px;
+}
+
+.strengh,
+.fail,
+.nojugement {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nojugement-text {
+    max-width: 650px;
+}
+
+.nojugement img {
+    max-width: 377px;
+}
+
+.vision-positive-h2 {
+    text-align: center;
+}
