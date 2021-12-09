@@ -12,7 +12,7 @@
     <header>
         <?php include 'include/header.php'; ?>
     </header>
-    <main>
+    <main class="raw-container">
         <section class="article_video_section">
             <div class="video_descr">
                 <h2>Comment créer son entreprise en 10 étapes ?</h2>
