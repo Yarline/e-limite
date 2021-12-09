@@ -234,6 +234,7 @@ iframe.article_video {
 .indispensable section>div {
     padding: 0px 50px;
     text-align: left;
+    width: 525px;
 }
 .indispensable_month_entrepreneur figure {
     width: 50%;
@@ -241,6 +242,9 @@ iframe.article_video {
 }
 .indispensable_month_entrepreneur figure img {
     width: 100%;
+}
+.section.essential{
+    height: 365px;
 }
 @media (max-width: 929px) {
     .indispensable_month_entrepreneur {

@@ -26,7 +26,7 @@
             </div>
         </section>
     <main class="indispensable">
-        <section class="part_two">
+        <section class="part_two essential">
             <div>
                 <h2><a href="confidence.php">Les 5 clés de la confiance en soi</a></h2>
                 <p>Tout est dans la tête, une simple idée peut devenir une idée de génie. Alors qu’est-ce que tu attends ?</p>
@@ -39,7 +39,7 @@
                 <iframe class="article_video" height="300px" src="https://www.youtube.com/embed/2H-ouIqPrXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
-        <section class="part_two">
+        <section class="part_two essential">
             <div>
                 <h2><a href="advantages.php">5 avantages de l’entrepreneuriat pour les jeunes</a></h2>
                 <p>Créer sa boîte n'a jamais été aussi facile. En effet, les jeunes maîtrisent beaucoup plus les outils numériques que les autres générations, ce qui leur facilite grandement la tâche.</p>
@@ -53,7 +53,7 @@
             </div>
             </div>
         </section>
-        <section class="part_two">
+        <section class="part_two essential">
             <div>
                 <h2><a href="step.php">Comment créer ton entreprise en 10 étapes</a> </h2>
                 <p>Devenir un entrepreneur ne s’improvise pas, l’organisation sera ta meilleure alliée dans la création de ton entreprise. Ici nous allons te proposer 10 étapes afin de t‘aider à la réalisation de ton projet.</p>
@@ -66,7 +66,7 @@
                 <iframe class="article_video" height="300px" src="https://www.youtube.com/embed/Uh6taA-4wQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
-        <section class="part_two">
+        <section class="part_two essential">
             <div>
                 <h2>9 aides indispensables pour les jeunes !</h2>
                 <p>Tu es jeune et tu as besoin d’un coup de main pour te lancer ?
