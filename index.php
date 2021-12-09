@@ -93,7 +93,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
             <div class="text_confidence">
                 <h2>Garde le smile !</h2>
                 <p>C’est en utilisant tes forces, en restant positif et en n’ayant pas peur d’échouer que ton projet se réalisera !</p>
-                <a class="btn filled-btn" href="">Découvrir</a>
+                <a class="btn filled-btn" href="confidence.php">Découvrir</a>
             </div>
             <div class="right_side img_confidence">
                 <img src="public/img/smile.png">
