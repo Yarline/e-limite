@@ -5,9 +5,9 @@
 </figure>
 <nav>
     <div class="desktop_nav">
-        <a class="link" href="#advices-ancre">Les avantages</a>
-        <a class="link" href="#sucessStory-ancre">Success story</a>
-        <a class="link" href="#avantages_ancre">Actualités</a>
+        <a class="link" href="index.php#advices-ancre">Les avantages</a>
+        <a class="link" href="index.php#sucessStory-ancre">Success story</a>
+        <a class="link" href="index.php#avantages_ancre">Actualités</a>
         <a class="link btn-header" href="indispensable.php">Les indispensables</a>
 
 
