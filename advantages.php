@@ -28,7 +28,8 @@
                 </div>
             </div>
             <div class="art_video_container">
-            <iframe class="article_video" src="https://www.youtube.com/embed/GJzlD8Sx1So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+                <iframe class="article_video" width="320" height="180" src="https://www.youtube.com/embed/GJzlD8Sx1So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </section>
 
         <section class="text-section">

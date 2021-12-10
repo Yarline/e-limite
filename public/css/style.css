@@ -516,19 +516,20 @@ section.entrepreneur_month div h2 {
 /* ADVENTURES */
 
 .adventure {
-    margin-bottom: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 1180px;
+    margin: auto auto 100px;
 }
 
 .adventure h2 {
     margin-right: 70px;
-    max-width: 450px;
+    max-width: 320px;
 }
 
 .adventure figure {
-    width: 350px;
+    width: 445px;
     height: 250px;
 }
 
@@ -536,6 +537,11 @@ section.entrepreneur_month div h2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.adventure figure iframe   {
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -605,10 +611,13 @@ section.entrepreneur_month div h2 {
 /***LES CLÉS DE LA CONFIANCE EN SOI***/
 
 .part_two {
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
     padding: 0 50px;
+}
+section.part_two.essential{
+    align-items: unset;
 }
 
 div.text_confidence {
@@ -965,13 +974,14 @@ section.mentor a {
     max-width: 1180px;
     display: block;
     margin: auto;
+    padding: 0 50px;
 }
 
 
 /* legales */
 
 .container_legal {
-    padding: 90px 0;
+    padding: 0px 50px 90px;
     margin: auto;
 }
 
@@ -1033,7 +1043,6 @@ section.mentor a {
     .adventure {
         flex-direction: column;
         margin-bottom: 0;
-        padding: 0 50px;
         margin-bottom: 80px;
     }
     .adventure h2,
@@ -1258,7 +1267,6 @@ section.mentor a {
     .adventure {
         flex-direction: column;
         margin-bottom: 0;
-        padding: 0 50px;
         margin-bottom: 80px;
     }
     .adventure h2,

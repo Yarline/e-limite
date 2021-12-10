@@ -1,8 +1,11 @@
  $(window).bind('mousewheel', function(event) {
      if (event.originalEvent.wheelDelta >= 0) {
          document.querySelector('header').style.position = "fixed"
+         document.querySelector('header').style.top = "0"
+         document.querySelector('header').style.transition = "all 0.3s cubic-bezier(0, 0, 0.2, 1) 0s"
      } else {
-         document.querySelector('header').style.position = ""
+         document.querySelector('header').style.top = "-95"
+         document.querySelector('header').style.transition = "all 0.3s linear 0s"
 
      }
  });
