@@ -19,9 +19,9 @@
         <a id="burger" onClick="menu();"><span class="iconify" data-icon="icon-park:hamburger-button" data-width="30"></span></a>
 
         <ul class="mobile_link-group">
-            <li><a class="mobile_link" href="#advices-ancre">Les avantages</a></li>
-            <li><a class="mobile_link" href="#sucessStory-ancre">Success story</a></li>
-            <li><a class="mobile_link" href="#avantages_ancre">Actualités</a></li>
+            <li><a class="mobile_link" href="index.php#advices-ancre">Les avantages</a></li>
+            <li><a class="mobile_link" href="index.php#sucessStory-ancre">Success story</a></li>
+            <li><a class="mobile_link" href="index.php#avantages_ancre">Actualités</a></li>
             <li><a class="mobile_link" href="indispensable.php">Les indispensables</a></li>
             <li class="social">
                 <a class="social-nav" href="https://www.linkedin.com/in/t-as-tout-pour-toi-365878226/" target="_blank"><span class="iconify" data-icon="ant-design:linkedin-filled" style="color: #e23000;"></span></a>
