@@ -41,7 +41,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                 <h1 id="typing" class="typing"></h1>
                 <p>Si tu es en train de lire ceci, c’est que tu as envie de lancer ton projet entrepreneurial mais que tu n’oses pas. Tu doutes de toi ? Tu n’oses pas de te lancer ? </p>
                 <div class="btn-group">
-                    <a href="#" class="btn filled-btn">Je me lance</a>
+                    <a href="#contactSection" class="btn filled-btn">Je me lance</a>
                 </div>
             </div>
         </section>
@@ -157,7 +157,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
                     </div>
 
         </section>
-        </div>
+        <!-- </div> -->
 
 
         <section class="entrepreneur_month mobile">
@@ -184,7 +184,7 @@ $tTestimony = $testimony->fetchAll(PDO::FETCH_ASSOC);
             </figure>
         </section>
 
-        <section class="contactSection">
+        <section class="contactSection" id="contactSection">
             <div>
                 <h2>La parole est à toi !</h2>
                 <p>Tu souhaites te lancer, mais tu as encore des hésitations ? T’as tout pour toi t’invite à remplir ce petit formulaire afin de te donner toutes les informations dont tu peux avoir besoin avant de te lancer. Si tu ne sais pas vers quel statut juridique t’orienter ou que tu ne possèdes pas assez de recules sur les aides dont tu pourrais bénéficier ?</p>
