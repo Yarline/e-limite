@@ -149,7 +149,7 @@ article {
 
 .threats-article.text-articles,
 .learningprocess-section.text-articles,
-.reorientation-section.text-articles {
+.reorientation-section.text-articles, .article_point  {
     max-width: 650px;
     padding-right: 40px;
 }
@@ -226,6 +226,9 @@ article {
 }
 .indispensable {
     padding: 0 50px 50px;
+}
+.stepContainer{
+    padding-top: 100px;
 }
 .indispensable section:nth-last-child(2n+2) {
     flex-direction: row-reverse;
